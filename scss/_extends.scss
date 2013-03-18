@@ -1,0 +1,22 @@
+%list-reset {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  list-style-type: none;
+}
+
+// buttons
+%btn-nav {
+  background: darken($base, 20%);
+  color: $type;
+  padding: 0.3em 0.6em;
+  text: {
+    decoration: none;
+    transform: uppercase;
+  }
+  font: {
+    size: .7em;
+    family: $subfont;
+    weight: 700;
+  }
+  @include border-radius(3px);
+}

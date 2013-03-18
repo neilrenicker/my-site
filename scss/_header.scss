@@ -1,0 +1,21 @@
+header {
+  background: $base;
+  padding: 1em 0 1.3em;
+  h1 {
+    margin: 0;
+    text-align: center;
+  }
+}
+
+nav {
+  text-align: center;
+  ul {
+    @extend %list-reset;
+    li {
+      display: inline;
+    }
+  }
+  a {
+    @extend %btn-nav;
+  }
+}
