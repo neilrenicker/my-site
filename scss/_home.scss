@@ -1,0 +1,24 @@
+.feature-article {
+  @extend %container;
+  padding-top: 3em;
+  img {
+    @include border-radius(10em);
+    float: left;
+    margin-right: 3em;
+  }
+  h1 {
+    font-size: 3em;
+    font-weight: 400;
+    margin: 0.4em 0;
+  }
+  p {
+    font-size: 1.3em;
+    line-height: 1.7em;
+  }
+}
+
+.past-articles {
+  @extend %container;
+  clear: both;
+  margin-top: 6em;
+}

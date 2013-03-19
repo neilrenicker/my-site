@@ -4,6 +4,12 @@
   list-style-type: none;
 }
 
+%container {
+  max-width: 65em;
+  margin: 0 auto;
+  padding: 0 10%;
+}
+
 // buttons
 %btn-nav {
   background: darken($base, 20%);
@@ -17,6 +23,9 @@
     size: .7em;
     family: $subfont;
     weight: 700;
+  }
+  &:hover {
+    background: darken($base, 27%);
   }
   @include border-radius(3px);
 }
