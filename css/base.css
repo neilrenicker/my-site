@@ -724,27 +724,32 @@ nav ul li {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\000034}}
 .feature-article img {
-  -webkit-border-radius: 10em;
-  -moz-border-radius: 10em;
-  -ms-border-radius: 10em;
-  -o-border-radius: 10em;
-  border-radius: 10em;
   float: left;
   margin-right: 3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\000039}}
+@media (min-width: 30em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\000034}}
+  .feature-article img {
+    -webkit-border-radius: 10em;
+    -moz-border-radius: 10em;
+    -ms-border-radius: 10em;
+    -o-border-radius: 10em;
+    border-radius: 10em;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\0000311}}
 .feature-article h1 {
   font-size: 3em;
   font-weight: 400;
   margin: 0.4em 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\0000316}}
 .feature-article p {
   font-size: 1.3em;
   line-height: 1.7em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\0000322}}
 .past-articles {
   clear: both;
   margin-top: 6em;

@@ -2,9 +2,11 @@
   @extend %container;
   padding-top: 3em;
   img {
-    @include border-radius(10em);
     float: left;
     margin-right: 3em;
+    @include respond-to(30em) {
+      @include border-radius(10em);
+    }
   }
   h1 {
     font-size: 3em;
