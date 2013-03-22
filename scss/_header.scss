@@ -1,6 +1,7 @@
 header {
   background: $base;
   padding: 1em 0 1.3em;
+  @include box-shadow(darken($base, 10%) 1px 1px 5px 1px);
   hgroup {
     margin: 0 auto;
     max-width: 13.6em;
@@ -27,7 +28,8 @@ nav {
       display: inline;
     }
   }
-  a {
+  a, a:visited {
+    color: $type;
     @extend %btn-nav;
   }
 }

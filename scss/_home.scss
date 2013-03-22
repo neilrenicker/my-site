@@ -1,21 +1,56 @@
 .feature-article {
   @extend %container;
-  padding-top: 3em;
+  padding-top: 1.3em;
+  @include respond-to(55em) {
+    padding-top: 4.3em;
+  }
   img {
-    float: left;
-    margin-right: 3em;
-    @include respond-to(30em) {
+    @include border-radius(.2em);
+    @include respond-to(22em) {
       @include border-radius(10em);
+      border: .1em solid $base;
+      @include box-shadow($base 1px 1px 3px 1px);
+      float: left;
+      margin-top: -4.1em;
+      margin-left: -6em;
+      max-width: 13em;
+    }
+    @include respond-to(40em) {
+      margin: 0;
+      margin-top: 2em;
+      margin-left: 1em;
+    }
+    @include respond-to(55em) {
+      max-width: 15em;
     }
   }
   h1 {
-    font-size: 3em;
+    border-bottom: solid .15em $secondary;
+    font-size: 2.8em;
     font-weight: 400;
-    margin: 0.4em 0;
+    margin: 0.5em 0 .8em;
+    @include respond-to(22em) {
+      margin: 0.5em 0 0.8em 3.2em;
+    }
+    @include respond-to(40em) {
+      margin: 0.5em 0 0.8em;
+    }
   }
   p {
     font-size: 1.3em;
     line-height: 1.7em;
+    clear: left;
+    @include respond-to(40em) {
+      clear: none;
+    }
+  }
+  article {
+    @include respond-to(40em) {
+      margin-left: 16em;
+    }
+    @include respond-to(55em) {
+      margin-left: 20em;
+    }
   }
 }
 

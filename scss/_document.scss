@@ -17,6 +17,11 @@ body {
   text-align: left;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 blockquote {
   font-family: $subfont;
 }
@@ -29,6 +34,16 @@ blockquote {
 ::selection {
   background: $base;
   text-shadow: none;
+}
+
+/* Links and buttons */
+
+a, a:visited {
+  color: $secondary;
+}
+
+.internal-link {
+  font-style: italic;
 }
 
 /* Chrome Frame Prompt */

@@ -589,11 +589,11 @@ nav ul {
 .feature-article, .past-articles, footer {
   max-width: 65em;
   margin: 0 auto;
-  padding: 0 10%;
+  padding: 0 5%;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_extends\.scss}line{font-family:\0000314}}
-nav a {
+nav a, nav a:visited {
   background: #b9a185;
   color: #372312;
   padding: 0.3em 0.6em;
@@ -609,7 +609,7 @@ nav a {
   border-radius: 3px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_extends\.scss}line{font-family:\0000327}}
-nav a:hover {
+nav a:hover, nav a:hover:visited {
   background: #ac906f;
 }
 
@@ -632,24 +632,41 @@ body {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_document\.scss}line{font-family:\0000320}}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_document\.scss}line{font-family:\0000325}}
 blockquote {
   font-family: brandon grotesque, sans-serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_document\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_document\.scss}line{font-family:\0000329}}
 ::-moz-selection {
   background: #ded3c6;
   text-shadow: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_document\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_document\.scss}line{font-family:\0000334}}
 ::selection {
   background: #ded3c6;
   text-shadow: none;
 }
 
+/* Links and buttons */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_document\.scss}line{font-family:\0000341}}
+a, a:visited {
+  color: #ba4a41;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_document\.scss}line{font-family:\0000345}}
+.internal-link {
+  font-style: italic;
+}
+
 /* Chrome Frame Prompt */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_document\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_document\.scss}line{font-family:\0000351}}
 .chromeframe {
   margin: 0.2em 0;
   background: #ccc;
@@ -658,7 +675,7 @@ blockquote {
 }
 
 /* Image Replacement */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_document\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_document\.scss}line{font-family:\0000360}}
 .screen-reader-text {
   position: absolute;
   top: -9999px;
@@ -666,20 +683,20 @@ blockquote {
 }
 
 /* Clearfix for floats */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_document\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_document\.scss}line{font-family:\0000369}}
 .clearfix:before,
 .clearfix:after {
   content: " ";
   display: table;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_document\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_document\.scss}line{font-family:\0000374}}
 .clearfix:after {
   clear: both;
 }
 
 /* Clearfix helpers for IE 6/7 only */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_document\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_document\.scss}line{font-family:\0000380}}
 .clearfix {
   *zoom: 1;
 }
@@ -688,68 +705,138 @@ blockquote {
 header {
   background: #ded3c6;
   padding: 1em 0 1.3em;
+  -webkit-box-shadow: #cbbaa6 1px 1px 5px 1px;
+  -moz-box-shadow: #cbbaa6 1px 1px 5px 1px;
+  box-shadow: #cbbaa6 1px 1px 5px 1px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_header\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_header\.scss}line{font-family:\000035}}
 header hgroup {
   margin: 0 auto;
   max-width: 13.6em;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_header\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_header\.scss}line{font-family:\0000310}}
 header h1 {
   display: inline;
   font-weight: 400;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_header\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_header\.scss}line{font-family:\0000316}}
 .logo {
   font-size: 2.3em;
   position: relative;
   top: 0.2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_header\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_header\.scss}line{font-family:\0000322}}
 nav {
   margin-top: 0.3em;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_header\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_header\.scss}line{font-family:\0000327}}
 nav ul li {
   display: inline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_header\.scss}line{font-family:\0000331}}
+nav a, nav a:visited {
+  color: #372312;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\000031}}
 .feature-article {
-  padding-top: 3em;
+  padding-top: 1.3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\000034}}
+@media (min-width: 55em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\000031}}
+  .feature-article {
+    padding-top: 4.3em;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\000037}}
 .feature-article img {
-  float: left;
-  margin-right: 3em;
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  -ms-border-radius: 0.2em;
+  -o-border-radius: 0.2em;
+  border-radius: 0.2em;
 }
-@media (min-width: 30em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\000034}}
+@media (min-width: 22em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\000037}}
   .feature-article img {
     -webkit-border-radius: 10em;
     -moz-border-radius: 10em;
     -ms-border-radius: 10em;
     -o-border-radius: 10em;
     border-radius: 10em;
+    border: 0.1em solid #ded3c6;
+    -webkit-box-shadow: #ded3c6 1px 1px 3px 1px;
+    -moz-box-shadow: #ded3c6 1px 1px 3px 1px;
+    box-shadow: #ded3c6 1px 1px 3px 1px;
+    float: left;
+    margin-top: -4.1em;
+    margin-left: -6em;
+    max-width: 13em;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\0000311}}
-.feature-article h1 {
-  font-size: 3em;
-  font-weight: 400;
-  margin: 0.4em 0;
+@media (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\000037}}
+  .feature-article img {
+    margin: 0;
+    margin-top: 2em;
+    margin-left: 1em;
+  }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\0000316}}
+@media (min-width: 55em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\000037}}
+  .feature-article img {
+    max-width: 15em;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\0000327}}
+.feature-article h1 {
+  border-bottom: solid 0.15em #ba4a41;
+  font-size: 2.8em;
+  font-weight: 400;
+  margin: 0.5em 0 0.8em;
+}
+@media (min-width: 22em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\0000327}}
+  .feature-article h1 {
+    margin: 0.5em 0 0.8em 3.2em;
+  }
+}
+@media (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\0000327}}
+  .feature-article h1 {
+    margin: 0.5em 0 0.8em;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\0000339}}
 .feature-article p {
   font-size: 1.3em;
   line-height: 1.7em;
+  clear: left;
+}
+@media (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\0000339}}
+  .feature-article p {
+    clear: none;
+  }
+}
+@media (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\0000347}}
+  .feature-article article {
+    margin-left: 16em;
+  }
+}
+@media (min-width: 55em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\0000347}}
+  .feature-article article {
+    margin-left: 20em;
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\0000357}}
 .past-articles {
   clear: both;
   margin-top: 6em;
