@@ -1,6 +1,22 @@
 footer {
-  @extend %container;
   background: $base;
+  margin-top: 3em;
   padding-top:    .3em;
   padding-bottom: 1.3em;
+  text-align: center;
+  .footer-container {
+    @extend %container;
+  }
+  br {
+    @include respond-to(35em) {
+      display: none;
+    }
+  }
+}
+
+.footer-separator {
+  display:none;
+  @include respond-to(35em) {
+    display: inline;
+  }
 }

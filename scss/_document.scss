@@ -27,12 +27,12 @@ blockquote {
 }
 
 ::-moz-selection {
-  background: $base;
+  background: lighten($base, 10%);
   text-shadow: none;
 }
 
 ::selection {
-  background: $base;
+  background: lighten($base, 10%);
   text-shadow: none;
 }
 

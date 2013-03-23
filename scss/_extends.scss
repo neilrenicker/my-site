@@ -10,9 +10,36 @@
   padding: 0 5%;
 }
 
+// typography
+%subheader {
+  color: darken($base, 35%);
+  font: {
+    family: $font;
+    style: italic;
+    size: 1.3em;
+    weight: 700;
+  }
+}
+
+%articlelist {
+  font-size: 1.4em;
+  font-style: italic;
+}
+
+%sublink {
+  font: {
+    family: $subfont;
+    size: .8em;
+    weight: 700;
+  }
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 // buttons
 %btn-nav {
-  background: darken($base, 20%);
+  background: darken($base, 10%);
+  @include border-radius(.4em);
   color: $type;
   padding: 0.3em 0.6em;
   text: {
@@ -24,8 +51,11 @@
     family: $subfont;
     weight: 700;
   }
-  &:hover {
-    background: darken($base, 27%);
+  @include respond-to(40em) {
+    padding: 0.7em 1.4em;
+    font-size: .8em;
   }
-  @include border-radius(3px);
+  &:hover {
+    background: darken($base, 18%);
+  }
 }
