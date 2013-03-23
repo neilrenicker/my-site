@@ -38,7 +38,7 @@
 
 // buttons
 %btn-nav {
-  background: darken($base, 10%);
+  background: $base;
   @include border-radius(.4em);
   color: $type;
   padding: 0.3em 0.6em;
@@ -56,6 +56,6 @@
     font-size: .8em;
   }
   &:hover {
-    background: darken($base, 18%);
+    background: darken($base, 4%);
   }
 }

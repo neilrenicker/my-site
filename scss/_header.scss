@@ -1,5 +1,5 @@
 header {
-  background: $base;
+  background: lighten($base, 5%);
   padding: 1em 0;
   @include box-shadow(darken($base, 10%) 1px 1px 5px 1px);
   @include respond-to(40em) {

@@ -618,13 +618,13 @@ nav ul {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_extends\.scss}line{font-family:\0000340}}
 nav a, nav a:visited {
-  background: #cbbaa6;
+  background: #ded3c6;
   -webkit-border-radius: 0.4em;
   -moz-border-radius: 0.4em;
   -ms-border-radius: 0.4em;
   -o-border-radius: 0.4em;
   border-radius: 0.4em;
-  color: #372312;
+  color: #584733;
   padding: 0.3em 0.6em;
   text-decoration: none;
   text-transform: uppercase;
@@ -641,7 +641,7 @@ nav a, nav a:visited {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_extends\.scss}line{font-family:\0000358}}
 nav a:hover, nav a:hover:visited {
-  background: #bca68c;
+  background: #d7c9b9;
 }
 
 /* Document Styles */
@@ -651,7 +651,7 @@ button,
 input,
 select,
 textarea {
-  color: #372312;
+  color: #584733;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_document\.scss}line{font-family:\0000311}}
@@ -734,7 +734,7 @@ a, a:visited {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_header\.scss}line{font-family:\000031}}
 header {
-  background: #ded3c6;
+  background: #e7dfd6;
   padding: 1em 0;
   -webkit-box-shadow: #cbbaa6 1px 1px 5px 1px;
   -moz-box-shadow: #cbbaa6 1px 1px 5px 1px;
@@ -765,7 +765,7 @@ header hgroup a {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_header\.scss}line{font-family:\0000320}}
 header h1 {
-  color: #372312;
+  color: #584733;
   display: inline;
   font-weight: 400;
 }
@@ -808,7 +808,7 @@ nav ul li {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_header\.scss}line{font-family:\0000357}}
 nav a, nav a:visited {
-  color: #372312;
+  color: #584733;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_home\.scss}line{font-family:\000031}}
@@ -1016,7 +1016,7 @@ nav a, nav a:visited {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_footer\.scss}line{font-family:\000031}}
 footer {
-  background: #ded3c6;
+  background: #e4dad0;
   margin-top: 3em;
   padding-top: .3em;
   padding-bottom: 1.3em;
