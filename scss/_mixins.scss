@@ -3,3 +3,14 @@
     @content
   }
 }
+
+@mixin title-link {
+  a, a:visited {
+    text-decoration: none;
+    color: $type;
+  }
+
+  a:hover {
+    color: darken($type, 8%);
+  }
+}

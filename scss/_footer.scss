@@ -1,12 +1,7 @@
 footer {
-  background: lighten($base, 3%);
   margin-top: 3em;
-  padding-top:    .3em;
-  padding-bottom: 1.3em;
+  padding: 3em .5em 6em;
   text-align: center;
-  .footer-container {
-    @extend %container;
-  }
   br {
     @include respond-to(35em) {
       display: none;

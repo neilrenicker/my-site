@@ -8,6 +8,9 @@
   max-width: 65em;
   margin: 0 auto;
   padding: 0 5%;
+  @include respond-to(69em) {
+    padding: 0;
+  }
 }
 
 // typography
@@ -17,7 +20,7 @@
     family: $font;
     style: italic;
     size: 1.3em;
-    weight: 700;
+    weight: 400;
   }
 }
 
@@ -56,6 +59,6 @@
     font-size: .8em;
   }
   &:hover {
-    background: darken($base, 4%);
+    background: darken($base, 5%);
   }
 }
