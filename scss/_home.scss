@@ -1,8 +1,17 @@
 .headline {
   @extend %container;
   h1 {
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: 400;
+    margin-top: 1.8em;
+    margin-bottom: 0;
+    line-height: 1.7em;
+    @include respond-to(40em) {
+      font-size: 1.7em;
+    }
+    @include respond-to(55em) {
+      font-size: 2em;
+    }
   }
 }
 
@@ -89,13 +98,9 @@
       }
     }
     p {
-      background: white url('/img/swoosh.png') .5em .7em no-repeat;
       border-bottom: 1px solid $lines;
       color: darken($base, 40%);
-      height: 3.5em;
-      padding-top: 1.1em;
-      padding-bottom: .5em;
-      margin: -1em 0 1.5em;
+      padding-bottom: 1em;
     }
   }
 }
@@ -143,6 +148,37 @@
       border-bottom: 1px solid $lines;
       margin: 0 0 0 2.5em;
       padding-bottom: 0.5em;
+    }
+  }
+}
+
+.tags {
+  ul {
+    @extend %list-reset;
+    li {
+      background: $base;
+      @include border-radius (.3em);
+      display: inline-block;
+      margin: 0 .6em .6em 0;
+      padding: 0.3em 1.1em;
+      a {
+        color: $type;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.article-search {
+  margin-top: 2.5em;
+}
+
+.related-info {
+  margin-top: 2.5em;
+  ul {
+    @extend %list-reset;
+    li {
+      margin-top: .8em;
     }
   }
 }
