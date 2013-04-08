@@ -100,7 +100,8 @@
     p {
       border-bottom: 1px solid $lines;
       color: darken($base, 40%);
-      padding-bottom: 1em;
+      padding-bottom: 1.5em;
+      margin-bottom: 1.5em;
     }
   }
 }
@@ -148,6 +149,10 @@
       border-bottom: 1px solid $lines;
       margin: 0 0 0 2.5em;
       padding-bottom: 0.5em;
+      a {
+        color: $type;
+        text-decoration: none;
+      }
     }
   }
 }
@@ -161,6 +166,10 @@
       display: inline-block;
       margin: 0 .6em .6em 0;
       padding: 0.3em 1.1em;
+      @include transition(background 0.2s ease);
+      &:hover {
+      background: darken($base, 5%);
+      }
       a {
         color: $type;
         text-decoration: none;
@@ -169,16 +178,13 @@
   }
 }
 
-.article-search {
+.module-aside {
   margin-top: 2.5em;
 }
 
-.related-info {
-  margin-top: 2.5em;
-  ul {
-    @extend %list-reset;
-    li {
-      margin-top: .8em;
-    }
+.related-info ul {
+  @extend %list-reset;
+  li {
+    margin-top: .8em;
   }
 }

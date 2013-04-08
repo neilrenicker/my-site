@@ -1,5 +1,5 @@
 header {
-  background: lighten($base, 6%);
+  background: lighten($base, 6%) url(../img/noise.png) repeat;
   padding: 1em 0;
   @include box-shadow(darken($base, 5%) 1px 1px 5px 1px);
   @include respond-to(40em) {
@@ -53,9 +53,5 @@ nav {
         margin: 0 0.3em;
       }
     }
-  }
-  a, a:visited {
-    color: $type;
-    @extend %btn-nav;
   }
 }
