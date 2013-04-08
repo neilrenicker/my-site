@@ -643,13 +643,13 @@ blockquote {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_document\.scss}line{font-family:\0000327}}
 ::-moz-selection {
-  background: #f1ede7;
+  background: #fff5c2;
   text-shadow: none;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/scss\/_document\.scss}line{font-family:\0000332}}
 ::selection {
-  background: #f1ede7;
+  background: #fff5c2;
   text-shadow: none;
 }
 
