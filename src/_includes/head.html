@@ -1,0 +1,22 @@
+{% capture root %}{%if page.root %}{{ page.root}}{% else %}{{ post.root }}{% endif %}{% endcapture %}
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if lte IE 7]><script src="js/lte-ie7.js"></script><![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{% if page.title %} {{ page.title }} | {% endif %} NeilRenicker.com</title>
+    <meta name="description" content="I'm a quiet midwest designer and developer focused on interfaces and illustration. Based in rusty Dayton, OH.">
+    <meta name="viewport" content="width=device-width">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ root }}img/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x144" href="{{ root }}img/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ root }}img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ root }}img/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="{{ root }}img/apple-touch-icon-precomposed.png">
+    <link rel="stylesheet" href="{{ root }}css/base.css">
+    <script type="text/javascript" src="//use.typekit.net/qxo7zfd.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script src="{{ root }}js/vendor/modernizr-2.6.2.min.js"></script>
+  </head>

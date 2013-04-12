@@ -1,0 +1,57 @@
+.header-primary {
+  background: lighten($base, 6%) url(../img/noise.png) repeat;
+  padding: 1em 0;
+  @include box-shadow(darken($base, 5%) 1px 1px 5px 1px);
+  @include respond-to(40em) {
+    padding: 1em 0 1.3em;
+  }
+  hgroup {
+    margin: 0 auto;
+    text-align: center;
+    @include respond-to(40em) {
+      float: left;
+      margin: 0;
+      text-align: left;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+  h1 {
+    color: $type;
+    display: inline;
+    font-weight: 400;
+  }
+}
+
+.header-primary-container {
+  @extend %container;
+}
+
+.header-primary-icon {
+  color: $secondary;
+  font-size: 2.3em;
+  position: relative;
+  top: 0.2em;
+  @include respond-to(40em) {
+    margin-right: 0.2em;
+  }
+}
+
+nav {
+  margin-top: 0.3em;
+  text-align: center;
+  @include respond-to(40em) {
+    float: right;
+    margin-top: 1.1em;
+  }
+  ul {
+    @extend %list-reset;
+    li {
+      display: inline;
+      @include respond-to(40em) {
+        margin: 0 0.3em;
+      }
+    }
+  }
+}

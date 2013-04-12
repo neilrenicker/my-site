@@ -1,0 +1,32 @@
+.post {
+  @extend %container;
+  margin-top: 1.8em;
+  font-size: 1.2em;
+  h2 {
+    font-size: 2.2em;
+    font-style: italic;
+    margin-bottom: 0em;
+  }
+}
+
+img.post-photo {
+  border-bottom: solid 0.32em $secondary;
+  border-top-left-radius: 0.3em;
+  border-top-right-radius: .3em;
+}
+
+.post-meta {
+  font-style: italic;
+  letter-spacing: 0.2em;
+  margin-top: 0;
+}
+
+.post-intro {
+  font-family: $subfont;
+  font-size: 1.4em;
+  line-height: 1.6em;
+  border-top: 1px solid $lines;
+  border-bottom: 1px solid $lines;
+  padding: 1.2em 0;
+  margin: 1.3em 0;
+}
