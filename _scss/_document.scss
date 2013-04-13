@@ -14,10 +14,21 @@ h1, h2, h3, h4, h5 {
   a, a:visited {
     text-decoration: none;
     color: darken($type, 10%);
+    border-bottom: 0;
   }
   a:hover {
     color: darken($type, 13%);
+    border-bottom: 0;
   }
+}
+
+p, pre {
+  line-height: 1.8em;
+  margin: 2em 0; // also addresses an IE bug where margins don't show properly
+}
+
+ul li {
+  margin: 1.5em 0;
 }
 
 body {
@@ -33,7 +44,28 @@ img {
 }
 
 blockquote {
-  font-family: $subfont;
+  background: lighten($base, 5%);
+  font-style: italic;
+  font-size: 1.2em;
+  margin: 1em 0;
+  padding: 1.2em 1.5em;
+  @include border-radius(.2em);
+}
+
+.quote-source {
+  font: {
+    size: .6em;
+    style: normal;
+    family: $subfont;
+    weight: 400;
+  }
+  display: block;
+  margin-top: 1.3em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  a {
+    font-style: italic;
+  }
 }
 
 ::-moz-selection {
@@ -50,6 +82,8 @@ blockquote {
 
 a, a:visited {
   color: $secondary;
+  text-decoration: none;
+  border-bottom: 1px solid $secondary;
 }
 
 .internal-link {
@@ -61,6 +95,7 @@ a.btn {
   @include border-radius(.4em);
   color: $type;
   padding: 0.3em 0.6em;
+  border-bottom: none;
   @include transition(background 0.2s ease);
   text: {
     decoration: none;
@@ -68,7 +103,7 @@ a.btn {
   }
   font: {
     size: .7em;
-    family: $subfont;
+    family: sans-serif;
     weight: 700;
   }
   @include respond-to(40em) {

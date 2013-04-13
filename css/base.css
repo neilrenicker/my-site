@@ -5,7 +5,7 @@
 /**
  * Correct `block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\0000322}}
 article,
 aside,
 details,
@@ -24,7 +24,7 @@ summary {
 /**
  * Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\0000332}}
 audio,
 canvas,
 video {
@@ -37,7 +37,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\0000343}}
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -47,7 +47,7 @@ audio:not([controls]) {
  * Address styling not present in IE 7/8/9, Firefox 3, and Safari 4.
  * Known issue: no IE 6 support.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\0000353}}
 [hidden] {
   display: none;
 }
@@ -61,7 +61,7 @@ audio:not([controls]) {
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\0000368}}
 html {
   font-size: 100%;
   /* 1 */
@@ -75,7 +75,7 @@ html {
  * Address `font-family` inconsistency between `textarea` and other form
  * elements.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\0000383}}
 html,
 button,
 input,
@@ -87,7 +87,7 @@ textarea {
 /**
  * Address margins handled incorrectly in IE 6/7.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\0000391}}
 body {
   margin: 0;
 }
@@ -98,7 +98,7 @@ body {
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003103}}
 a:focus {
   outline: thin dotted;
 }
@@ -106,7 +106,7 @@ a:focus {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003112}}
 a:active,
 a:hover {
   outline: 0;
@@ -120,37 +120,37 @@ a:hover {
  * Address font sizes within `section` and `article` in Firefox 4+, Safari 5,
  * and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003126}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003126}}
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003131}}
 h2 {
   font-size: 1.5em;
   margin: 0.83em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003136}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003136}}
 h3 {
   font-size: 1.17em;
   margin: 1em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003141}}
 h4 {
   font-size: 1em;
   margin: 1.33em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003146}}
 h5 {
   font-size: 0.83em;
   margin: 1.67em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003151}}
 h6 {
   font-size: 0.67em;
   margin: 2.33em 0;
@@ -159,7 +159,7 @@ h6 {
 /**
  * Address styling not present in IE 7/8/9, Safari 5, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003160}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003160}}
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -167,21 +167,16 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003169}}
 b,
 strong {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003173}}
-blockquote {
-  margin: 1em 40px;
-}
-
 /**
  * Address styling not present in Safari 5 and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003181}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003177}}
 dfn {
   font-style: italic;
 }
@@ -190,7 +185,7 @@ dfn {
  * Address differences between Firefox and other browsers.
  * Known issue: no IE 6/7 normalization.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003190}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003186}}
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -205,25 +200,16 @@ hr {
 /**
  * Address styling not present in IE 6/7/8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003201}}
 mark {
   background: #ff0;
   color: #000;
 }
 
 /**
- * Address margins set differently in IE 6/7.
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003215}}
-p,
-pre {
-  margin: 1em 0;
-}
-
-/**
  * Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003213}}
 code,
 kbd,
 pre,
@@ -236,7 +222,7 @@ samp {
 /**
  * Improve readability of pre-formatted text in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003236}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003223}}
 pre {
   white-space: pre;
   white-space: pre-wrap;
@@ -246,7 +232,7 @@ pre {
 /**
  * Address CSS quotes not supported in IE 6/7.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003246}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003233}}
 q {
   quotes: none;
 }
@@ -254,7 +240,7 @@ q {
 /**
  * Address `quotes` property not supported in Safari 4.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003255}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003242}}
 q:before,
 q:after {
   content: '';
@@ -264,7 +250,7 @@ q:after {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003264}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003251}}
 small {
   font-size: 60%;
 }
@@ -272,7 +258,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003273}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003260}}
 sub,
 sup {
   font-size: 75%;
@@ -281,12 +267,12 @@ sup {
   vertical-align: baseline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003280}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003267}}
 sup {
   top: -0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003284}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003271}}
 sub {
   bottom: -0.25em;
 }
@@ -297,7 +283,7 @@ sub {
 /**
  * Address margins set differently in IE 6/7.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003299}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003286}}
 dl,
 menu,
 ol,
@@ -305,7 +291,7 @@ ul {
   margin: 1em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003303}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003290}}
 dd {
   margin: 0 0 0 40px;
 }
@@ -313,7 +299,7 @@ dd {
 /**
  * Address paddings set differently in IE 6/7.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003300}}
 menu,
 ol,
 ul {
@@ -323,7 +309,7 @@ ul {
 /**
  * Correct list images handled incorrectly in IE 7.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003309}}
 nav ul,
 nav ol {
   list-style: none;
@@ -338,7 +324,7 @@ nav ol {
  * 2. Improve image quality when scaled in IE 7.
  * 3. Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003324}}
 img {
   border: 0;
   /* 1 */
@@ -350,7 +336,7 @@ img {
 /**
  * Correct overflow displayed oddly in IE 9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003335}}
 svg:not(:root) {
   overflow: hidden;
 }
@@ -361,7 +347,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003347}}
 figure {
   margin: 0;
 }
@@ -372,7 +358,7 @@ figure {
 /**
  * Correct margin displayed oddly in IE 6/7.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003359}}
 form {
   margin: 0;
 }
@@ -380,7 +366,7 @@ form {
 /**
  * Define consistent border, margin, and padding.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003367}}
 fieldset {
   border: 1px solid silver;
   margin: 0 2px;
@@ -392,7 +378,7 @@ fieldset {
  * 2. Correct text not wrapping in Firefox 3.
  * 3. Correct alignment displayed oddly in IE 6/7.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003379}}
 legend {
   border: 0;
   /* 1 */
@@ -409,7 +395,7 @@ legend {
  *    and Chrome.
  * 3. Improve appearance and consistency in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003409}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003396}}
 button,
 input,
 select,
@@ -428,7 +414,7 @@ textarea {
  * Address Firefox 3+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003422}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003409}}
 button,
 input {
   line-height: normal;
@@ -440,7 +426,7 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 6+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003434}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003421}}
 button,
 select {
   text-transform: none;
@@ -455,7 +441,7 @@ select {
  * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
  *    Known issue: inner spacing remains in IE 6.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003451}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003438}}
 button,
 html input[type="button"],
 input[type="reset"],
@@ -471,7 +457,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003462}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003449}}
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -483,7 +469,7 @@ html input[disabled] {
  * 3. Remove excess padding in IE 7.
  *    Known issue: excess padding remains in IE 6.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003474}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003461}}
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -501,7 +487,7 @@ input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003487}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003474}}
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -515,7 +501,7 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003500}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003487}}
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -524,7 +510,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Remove inner padding and border in Firefox 3+.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003509}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003496}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -536,7 +522,7 @@ input::-moz-focus-inner {
  * 2. Improve readability and alignment in all browsers.
  * 3. Allow only vertical resizing of textareas.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003520}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003507}}
 textarea {
   overflow: auto;
   /* 1 */
@@ -552,7 +538,7 @@ textarea {
 /**
  * Remove most spacing between table cells.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_normalize\.scss}line{font-family:\00003534}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_normalize\.scss}line{font-family:\00003521}}
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -566,7 +552,7 @@ table {
   font-style: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_fonts\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_fonts\.scss}line{font-family:\0000316}}
 [data-icon]:before {
   font-family: 'nr';
   content: attr(data-icon);
@@ -578,41 +564,41 @@ table {
   -webkit-font-smoothing: antialiased;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_extends\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_extends\.scss}line{font-family:\000031}}
 nav ul, .tags ul, .related-info ul {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
   list-style-type: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_extends\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_extends\.scss}line{font-family:\000037}}
 .header-primary-container, .headline, .feature-article, .main-content, .post {
   max-width: 65em;
   margin: 0 auto;
   padding: 0 5%;
 }
 @media (min-width: 69em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_extends\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_extends\.scss}line{font-family:\000037}}
   .header-primary-container, .headline, .feature-article, .main-content, .post {
     padding: 0;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_extends\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_extends\.scss}line{font-family:\0000317}}
 .main-content aside h1, .past-articles h1:first-child {
   font-family: "skolar", serif;
   font-style: italic;
   font-size: 1.3em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_extends\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_extends\.scss}line{font-family:\0000325}}
 .past-articles article h1 {
   font-size: 1.4em;
   font-style: italic;
 }
 
 /* Document Styles */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_document\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_document\.scss}line{font-family:\000037}}
 html,
 button,
 input,
@@ -621,22 +607,35 @@ textarea {
   color: #6a553d;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_document\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_document\.scss}line{font-family:\0000311}}
 h1, h2, h3, h4, h5 {
   color: #493b2a;
   font-weight: 700;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_document\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_document\.scss}line{font-family:\0000314}}
 h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited, h5 a, h5 a:visited {
   text-decoration: none;
   color: #493b2a;
+  border-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_document\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_document\.scss}line{font-family:\0000319}}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
   color: #403325;
+  border-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_document\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_document\.scss}line{font-family:\0000325}}
+p, pre {
+  line-height: 1.8em;
+  margin: 2em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_document\.scss}line{font-family:\0000330}}
+ul li {
+  margin: 1.5em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_document\.scss}line{font-family:\0000334}}
 body {
   background: white;
   font-family: "skolar", serif;
@@ -644,41 +643,68 @@ body {
   text-align: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_document\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_document\.scss}line{font-family:\0000341}}
 img {
   max-width: 100%;
   height: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_document\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_document\.scss}line{font-family:\0000346}}
 blockquote {
-  font-family: "omnes-pro", sans-serif;
+  background: #f1ede7;
+  font-style: italic;
+  font-size: 1.2em;
+  margin: 1em 0;
+  padding: 1.2em 1.5em;
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  -ms-border-radius: 0.2em;
+  -o-border-radius: 0.2em;
+  border-radius: 0.2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_document\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_document\.scss}line{font-family:\0000355}}
+.quote-source {
+  font-size: .6em;
+  font-style: normal;
+  font-family: "omnes-pro", sans-serif;
+  font-weight: 400;
+  display: block;
+  margin-top: 1.3em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_document\.scss}line{font-family:\0000366}}
+.quote-source a {
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_document\.scss}line{font-family:\0000371}}
 ::-moz-selection {
   background: #f8eec7;
   text-shadow: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_document\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_document\.scss}line{font-family:\0000376}}
 ::selection {
   background: #f8eec7;
   text-shadow: none;
 }
 
 /* Links and buttons */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_document\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_document\.scss}line{font-family:\0000383}}
 a, a:visited {
   color: #ba4a41;
+  text-decoration: none;
+  border-bottom: 1px solid #ba4a41;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_document\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_document\.scss}line{font-family:\0000389}}
 .internal-link {
   font-style: italic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_document\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_document\.scss}line{font-family:\0000393}}
 a.btn {
   background: #e8e0d7;
   -webkit-border-radius: 0.4em;
@@ -688,6 +714,7 @@ a.btn {
   border-radius: 0.4em;
   color: #6a553d;
   padding: 0.3em 0.6em;
+  border-bottom: none;
   -webkit-transition: background 0.2s ease;
   -moz-transition: background 0.2s ease;
   -o-transition: background 0.2s ease;
@@ -695,23 +722,23 @@ a.btn {
   text-decoration: none;
   text-transform: uppercase;
   font-size: .7em;
-  font-family: "omnes-pro", sans-serif;
+  font-family: sans-serif;
   font-weight: 700;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_document\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_document\.scss}line{font-family:\0000393}}
   a.btn {
     padding: 0.7em 1.4em;
     font-size: .8em;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_document\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_document\.scss}line{font-family:\00003113}}
 a.btn:hover {
   background: #dfd3c7;
 }
 
 /* Chrome Frame Prompt */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_document\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_document\.scss}line{font-family:\00003120}}
 .chromeframe {
   margin: 0.2em 0;
   background: #ccc;
@@ -720,7 +747,7 @@ a.btn:hover {
 }
 
 /* Image Replacement */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_document\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_document\.scss}line{font-family:\00003129}}
 .screen-reader-text {
   position: absolute;
   top: -9999px;
@@ -728,25 +755,25 @@ a.btn:hover {
 }
 
 /* Clearfix for floats */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_document\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_document\.scss}line{font-family:\00003138}}
 .clearfix:before,
 .clearfix:after {
   content: " ";
   display: table;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_document\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_document\.scss}line{font-family:\00003143}}
 .clearfix:after {
   clear: both;
 }
 
 /* Clearfix helpers for IE 6/7 only */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_document\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_document\.scss}line{font-family:\00003149}}
 .clearfix {
   *zoom: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_forms\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_forms\.scss}line{font-family:\000036}}
 textarea,
 input[type="text"],
 input[type="number"],
@@ -767,7 +794,7 @@ input[type="search"] {
   font-size: .9em;
   padding: 0.7em 1.2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_forms\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_forms\.scss}line{font-family:\0000314}}
 textarea:focus,
 input[type="text"]:focus,
 input[type="number"]:focus,
@@ -781,29 +808,29 @@ input[type="search"]:focus {
   outline: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_forms\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_forms\.scss}line{font-family:\0000321}}
 ::-webkit-input-placeholder {
   color: #e8e0d7;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_forms\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_forms\.scss}line{font-family:\0000325}}
 :-moz-placeholder {
   /* Firefox 18- */
   color: #e8e0d7;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_forms\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_forms\.scss}line{font-family:\0000329}}
 ::-moz-placeholder {
   /* Firefox 19+ */
   color: #e8e0d7;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_forms\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_forms\.scss}line{font-family:\0000333}}
 :-ms-input-placeholder {
   color: #e8e0d7;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_forms\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_forms\.scss}line{font-family:\0000337}}
 .search-query {
   -webkit-border-radius: 0.5em;
   -moz-border-radius: 0.5em;
@@ -812,45 +839,46 @@ input[type="search"]:focus {
   border-radius: 0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_header\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_header\.scss}line{font-family:\000031}}
 .header-primary {
   background: #f3efea url(../img/noise.png) repeat;
-  padding: 1em 0;
+  padding: 0.2em 0 1em;
   -webkit-box-shadow: #dfd3c7 1px 1px 5px 1px;
   -moz-box-shadow: #dfd3c7 1px 1px 5px 1px;
   box-shadow: #dfd3c7 1px 1px 5px 1px;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_header\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_header\.scss}line{font-family:\000031}}
   .header-primary {
     padding: 1em 0 1.3em;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_header\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_header\.scss}line{font-family:\000038}}
 .header-primary hgroup {
   margin: 0 auto;
   text-align: center;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_header\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_header\.scss}line{font-family:\000038}}
   .header-primary hgroup {
     float: left;
     margin: 0;
     text-align: left;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_header\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_header\.scss}line{font-family:\0000316}}
 .header-primary hgroup a {
   text-decoration: none;
+  border-bottom: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_header\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_header\.scss}line{font-family:\0000321}}
 .header-primary h1 {
   color: #6a553d;
   display: inline;
   font-weight: 400;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_header\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_header\.scss}line{font-family:\0000332}}
 .header-primary-icon {
   color: #ba4a41;
   font-size: 2.3em;
@@ -858,36 +886,35 @@ input[type="search"]:focus {
   top: 0.2em;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_header\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_header\.scss}line{font-family:\0000332}}
   .header-primary-icon {
     margin-right: 0.2em;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_header\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_header\.scss}line{font-family:\0000342}}
 nav {
-  margin-top: 0.3em;
   text-align: center;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_header\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_header\.scss}line{font-family:\0000342}}
   nav {
     float: right;
     margin-top: 1.1em;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_header\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_header\.scss}line{font-family:\0000350}}
 nav ul li {
   display: inline;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_header\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_header\.scss}line{font-family:\0000350}}
   nav ul li {
     margin: 0 0.3em;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\000033}}
 .headline h1 {
   font-size: 1.3em;
   font-weight: 400;
@@ -896,35 +923,35 @@ nav ul li {
   line-height: 1.7em;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\000033}}
   .headline h1 {
     font-size: 1.7em;
   }
 }
 @media (min-width: 55em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\000033}}
   .headline h1 {
     font-size: 2em;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\0000318}}
 .feature-article {
   padding-top: 1.3em;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\0000318}}
   .feature-article {
     padding-top: 3em;
   }
 }
 @media (min-width: 55em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\0000318}}
   .feature-article {
     padding-top: 4em;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\0000327}}
 .feature-article img {
   -webkit-border-radius: 10em;
   -moz-border-radius: 10em;
@@ -937,14 +964,14 @@ nav ul li {
   box-shadow: #e8e0d7 1px 1px 3px 1px;
 }
 @media (min-width: 22em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\0000327}}
   .feature-article img {
     margin: 0 auto;
     display: block;
   }
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\0000327}}
   .feature-article img {
     max-width: 13em;
     float: left;
@@ -954,12 +981,12 @@ nav ul li {
   }
 }
 @media (min-width: 55em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\0000327}}
   .feature-article img {
     max-width: 15em;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\0000346}}
 .feature-article h1 {
   border-bottom: solid 0.12em #ba4a41;
   font-size: 2.8em;
@@ -967,43 +994,43 @@ nav ul li {
   margin: 0.5em 0 0.8em;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\0000346}}
   .feature-article h1 {
     margin: 0.5em 0 0.8em;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\0000355}}
 .feature-article p {
   font-size: 1.3em;
   line-height: 1.7em;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\0000355}}
   .feature-article p {
     line-height: 2em;
     margin-bottom: 2em;
   }
 }
 @media (min-width: 55em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\0000355}}
   .feature-article p {
     line-height: 2.3em;
   }
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\0000366}}
   .feature-article article {
     margin-left: 16em;
   }
 }
 @media (min-width: 55em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\0000366}}
   .feature-article article {
     margin-left: 20em;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\0000376}}
 .main-content {
   padding-top: .9em;
   margin-top: 2em;
@@ -1011,72 +1038,72 @@ nav ul li {
   clear: both;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\0000376}}
   .main-content {
     margin-top: 4em;
     padding-top: 3em;
   }
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\0000386}}
   .main-content aside {
     float: left;
     max-width: 13em;
   }
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\0000391}}
   .main-content aside h1 {
     text-align: left;
     margin-bottom: 1.5em;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\0000398}}
 .main-content aside p {
   border-bottom: 1px solid #d5c7b7;
   padding-bottom: 1.5em;
   margin-bottom: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\00003106}}
 .past-articles {
   margin-top: 2.8em;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\00003106}}
   .past-articles {
     margin-top: 0;
     margin-left: 15.9em;
   }
 }
 @media (min-width: 55em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\00003106}}
   .past-articles {
     margin-left: 19.9em;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\00003115}}
 .past-articles h1:first-child {
   margin-bottom: 1.5em;
   text-align: center;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\00003115}}
   .past-articles h1:first-child {
     text-align: left;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\00003123}}
 .past-articles article {
   margin-bottom: 2em;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\00003123}}
   .past-articles article {
     margin-bottom: 2.2em;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\00003128}}
 .past-articles article time {
   background: #e8e0d7;
   -webkit-border-radius: 0.3em;
@@ -1093,19 +1120,19 @@ nav ul li {
   text-align: center;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\00003139}}
 .past-articles article time b {
   font-weight: 700;
   font-size: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\00003144}}
 .past-articles article h1 {
   border-bottom: 1px solid #d5c7b7;
   margin: 0 0 0 2.5em;
   padding-bottom: 0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\00003156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\00003156}}
 .tags ul li {
   background: #e8e0d7;
   -webkit-border-radius: 0.3em;
@@ -1121,53 +1148,47 @@ nav ul li {
   -o-transition: background 0.2s ease;
   transition: background 0.2s ease;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\00003163}}
 .tags ul li:hover {
   background: #dfd3c7;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\00003166}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\00003166}}
 .tags ul li a {
   color: #6a553d;
   text-decoration: none;
+  border-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\00003175}}
 .module-aside {
   margin-top: 2.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_home\.scss}line{font-family:\00003180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_home\.scss}line{font-family:\00003181}}
 .related-info ul li {
   margin-top: .8em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_articles\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_articles\.scss}line{font-family:\000031}}
 .post {
   margin-top: 1.8em;
   font-size: 1.2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_articles\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_articles\.scss}line{font-family:\000035}}
 .post h2 {
   font-size: 2.2em;
   font-style: italic;
   margin-bottom: 0em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_articles\.scss}line{font-family:\0000312}}
-img.post-photo {
-  border-bottom: solid 0.32em #ba4a41;
-  border-top-left-radius: 0.3em;
-  border-top-right-radius: .3em;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_articles\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_articles\.scss}line{font-family:\0000316}}
 .post-meta {
   font-style: italic;
   letter-spacing: 0.2em;
   margin-top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_articles\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_articles\.scss}line{font-family:\0000322}}
 .post-intro {
   font-family: "omnes-pro", sans-serif;
   font-size: 1.4em;
@@ -1178,25 +1199,25 @@ img.post-photo {
   margin: 1.3em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_footer\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_footer\.scss}line{font-family:\000031}}
 footer {
   margin-top: 3em;
   padding: 3em 0.5em 6em;
   text-align: center;
 }
 @media (min-width: 35em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_footer\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_footer\.scss}line{font-family:\000035}}
   footer br {
     display: none;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_footer\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_footer\.scss}line{font-family:\0000312}}
 .footer-separator {
   display: none;
 }
 @media (min-width: 35em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/src\/_scss\/_footer\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Sites\/my-site\/_scss\/_footer\.scss}line{font-family:\0000312}}
   .footer-separator {
     display: inline;
   }

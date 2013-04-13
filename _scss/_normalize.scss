@@ -170,10 +170,6 @@ strong {
     font-weight: bold;
 }
 
-blockquote {
-    margin: 1em 40px;
-}
-
 /**
  * Address styling not present in Safari 5 and Chrome.
  */
@@ -205,15 +201,6 @@ hr {
 mark {
     background: #ff0;
     color: #000;
-}
-
-/**
- * Address margins set differently in IE 6/7.
- */
-
-p,
-pre {
-    margin: 1em 0;
 }
 
 /**

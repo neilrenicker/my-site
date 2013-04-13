@@ -1,6 +1,6 @@
 .header-primary {
   background: lighten($base, 6%) url(../img/noise.png) repeat;
-  padding: 1em 0;
+  padding: 0.2em 0 1em;
   @include box-shadow(darken($base, 5%) 1px 1px 5px 1px);
   @include respond-to(40em) {
     padding: 1em 0 1.3em;
@@ -15,6 +15,7 @@
     }
     a {
       text-decoration: none;
+      border-bottom: none;
     }
   }
   h1 {
@@ -39,7 +40,6 @@
 }
 
 nav {
-  margin-top: 0.3em;
   text-align: center;
   @include respond-to(40em) {
     float: right;
