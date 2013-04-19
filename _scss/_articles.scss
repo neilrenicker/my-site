@@ -1,5 +1,4 @@
 .post {
-  @extend %container;
   margin-top: 1.8em;
   font-size: 1.2em;
   h2 {
@@ -9,8 +8,17 @@
   }
 }
 
-img.post-photo {
-  
+img.post-photo-featured {
+  margin-top: 0.2em;
+  @include respond-to(40em) {
+    display: block;
+    width: 90%;
+    max-width: 56em;
+    margin: 3em auto 0;
+  }
+  @include respond-to(65em) {
+    margin-top: 4em;
+  }
 }
 
 .post-meta {

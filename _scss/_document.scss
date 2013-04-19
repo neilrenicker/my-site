@@ -38,6 +38,10 @@ body {
   text-align: left;
 }
 
+.container {
+  @extend %container;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -47,9 +51,29 @@ blockquote {
   background: lighten($base, 5%);
   font-style: italic;
   font-size: 1.2em;
-  margin: 1em 0;
+  margin: 2em 0;
   padding: 1.2em 1.5em;
   @include border-radius(.2em);
+  @include respond-to(45em) {
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+  }
+}
+
+.quote-left {
+  @include respond-to(60em) {
+    float: left;
+    margin: 0 3.2em 1em 0;
+    max-width: 37%;
+  }
+}
+
+.quote-right {
+  @include respond-to(60em) {
+    float: right;
+    margin: 0 0 1em 3.2em;
+    max-width: 37%;
+  }
 }
 
 .quote-source {
