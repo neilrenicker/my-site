@@ -1,4 +1,4 @@
-templates/.sass-cache
+.sass-cache/
 *.scssc
 site/
 node_modules/
