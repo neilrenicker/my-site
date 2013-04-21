@@ -1,0 +1,9 @@
+{
+  "name": "neilrenicker.com",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-jekyll": "~0.2.2",
+    "grunt-contrib-watch": "~0.3.1"
+  }
+}

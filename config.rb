@@ -1,4 +1,4 @@
 require 'breakpoint'
-css_dir = "css"
-sass_dir = "_scss"
+css_dir = "templates/css"
+sass_dir = "templates/_scss"
 sass_options = { :debug_info => true }
