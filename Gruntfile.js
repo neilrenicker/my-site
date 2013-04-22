@@ -12,10 +12,23 @@ module.exports = function(grunt) {
         dest: 'site'
       }
     },
- 
+
+    compass: {
+      dev: {
+        options: {
+          config: 'config.rb'
+        }
+      }
+    },
+
     watch: {
+      stylesheets: {
+        files: ['templates/_scss/*'],
+        tasks: ['compass:dev']
+      },
+
       jekyll: {
-        files: ['templates/*'],
+        files: ['templates/*', 'templates/**/*', '!templates/_scss/*'],
         tasks: ['jekyll:dev']
       }
     }
@@ -23,6 +36,8 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-jekyll');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-compass');
  
   grunt.registerTask('default', 'jekyll:dev');
+  grunt.registerTask('dev', ['watch:stylesheets', 'watch:jekyll']);
 };
