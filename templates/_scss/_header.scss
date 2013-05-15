@@ -1,7 +1,7 @@
 .header-primary {
-  background: lighten($base, 6%) url(../img/noise.png) repeat;
+  background: lighten($color-primary, 6%) url(../img/noise.png) repeat;
   padding: 0.2em 0 1em;
-  @include box-shadow(darken($base, 5%) 1px 1px 5px 1px);
+  @include box-shadow(darken($color-primary, 5%) 1px 1px 5px 1px);
   @include respond-to(40em) {
     padding: 1em 0 1.3em;
   }
@@ -19,7 +19,7 @@
     }
   }
   h1 {
-    color: $type;
+    color: $color-typography;
     display: inline;
     font-weight: 400;
   }
@@ -30,7 +30,7 @@
 }
 
 .header-primary-icon {
-  color: $secondary;
+  color: $color-secondary;
   font-size: 2.3em;
   position: relative;
   top: 0.2em;

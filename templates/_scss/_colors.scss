@@ -1,6 +1,10 @@
-$base: #e8e0d7;
-$type: darken($base, 55%);
-$secondary: #ba4a41;
-$attention: #f8eec7;
+// base colors
 
-$lines: darken($base, 10%);
+$color-primary: #e8e0d7;
+$color-secondary: #ba4a41;
+$color-highlight: #f8eec7;
+
+// element colors
+
+$color-typography: darken($color-primary, 55%);
+$color-lines: darken($color-primary, 10%);

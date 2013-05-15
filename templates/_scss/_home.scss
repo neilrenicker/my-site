@@ -26,8 +26,8 @@
   }
   img {
     @include border-radius(10em);
-    border: .2em solid lighten($base, 5%);
-    @include box-shadow($base 1px 1px 3px 1px);
+    border: .2em solid lighten($color-primary, 5%);
+    @include box-shadow($color-primary 1px 1px 3px 1px);
     @include respond-to(22em) {
       margin: 0 auto;
       display: block;
@@ -44,7 +44,7 @@
     }
   }
   h1 {
-    border-bottom: solid .12em $secondary;
+    border-bottom: solid .12em $color-secondary;
     font-size: 2.8em;
     font-style: italic;
     margin: 0.5em 0 .8em;
@@ -76,7 +76,7 @@
 .main-content {
   padding-top: .9em;
   margin-top: 2em;
-  border-top: 1px solid $lines;
+  border-top: 1px solid $color-lines;
   @extend %container;
   clear: both;
   @include respond-to(40em) {
@@ -96,7 +96,7 @@
       }
     }
     p {
-      border-bottom: 1px solid $lines;
+      border-bottom: 1px solid $color-lines;
       padding-bottom: 1.5em;
       margin-bottom: 1.5em;
     }
@@ -126,7 +126,7 @@
       margin-bottom: 2.2em;
     }
     time {
-      background: $base;
+      background: $color-primary;
       @include border-radius(.3em);
       display: inline-block;
       line-height: 1.3em;
@@ -143,7 +143,7 @@
     }
     h1 {
       @extend %articlelist;
-      border-bottom: 1px solid $lines;
+      border-bottom: 1px solid $color-lines;
       margin: 0 0 0 2.5em;
       padding-bottom: 0.5em;
     }
@@ -154,17 +154,17 @@
   ul {
     @extend %list-reset;
     li {
-      background: $base;
+      background: $color-primary;
       @include border-radius (.3em);
       display: inline-block;
       margin: 0 .6em .6em 0;
       padding: 0.3em 1.1em;
       @include transition(background 0.2s ease);
       &:hover {
-      background: darken($base, 5%);
+      background: darken($color-primary, 5%);
       }
       a {
-        color: $type;
+        color: $color-typography;
         text-decoration: none;
         border-bottom: 0;
       }

@@ -1,8 +1,5 @@
-// source: https://gist.github.com/dannygarcia/3753650
-// source: https://gist.github.com/decthomas/5336734
-// https://github.com/dannygarcia/grunt-jekyll
- 
 /*global module:false*/
+
 module.exports = function(grunt) {
 
   grunt.initConfig({
@@ -37,7 +34,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-jekyll');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-compass');
- 
+
   grunt.registerTask('default', 'jekyll:dev');
-  grunt.registerTask('dev', ['watch:stylesheets', 'watch:jekyll']);
 };

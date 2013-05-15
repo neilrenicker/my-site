@@ -4,34 +4,34 @@ input[type="number"],
 input[type="email"],
 input[type="url"],
 input[type="search"] {
-  color: lighten($type, 15%);
+  color: lighten($color-typography, 15%);
   background: white;
-  border: 1px solid $base;
-  @include box-shadow(inset 0 1px 1px $base);
+  border: 1px solid $color-primary;
+  @include box-shadow(inset 0 1px 1px $color-primary);
   @include transition(border linear 0.2s, box-shadow linear 0.2s);
   font-size: .9em;
   padding: .7em 1.2em;
   &:focus {
-    border-color: darken($base, 4%);
-    @include box-shadow(inset 0 1px 1px $base, 0 0 8px darken($base, 5%));
+    border-color: darken($color-primary, 4%);
+    @include box-shadow(inset 0 1px 1px $color-primary, 0 0 8px darken($color-primary, 5%));
     outline: 0;
   }
 }
 
 ::-webkit-input-placeholder {
-   color: $base;
+   color: $color-primary;
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: $base;  
+   color: $color-primary;  
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: $base;  
+   color: $color-primary;  
 }
 
 :-ms-input-placeholder {  
-   color: $base;  
+   color: $color-primary;  
 }
 
 .search-query {

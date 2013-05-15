@@ -5,19 +5,19 @@ button,
 input,
 select,
 textarea {
-  color: $type;
+  color: $color-typography;
 }
 
 h1, h2, h3, h4, h5 {
-  color: darken($type, 10%);
+  color: darken($color-typography, 10%);
   font-weight: 700;
   a, a:visited {
     text-decoration: none;
-    color: darken($type, 10%);
+    color: darken($color-typography, 10%);
     border-bottom: 0;
   }
   a:hover {
-    color: darken($type, 13%);
+    color: darken($color-typography, 13%);
     border-bottom: 0;
   }
 }
@@ -28,7 +28,8 @@ p, pre {
 }
 
 ul li {
-  margin: 1.5em 0;
+  margin: 1em 0;
+  line-height: 1.8em;
 }
 
 body {
@@ -48,7 +49,7 @@ img {
 }
 
 blockquote {
-  background: lighten($base, 5%);
+  background: lighten($color-primary, 5%);
   font-style: italic;
   font-size: 1.2em;
   margin: 2em 0;
@@ -93,21 +94,21 @@ blockquote {
 }
 
 ::-moz-selection {
-  background: $attention;
+  background: $color-highlight;
   text-shadow: none;
 }
 
 ::selection {
-  background: $attention;
+  background: $color-highlight;
   text-shadow: none;
 }
 
 /* Links and buttons */
 
 a, a:visited {
-  color: $secondary;
+  color: $color-secondary;
   text-decoration: none;
-  border-bottom: 1px solid $secondary;
+  border-bottom: 1px solid $color-secondary;
 }
 
 .internal-link {
@@ -115,9 +116,9 @@ a, a:visited {
 }
 
 a.btn {
-  background: $base;
+  background: $color-primary;
   @include border-radius(.4em);
-  color: $type;
+  color: $color-typography;
   padding: 0.3em 0.6em;
   border-bottom: none;
   @include transition(background 0.2s ease);
@@ -135,7 +136,7 @@ a.btn {
     font-size: .8em;
   }
   &:hover {
-    background: darken($base, 5%);
+    background: darken($color-primary, 5%);
   }
 }
 

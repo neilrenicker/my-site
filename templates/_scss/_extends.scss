@@ -5,7 +5,7 @@
 }
 
 %container {
-  max-width: 56em;
+  max-width: 54em;
   margin: 0 auto;
   padding: 0 5%;
   @include respond-to(69em) {
@@ -14,6 +14,7 @@
 }
 
 // typography
+
 %subheader {
   font: {
     family: $font;
