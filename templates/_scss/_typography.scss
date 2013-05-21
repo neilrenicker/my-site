@@ -1,0 +1,25 @@
+// global typography styles
+
+// italics and a thick underline
+%title-featured {
+  border-bottom: solid .12em $color-secondary;
+  font-size: 2.8em;
+  font-style: italic;
+  margin: 0.5em 0 .8em;
+  @include respond-to(40em) {
+    margin: 0.5em 0 0.8em;
+  }
+}
+
+%title-aside {
+  font: {
+    family: $font;
+    style: italic;
+    size: 1.3em;
+  }
+}
+
+%title-article_list {
+  font-size: 1.4em;
+  font-style: italic;
+}

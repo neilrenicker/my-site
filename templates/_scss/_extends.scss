@@ -12,28 +12,3 @@
     padding: 0;
   }
 }
-
-// typography
-
-%subheader {
-  font: {
-    family: $font;
-    style: italic;
-    size: 1.3em;
-  }
-}
-
-%articlelist {
-  font-size: 1.4em;
-  font-style: italic;
-}
-
-%sublink {
-  font: {
-    family: $subfont;
-    size: .8em;
-    weight: 700;
-  }
-  text-decoration: none;
-  text-transform: uppercase;
-}
