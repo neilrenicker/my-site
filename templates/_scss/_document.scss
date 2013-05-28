@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5 {
 
 p, pre {
   line-height: 1.8em;
-  margin: 2em 0; // also addresses an IE bug where margins don't show properly
+  margin: 1.5em 0; // also addresses an IE bug where margins don't show properly
 }
 
 ul li {
@@ -53,6 +53,7 @@ blockquote {
   font-style: italic;
   font-size: 1.2em;
   margin: 2em 0;
+  overflow: scroll;
   padding: 1.2em 1.5em;
   @include border-radius(.2em);
   @include respond-to(45em) {
@@ -101,43 +102,6 @@ blockquote {
 ::selection {
   background: $color-highlight;
   text-shadow: none;
-}
-
-/* Links and buttons */
-
-a, a:visited {
-  color: $color-secondary;
-  text-decoration: none;
-  border-bottom: 1px solid $color-secondary;
-}
-
-.internal-link {
-  font-style: italic;
-}
-
-a.btn {
-  background: $color-primary;
-  @include border-radius(.4em);
-  color: $color-typography;
-  padding: 0.3em 0.6em;
-  border-bottom: none;
-  @include transition(background 0.2s ease);
-  text: {
-    decoration: none;
-    transform: uppercase;
-  }
-  font: {
-    size: .7em;
-    family: sans-serif;
-    weight: 700;
-  }
-  @include respond-to(40em) {
-    padding: 0.7em 1.4em;
-    font-size: .8em;
-  }
-  &:hover {
-    background: darken($color-primary, 5%);
-  }
 }
 
 /* Chrome Frame Prompt */

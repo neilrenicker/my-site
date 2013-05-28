@@ -3,18 +3,18 @@ $font:    'skolar', serif;
 $subfont: 'omnes-pro', sans-serif;
 
 @font-face {
-  font-family: 'nr';
-  src:  url('../fonts/nr.eot');
-  src:  url('../fonts/nr.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/nr.woff') format('woff'),
-        url('../fonts/nr.ttf') format('truetype'),
-        url('../fonts/nr.svg#nr') format('svg');
+  font-family: 'neilfonts';
+  src:  url('../fonts/neilfonts.eot');
+  src:  url('../fonts/neilfonts.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/neilfonts.woff') format('woff'),
+        url('../fonts/neilfonts.ttf') format('truetype'),
+        url('../fonts/neilfonts.svg#neilfonts') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 [data-icon]:before {
-  font-family: 'nr';
+  font-family: 'neilfonts';
   content: attr(data-icon);
   speak: none;
   font-weight: normal;

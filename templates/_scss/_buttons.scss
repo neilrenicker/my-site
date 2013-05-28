@@ -1,0 +1,62 @@
+/* Links and buttons */
+
+a, a:visited {
+  color: $color-secondary;
+  text-decoration: none;
+  border-bottom: 1px solid $color-secondary;
+}
+
+.link-internal {
+  font-style: italic;
+}
+
+a.btn {
+  @include border-radius(.4em);
+  @include transition(background 0.3s ease);
+  padding: 0.3em 0.6em;
+  border-bottom: none;
+  text-decoration: none;
+  font-family: sans-serif;
+  @include respond-to(40em) {
+    padding: 0.7em 1.4em;
+  }
+}
+
+a.btn-standard {
+  background: $color-primary;
+  color: $color-typography;
+  font-size: .7em;
+  font-weight: 700;
+  text-transform: uppercase;
+  @include respond-to(40em) {
+    font-size: .8em;
+  }
+  &:hover {
+    background: darken($color-primary, 5%);
+  }
+}
+
+a.btn-attention {
+  background: $color-secondary;
+  color: lighten($color-primary, 10%);
+  font-size: .9em;
+  font-weight: 400;
+  letter-spacing: .1em;
+  &:hover {
+    background: darken($color-secondary, 5%);
+  }
+}
+
+a.link-social {
+  @include transition(background 0.3s ease);
+  border-bottom: none;
+  color: $color-typography;
+  display: inline-block;
+  font-family: $subfont;
+  font-size: 1em;
+  padding: .5em 0;
+  width: 49.3%;
+  &:hover {
+    color: darken($color-typography, 8%);
+  }
+}

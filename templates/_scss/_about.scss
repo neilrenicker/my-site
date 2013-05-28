@@ -5,7 +5,7 @@
   }
   p {
     font-family: $subfont;
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin: 1.6em 0;
     @include respond-to(30em) {
       font-size: 1.4em;
@@ -16,10 +16,25 @@
 .nav-social {
   border-top: solid .1em $color-lines;
   padding-top: 1.3em;
-  a {
-    border-bottom: none;
-    color: $color-typography;
-    font-family: $subfont;
-    font-size: .8em;
+  [data-icon]:before {
+    margin-right: .6em;
+  }
+}
+
+.content-secondary {
+  margin-top: 3em;
+  font-size: 1.2em;
+  h1, h3, h3 {
+    font-style: italic;
+  }
+}
+
+.content-callout {
+  text-align: center;
+  h1 {
+    @extend %title-centered;
+  }
+  h2 {
+    @extend %subtitle-centered;
   }
 }

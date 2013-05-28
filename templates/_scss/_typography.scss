@@ -1,5 +1,3 @@
-// global typography styles
-
 // italics and a thick underline
 %title-featured {
   border-bottom: solid .12em $color-secondary;
@@ -9,6 +7,43 @@
   @include respond-to(40em) {
     margin: 0.5em 0 0.8em;
   }
+}
+
+%title-centered {
+  font-style: italic;
+  margin-bottom: .25em;
+  text-align: center;
+  &:before, &:after {
+    background: $color-lines;
+    width: 50%;
+    content: "\00a0";
+    height: .02em;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    z-index: -1;
+    margin-top: 0.8em;
+  }
+  &:before {
+    left: 0;
+  }
+  &:after {
+    right: 0;
+  }
+  b {
+    background: white;
+    font-weight: inherit;
+    padding: 0 .4em;
+  }
+}
+
+%subtitle-centered {
+  color: darken($color-primary, 30%);
+  font-style: italic;
+  font-size: .75em;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
 }
 
 %title-aside {
