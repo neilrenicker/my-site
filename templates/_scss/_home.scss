@@ -15,32 +15,33 @@
   }
 }
 
-.feature-article {
-  @extend %container;
-  padding-top: 1.3em;
+.home-art_top {
   @include respond-to(40em) {
+    float: left;
+    width: 38%;
+  }
+}
+
+.feature-article {
+  @include respond-to(40em) {
+    max-width: 54em;
+    margin: 0 auto;
+    padding: 0 5%;
     padding-top: 3em;
   }
   @include respond-to(55em) {
     padding-top: 4em;
   }
-  img {
-    @include border-radius(10em);
-    border: .2em solid lighten($color-primary, 5%);
-    @include box-shadow($color-primary 1px 1px 3px 1px);
-    @include respond-to(22em) {
-      margin: 0 auto;
-      display: block;
+  @include respond-to(69em) {
+      padding: 0;
     }
+  article {
+    margin: 0 auto;
+    padding: 0 5%;
     @include respond-to(40em) {
-      max-width: 13em;
-      float: left;
-      margin: 0;
-      margin-top: 2em;
-      margin-left: -1em;
-    }
-    @include respond-to(55em) {
-      max-width: 15em;
+      width: 50%;
+      float: right;
+      padding: auto;
     }
   }
   h1 {
@@ -55,14 +56,6 @@
     }
     @include respond-to(55em) {
       line-height: 2.3em;
-    }
-  }
-  article {
-    @include respond-to(40em) {
-      margin-left: 16em;
-    }
-    @include respond-to(55em) {
-      margin-left: 20em;
     }
   }
 }
