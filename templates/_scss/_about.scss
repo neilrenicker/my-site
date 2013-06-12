@@ -1,5 +1,5 @@
 .content-featured {
-  margin-top: 2em;
+  margin-top: 3.5em;
   h1 {
     @extend %title-featured;
   }
@@ -12,8 +12,8 @@
   @include respond-to(30em) {
     font-size: 1.4em;
   }
-  @include respond-to(40em) {
-    margin-left: 6em;
+  @include respond-to(60em) {
+    margin-left: 5em;
   }
 }
 .content-featured-avatar {
@@ -21,7 +21,7 @@
   border-radius: 10em;
   float: left;
   margin-right: 1.4em;
-  max-width: 90px;
+  max-width: 75px;
 }
 
 .nav-social {

@@ -1264,7 +1264,7 @@ input[type="search"]:focus {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/Projects\/nr-site\/templates\/_scss\/_about\.scss}line{font-family:\000031}}
 .content-featured {
-  margin-top: 2em;
+  margin-top: 3.5em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/Projects\/nr-site\/templates\/_scss\/_about\.scss}line{font-family:\000038}}
@@ -1279,10 +1279,10 @@ input[type="search"]:focus {
     font-size: 1.4em;
   }
 }
-@media (min-width: 40em) {
+@media (min-width: 60em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/Projects\/nr-site\/templates\/_scss\/_about\.scss}line{font-family:\000038}}
   .content-featured-intro {
-    margin-left: 6em;
+    margin-left: 5em;
   }
 }
 
@@ -1292,7 +1292,7 @@ input[type="search"]:focus {
   border-radius: 10em;
   float: left;
   margin-right: 1.4em;
-  max-width: 90px;
+  max-width: 75px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/Projects\/nr-site\/templates\/_scss\/_about\.scss}line{font-family:\0000327}}
