@@ -13,27 +13,19 @@
   font-style: italic;
   margin-bottom: .25em;
   text-align: center;
-  &:before, &:after {
+  &:before {
     background: $color-lines;
-    width: 50%;
     content: "\00a0";
+    left: 0;
+    width: 100%;
     height: .02em;
-    display: inline-block;
-    vertical-align: middle;
+    margin-top: 0.8em;
     position: absolute;
     z-index: -1;
-    margin-top: 0.8em;
-  }
-  &:before {
-    left: 0;
-  }
-  &:after {
-    right: 0;
   }
   b {
     background: white;
-    font-weight: inherit;
-    padding: 0 .4em;
+    padding: 0 .3em;
   }
 }
 
