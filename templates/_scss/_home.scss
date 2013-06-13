@@ -28,6 +28,9 @@
     border: solid .3em $color-primary;
     margin-top: 4em;
   }
+  @include respond-to(60em) {
+    margin-top: 5.5em;
+  }
 }
 
 .feature-article {

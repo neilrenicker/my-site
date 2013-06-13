@@ -12,9 +12,6 @@
   @include respond-to(30em) {
     font-size: 1.4em;
   }
-  @include respond-to(60em) {
-    margin-left: 5em;
-  }
 }
 .content-featured-avatar {
   border: .2em solid $color-secondary;
@@ -26,7 +23,7 @@
 
 .nav-social {
   border-top: solid .1em $color-lines;
-  padding-top: 1.3em;
+  padding-top: 2.2em;
   [data-icon]:before {
     margin-right: .6em;
   }
