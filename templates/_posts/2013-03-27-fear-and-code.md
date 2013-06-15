@@ -1,7 +1,14 @@
 ---
 layout: article
 title: Fear and Code
+photo: small-strokes.jpg
 intro: As I’m working through my apprenticeship at Sparkbox, there are a few ideas that have kept me going when I hit the paralyzing fear of a challenging programming problem.
+categories: articles
+tags:
+- programming
+- learning
+
+published: true
 ---
 
 As I’m working through my [apprenticeship at Sparkbox](http://seesparkbox.com/apprenticeships), there are a few ideas that have kept me going when I hit the paralyzing fear of a challenging programming problem:

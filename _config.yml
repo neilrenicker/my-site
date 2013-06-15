@@ -2,7 +2,7 @@
 source: templates
 destination: site
 
-permalink: /articles/:title.html
+permalink: /:categories/:title.html
 
 # configuration:
 timezone: America/Kentucky/Louisville

@@ -12,13 +12,11 @@ root: "../"
     <section class="tags">
       <h1>Browse by category</h1>
       <ul>
-        <li><a href="/" title="design">design</a></li>
-        <li><a href="/" title="personal">personal</a></li>
-        <li><a href="/" title="inspiration">inspiration</a></li>
-        <li><a href="/" title="css">css</a></li>
-        <li><a href="/" title="ruby">ruby</a></li>
-        <li><a href="/" title="html">html</a></li>
-        <li><a href="/" title="events">events</a></li>
+        {% for tag in site.tags %}
+        <li>
+          <a href="tag/{{ tag | first | slugize }}" title="{{ tag | first }}">{{ tag | first }}</a>
+        </li>
+        {% endfor %}
       </ul>
     </section>
     <section class="module-aside">

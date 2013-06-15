@@ -1,0 +1,14 @@
+---
+layout: global
+root: "../"
+---
+
+<h2>Here's the stuff I've written about {{ page.title }}:</h2>
+
+<ul>
+  {% for article in site.tags.{{ page.title }} %}
+  <li>
+    {{ article | first }}
+  </li>
+  {% endfor %}
+</ul>

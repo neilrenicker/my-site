@@ -4,14 +4,18 @@ root: "../"
 ---
 
 <div class="art-top">
-  <img class="post-photo-featured" src="../img/articles/small-strokes.jpg" alt="Small strokes" />
+  {% if page.photo %}
+  <img class="post-photo-featured" src="../img/articles/{{ page.photo }}" alt="Small strokes" />
+  {% endif %}
 </div>
 <div class="container">
   <article class="post">
     <header>
       <h2>{{ page.title }}</h2>
       <p class="post-meta"><time>{{ page.date | date: "%B %d, %Y" }}</time></p>
+      {% if page.intro %}
       <p class="post-intro">{{ page.intro }}</p>
+      {% endif %}
     </header>
     
     {{ content }}
