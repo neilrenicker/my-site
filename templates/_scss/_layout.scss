@@ -1,0 +1,33 @@
+.container {
+  @extend %container;
+}
+
+.main-content {
+  padding-top: .9em;
+  margin-top: 2em;
+  border-top: 1px solid $color-lines;
+  @extend %container;
+  clear: both;
+  @include respond-to(40em) {
+    margin-top: 3.3em;
+    padding-top: 3em;
+  }
+  aside {
+    @include respond-to(40em) {
+      float:left;
+      width: 30%;
+    }
+    h1 {
+      @extend %title-aside;
+      @include respond-to(40em) {
+        text-align:left;
+        margin-bottom: 1.5em;
+      }
+    }
+    p {
+      border-bottom: 1px solid $color-lines;
+      padding-bottom: 1.5em;
+      margin-bottom: 1.5em;
+    }
+  }
+}

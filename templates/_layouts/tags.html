@@ -3,12 +3,16 @@ layout: global
 root: "../"
 ---
 
-<h2>Here's the stuff I've written about {{ page.title }}:</h2>
-
-<ul>
-  {% for article in site.tags.{{ page.title }} %}
-  <li>
-    {{ article | first }}
-  </li>
-  {% endfor %}
-</ul>
+<section class="headline">
+  <h1>Here's the stuff I've written about <span class="highlight_text">{{ page.title }}:</span></h1>
+</section>
+<section class="main-content">
+  <ul class="article_list-with_intro">
+    {% for post in site.tags.[page.title] %}
+    <li>
+      <h1><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h1>
+      <p>{{ post.intro }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

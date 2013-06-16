@@ -1,5 +1,21 @@
-// italics and a thick underline
-%title-featured {
+.headline { // spacious padding and a thin underline
+  @extend %container;
+  h1 {
+    font-size: 1.3em;
+    font-weight: 400;
+    margin-top: 1.8em;
+    margin-bottom: 0;
+    line-height: 1.7em;
+    @include respond-to(40em) {
+      font-size: 1.7em;
+    }
+    @include respond-to(60em) {
+      font-size: 2em;
+    }
+  }
+}
+
+%title-featured { // italics and a thick underline
   border-bottom: solid .12em $color-secondary;
   font-size: 2.8em;
   font-style: italic;
@@ -48,5 +64,10 @@
 
 %title-article_list {
   font-size: 1.4em;
+  font-style: italic;
+}
+
+.highlight_text {
+  background: $color-highlight;
   font-style: italic;
 }
