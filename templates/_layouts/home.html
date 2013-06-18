@@ -15,9 +15,10 @@ layout: global
     </span>
   </div>
   <article>
-    <h1><a href="/" title="On The Go">On The Go</a></h1>
-    <p>For many years, I’ve done the bulk of my design and development work on a big 27″ iMac. I always loved that huge screen and the simplicity of the iMac’s design (only 1 cable, no tower, no fuss). I've changed all that recently, and here's why I love the change.</p>
-    <a class="link-internal" href="#" title="Read the full article">Keep reading →</a>
+    {% assign latest_post = site.posts.first %}
+    <h1><a href="{{ latest_post.url }}" title="Read {{ latest_post.title }}">{{ latest_post.title }}</a></h1>
+    <p>{{ latest_post.intro }}</p>
+    <a class="link-internal" href="{{ latest_post.url }}" title="Read {{ latest_post.title }}">Keep reading →</a>
   </article>
 </section>
 
@@ -29,19 +30,15 @@ layout: global
       <a href="#" title="Notes for Dayton Web Dev Meetup" class="link-internal">Grab my notes →</a>
     </section>
   </aside>
-  <section class="past-articles">
+  <section class="past-articles past-articles-right_col">
     <h1 class="subheader">Previous Articles</h1>
+    {% for post in site.posts %}
     <article>
       <time datetime="2013-02-15">Feb<br /><b>15</b></time>
-      <h1><a href="#" title="">I'm a Designer, and I'm Learning Ruby</a></h1>
+      <h1><a href="{{ post.url }}" title="Read {{ post.title }}">{{ post.title }}</a></h1>
     </article>
-    <article>
-      <time datetime="2012-12-10">Dec<br /><b>10</b></time>
-      <h1><a href="#" title="">Font Organization</a></h1>
-    </article>
-    <article>
-      <time datetime="2012-10-05">Oct<br /><b>05</b></time>
-      <h1><a href="#" title="">On Thinking</a></h1>
-    </article>
+    {% endfor %}
+    <!-- note: max 3 posts -->
+    <a href="/articles" title="Articles archive">Browse older articles →</a>
   </section>
 </section>

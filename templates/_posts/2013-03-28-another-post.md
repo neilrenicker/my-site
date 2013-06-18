@@ -2,7 +2,7 @@
 layout: article
 title: Another Post
 photo: small-strokes.jpg
-intro: This is the intro to 'another post'!
+intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam Pyrrho, Aristo, Erillus iam diu abiecti. Dolor ergo, id est summum malum, metuetur semper, etiamsi non aderit; Eorum enim est haec querela, qui sibi cari sunt seseque diligunt. Ita relinquet duas, de quibus etiam atque etiam consideret.
 categories: articles
 tags:
 - programming

@@ -1,4 +1,4 @@
-.headline { // spacious padding and a thin underline
+.headline { // spacious padding and a large regular text
   @extend %container;
   h1 {
     font-size: 1.3em;
@@ -12,6 +12,13 @@
     @include respond-to(60em) {
       font-size: 2em;
     }
+  }
+}
+
+.headline-with_underline {
+  h1 {
+    border-bottom: 1px solid $color-lines;
+    padding-bottom: 1.8em;
   }
 }
 
