@@ -46,7 +46,7 @@
     line-height: 1.7em;
     @include respond-to(40em) {
       line-height: 2em;
-      margin-bottom: 2em;
+      margin-bottom: 1em;
     }
     @include respond-to(60em) {
       line-height: 2.3em;
