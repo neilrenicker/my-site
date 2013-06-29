@@ -36,7 +36,7 @@ root: "../"
   </aside>
   {% for year in site.years %}
   <section class="past-articles past-articles-right_col">
-    <h1 class="subheader">Articles written in {{ year.first.date | date: "%Y" }}</h1>
+    <h1 class="subheader">{{ year.first.date | date: "%Y" }}</h1>
       {% for post in year %}
       <article>
         <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b" }}<br /><b>{{ post.date | date: "%d" }}</b></time>
