@@ -6,5 +6,9 @@
     "grunt-jekyll": "~0.3.0",
     "grunt-contrib-watch": "~0.4.2",
     "grunt-contrib-compass": "~0.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url" : "https://github.com/neilrenicker/my-site.git"
   }
 }

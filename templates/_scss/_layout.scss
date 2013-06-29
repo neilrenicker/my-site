@@ -56,6 +56,10 @@
 
 .past-articles-right_col {
   margin-top: 2.8em;
+  margin-bottom: 4em;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
   @include respond-to(40em) {
     margin-top: 0;
     margin-left: 38%;
