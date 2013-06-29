@@ -34,13 +34,15 @@ root: "../"
       </ul>
     </section>
   </aside>
+  {% for year in site.years %}
   <section class="past-articles past-articles-right_col">
-    <h1 class="subheader">Articles written in 2013</h1>
-    {% for post in site.posts %}
-    <article>
-      <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b" }}<br /><b>{{ post.date | date: "%d" }}</b></time>
-      <h1><a href="{{ post.url }}" title="Read {{ post.title }}">{{ post.title }}</a></h1>
-    </article>
-    {% endfor %}
+    <h1 class="subheader">Articles written in {{ year.first.date | date: "%Y" }}</h1>
+      {% for post in year %}
+      <article>
+        <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b" }}<br /><b>{{ post.date | date: "%d" }}</b></time>
+        <h1><a href="{{ post.url }}" title="Read {{ post.title }}">{{ post.title }}</a></h1>
+      </article>
+      {% endfor %}
   </section>
+  {% endfor %}
 </section>
