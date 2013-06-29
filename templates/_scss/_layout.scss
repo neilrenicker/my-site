@@ -27,10 +27,23 @@
       margin-bottom: 1.5em;
     }
   }
+  .search-query {
+    @include respond-to(40em) {
+      width: 80%;
+    }
+  }
 }
 
 .past-articles {
   .subheader {
+    @extend %title-aside;
+    margin: 0 0 1.5em;
+    text-align: center;
+    @include respond-to(40em) {
+      text-align: left;
+    }
+  }
+  .subheader-yearly_archive {
     color: darken($color-primary, 10%);
     font: {
       family: $font;
