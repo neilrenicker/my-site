@@ -30,6 +30,7 @@ Here are all of the front matter parameters each post needs:
     tags:
     - programming
     - learning
+    dsq_thread_id: '1169640142'
 
     published: true
     ---

@@ -1,9 +1,15 @@
 /* Links and buttons */
 
 a, a:visited {
+  @include transition(color 0.3s ease);
   color: $color-secondary;
   text-decoration: none;
   border-bottom: 1px solid $color-secondary;
+}
+
+a:hover {
+  color: darken($color-secondary, 7%);
+  border-bottom: 1px solid darken($color-secondary, 7%);
 }
 
 .link-internal {

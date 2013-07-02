@@ -1,23 +1,20 @@
 ---
-layout: post
+layout: article
 title: The Young and Hungry Designer
+photo: where-am-i.jpg
+intro: There aren't any hacks on moving forward in a design career. You just have to go make stuff. Screw it up. Throw it away. Start over.
+categories: articles
 tags:
-- failure
-- growth
-- Inspiration
-- motivation
-- process
-- success
-status: publish
-type: post
-published: true
-meta:
-  _edit_last: '1'
-  dsq_thread_id: '967468270'
----
-<img src="http://neilrenicker.com/wp-content/uploads/2012/12/where-am-i1.jpg" alt="The alien robot wonders about" title="Where Am I" width="900" height="" class="alignnone size-full wp-image-543 pretty" />
+- design
+- career
+dsq_thread_id: '967468270'
 
-<blockquote>Laugh at perfection. It's boring and keeps you from being done.<br />–<a href="http://www.brepettis.com/blog/2009/3/3/the-cult-of-done-manifesto.html">the Done Manifesto</a></blockquote>
+published: true
+---
+
+<blockquote>Laugh at perfection. It's boring and keeps you from being done.
+  <span class="quote-source">–<a href="http://www.brepettis.com/blog/2009/3/3/the-cult-of-done-manifesto.html">the Done Manifesto</a></span>
+</blockquote>
 
 Like most creative people, I suspect, I've found that the "real world" is light years apart from the world I imagined while in high school & college.
 
@@ -49,14 +46,17 @@ Well, weeks of not posting my work turned into months, and my Dribbble account s
 
 So that's why I'm sick of my image. If I try to save face and appear more established than I really am, I won't ask for help. And if I don't ask for help, I won't meet people and form relationships. And if I'm not forming relationships in the community, then I'm not growing – and worse yet, I'm working in a vacuum.
 
-<blockquote class="twitter-tweet tw-align-center"><p>A carefully cultivated image must be maintained exhaustive/ing-ly. Better to represent the truth.</p>&mdash; Jeremiah Langner (@jeremiahlangner) <a href="https://twitter.com/jeremiahlangner/status/275273040743497728" data-datetime="2012-12-02T16:19:41+00:00">December 2, 2012</a></blockquote>
-<script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="quote-right">"A carefully cultivated image must be maintained exhaustive/ing-ly. Better to represent the truth."
+  <span class="quote-source">–[@jeremiahlangner](https://twitter.com/jeremiahlangner/status/275273040743497728"</span>
+</blockquote>
 
-So here's to the new young and hungry me: a scrappy, good-for-nothing designer / illustrator / <a href="http://neilrenicker.com/journal/little-web-worker/">web worker</a> who's ready to grow. I'm ready to do that not by agonizing endlessly before I ship work – but by shipping work and getting feedback. By having the worst portfolio on Dribbble. By embarrassing myself. By being painfully honest. By admitting that I'm learning – and by asking for help instead of hoping people will ask me for help.
+So here's to the new young and hungry me: a scrappy, good-for-nothing designer / illustrator / <a href="/articles/little-web-worker/">web worker</a> who's ready to grow. I'm ready to do that not by agonizing endlessly before I ship work – but by shipping work and getting feedback. By having the worst portfolio on Dribbble. By embarrassing myself. By being painfully honest. By admitting that I'm learning – and by asking for help instead of hoping people will ask me for help.
 
 So bring it on - laugh at my work. Laugh me to scorn, you scoundrel perfectionist. I'm going to get my hands dirty - get stuff done and break stuff up in 2013. We'll see how it goes. I'm wagering I'll be a far happier, more well-rounded, and more skillful designer because of it.
 
-<blockquote>As an entrepreneur, Seth [Godin] has founded dozens of companies, most of which failed.<br />–<a href="http://thegreatdiscontent.com/seth-godin">Seth Godin on the Great Discontent</a></blockquote>
+<blockquote>As an entrepreneur, Seth [Godin] has founded dozens of companies, most of which failed.
+  –<span class="quote-source"><a href="http://thegreatdiscontent.com/seth-godin">Seth Godin on the Great Discontent</a></span>
+</blockquote>
 
 Join me?
 
