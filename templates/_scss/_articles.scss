@@ -6,6 +6,12 @@
     font-style: italic;
     margin-bottom: 0em;
   }
+  a, a:hover {
+    @extend %link-standard;
+  }
+  a:visited {
+    @extend %link-standard-hover;
+  }
 }
 
 img.post-photo-featured {

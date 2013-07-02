@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Event Apart 2012 Cheatsheet – Day 1
-intro: Earlier in September, I attended An Event Apart in beautiful Chicago. I picked out the best of the best to share with you.
+intro: Earlier in September, I attended An Event Apart in beautiful Chicago. I learned a lot, and picked out the best of the best to share.
 categories: articles
 tags:
 - events

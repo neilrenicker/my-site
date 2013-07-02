@@ -1,3 +1,15 @@
+%link-standard {
+  @include transition(color 0.3s ease);
+  color: $color-secondary;
+  text-decoration: none;
+  border-bottom: 1px solid $color-secondary;
+}
+
+%link-standard-hover {
+  color: darken($color-secondary, 7%);
+  border-bottom: 1px solid darken($color-secondary, 7%);
+}
+
 %list-reset {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
