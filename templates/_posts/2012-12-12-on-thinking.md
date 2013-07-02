@@ -1,7 +1,7 @@
 ---
 layout: article
 title: On Thinking
-intro: Outrun your people and your colleauges in thinking - a short quote.
+intro: Outrun your people and your colleauges in thinking. This is what good leaders do.
 categories: articles
 dsq_thread_id: '971183232'
 

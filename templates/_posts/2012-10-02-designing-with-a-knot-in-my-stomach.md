@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Designing with a knot in my stomach
-intro: More often than not, I design with a knot in my stomach most of the way through my projects.
+intro: Despite the glamorous outcome of a project, a majority of the time spent creating it is spent in fear that the project will never succeed.
 categories: articles
 tags:
 - design

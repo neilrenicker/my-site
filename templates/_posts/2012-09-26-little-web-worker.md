@@ -31,10 +31,10 @@ As I've felt this restlessness, God has reminded me to be content. Contentment d
 
 So here's my stab at an incomplete, ragamuffin manifesto for us web craftsmen, designers, illustrators, developers, and anyone else who likes it. This is just to get us started:
 
-	* **I will treat my work as a craft** - taking pride in my work by considering *Excellence* a better virtue than *Speed* or *Riches*.
-	* **I will be content to work in the shadows** for a time, staying faithful to my small band of comrades until my ranks move me higher.
-	* **I will not grumble** about my small jobs with their small pay - yet never be so comfortable with them that I should stop striving for the more choice work I really want.
-	* **I will constantly choose humility** over self-interest - never becoming so confident in my growing abilities that I refuse to help others who are younger in the craft grow along with me.
-	* **I will remember that the web is a community,** and the tradition of this community has always been to share knowledge rather than hoard it for myself.
+* **I will treat my work as a craft** - taking pride in my work by considering *Excellence* a better virtue than *Speed* or *Riches*.
+* **I will be content to work in the shadows** for a time, staying faithful to my small band of comrades until my ranks move me higher.
+* **I will not grumble** about my small jobs with their small pay - yet never be so comfortable with them that I should stop striving for the more choice work I really want.
+* **I will constantly choose humility** over self-interest - never becoming so confident in my growing abilities that I refuse to help others who are younger in the craft grow along with me.
+* **I will remember that the web is a community,** and the tradition of this community has always been to share knowledge rather than hoard it for myself.
 
 Now let's go make stuff!

@@ -14,7 +14,7 @@ Earlier in September, I attended <a href="http://aneventapart.com">An Event Apar
 
 I'm finally settled down enough to start working back through my notes and mining them for all of the gold within. I decided to create a little "Cheat Sheet" – a Sparknotes of sorts – for each talk at the conference. The first day's notes are below, and the second day's notes are coming soon.
 
-### <a href="http://zeldman.com">Jeffrey Zeldman</a> – “Content First”
+### [Jeffrey Zeldman](http://zeldman.com) – “Content First”
 
 **Big idea:** Design that does not serve *people* does not serve business.
 

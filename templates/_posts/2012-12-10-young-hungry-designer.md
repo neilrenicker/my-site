@@ -47,7 +47,7 @@ Well, weeks of not posting my work turned into months, and my Dribbble account s
 So that's why I'm sick of my image. If I try to save face and appear more established than I really am, I won't ask for help. And if I don't ask for help, I won't meet people and form relationships. And if I'm not forming relationships in the community, then I'm not growing – and worse yet, I'm working in a vacuum.
 
 <blockquote class="quote-right">"A carefully cultivated image must be maintained exhaustive/ing-ly. Better to represent the truth."
-  <span class="quote-source">–[@jeremiahlangner](https://twitter.com/jeremiahlangner/status/275273040743497728"</span>
+  <span class="quote-source">–<a href="https://twitter.com/jeremiahlangner/status/275273040743497728">@jeremiahlangner</a></span>
 </blockquote>
 
 So here's to the new young and hungry me: a scrappy, good-for-nothing designer / illustrator / <a href="/articles/little-web-worker/">web worker</a> who's ready to grow. I'm ready to do that not by agonizing endlessly before I ship work – but by shipping work and getting feedback. By having the worst portfolio on Dribbble. By embarrassing myself. By being painfully honest. By admitting that I'm learning – and by asking for help instead of hoping people will ask me for help.
@@ -60,4 +60,4 @@ So bring it on - laugh at my work. Laugh me to scorn, you scoundrel perfectionis
 
 Join me?
 
-PS. A year from now, you'll find me cringing as I delete old Dribbble posts and blog articles.
+*PS. A year from now, you'll find me cringing as I delete old Dribbble posts and blog articles.*

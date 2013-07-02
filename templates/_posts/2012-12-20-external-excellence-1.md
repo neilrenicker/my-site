@@ -12,20 +12,14 @@ I've been reading a lot of fascinating and helpful articles around the web over 
 
 ### <a href="http://calnewport.com/blog/2012/11/21/knowledge-workers-are-bad-at-working-and-heres-what-to-do-about-it/">Knowledge Workers are Bad at Working</a>
 
-Cal Newport talks about the idea of "deep work", and points out that a knowledge worker who lives in her email inbox isn't really achieving the level of productivity that she could.
-
-[Read it →](http://calnewport.com/blog/2012/11/21/knowledge-workers-are-bad-at-working-and-heres-what-to-do-about-it/)
+*Cal Newport talks about the idea of "deep work", and points out that a knowledge worker who lives in her email inbox isn't really achieving the level of productivity that she could.*
 
 ### <a href="http://personalmba.com/side-project-challenge/">The Side Project Challenge</a>
 
-I love side projects! This article is a great motivator towards developing and clarifying your goals for a side project. It also discusses all the awesome "side effects" that come along with taking up a self-initiated project. We're coming up on a brand new year - there's no better time to be thinking about starting a fresh project.
-
-[Read it →](http://personalmba.com/side-project-challenge/)
+*I love side projects! This article is a great motivator towards developing and clarifying your goals for a side project. It also discusses all the awesome "side effects" that come along with taking up a self-initiated project. We're coming up on a brand new year - there's no better time to be thinking about starting a fresh project.*
 
 ### <a href="http://matt.might.net/articles/phd-school-in-pictures/">The Illustrated Guide to a PhD</a>
 
-This infographic is a really helpful way of thinking about our careers - even for those of us who aren't pursuing a doctorate. I love Matt Might's idea of learning our vocational boundaries, then pushing / breaking / expanding them.
-
-[Read it →](http://matt.might.net/articles/phd-school-in-pictures/)
+*This infographic is a really helpful way of thinking about our careers - even for those of us who aren't pursuing a doctorate. I love Matt Might's idea of learning our vocational boundaries, then pushing / breaking / expanding them.*
 
 That's it! I hope some of these are as helpful to you as they were to me.

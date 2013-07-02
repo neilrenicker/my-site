@@ -81,7 +81,7 @@ Here are the Smart Sets I created (you can do what works for you, of course –�
 
 ## Hacks and Disclaimers
 
-Within the font info box (shortcut: ⌘+I with a font selected), FontExplorer has a few Usages, Themes, and Categories already created under the "Linotype" heading. I chose not to use any of the Linotype categories, but create completely custom categories so I didn't have them split between two menues, and to allow me the option to change their name in the future.
+Within the font info box (shortcut: `⌘+I` with a font selected), FontExplorer has a few Usages, Themes, and Categories already created under the "Linotype" heading. I chose not to use any of the Linotype categories, but create completely custom categories so I didn't have them split between two menues, and to allow me the option to change their name in the future.
 
 In order to actually accomplish the monstrous task of going through all of my fonts and organizing them, I broke my library into chunks, and finished it over several weeks' time. I started with the "A" fonts, went through each selection, adding the appropriate Usage, Theme, Category, Comment, and Rating. If the font was one I rarely use or didn't like very well, I would de-activate the it to keep my application font menues clean. I added goals to my to-do list like this: organize fonts A-B. The next day, I'd do all C-D fonts, and so on. Breaking the project into bite-sized tasks made it manageable and doable.
 

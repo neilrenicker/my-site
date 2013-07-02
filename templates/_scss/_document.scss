@@ -50,6 +50,7 @@ blockquote {
   font-size: 1.2em;
   margin: 2em 0;
   overflow: scroll;
+  line-height: 1.7;
   padding: 1.2em 1.5em;
   @include border-radius(.2em);
   @include respond-to(45em) {
