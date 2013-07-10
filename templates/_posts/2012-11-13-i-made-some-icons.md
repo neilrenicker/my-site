@@ -1,6 +1,7 @@
 ---
 layout: article
 title: I Made Some Icons
+photo: 121113-winter-icons.jpg
 intro: I made a winter / Christmas icon set to share with my internet friends for all they've taught me.
 categories: articles
 dsq_thread_id: '927777703'
