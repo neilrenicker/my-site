@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Fear and Code
-photo: small-strokes.jpg
+photo: 130327-geometric-forest-fear-and-code.jpg
 intro: As I’m working through my apprenticeship at Sparkbox, there are a few ideas that have kept me going when I hit the paralyzing fear of a challenging programming problem.
 categories: articles
 tags:

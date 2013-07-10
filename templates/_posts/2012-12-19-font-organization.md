@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Font Organization
-photo: fontexplorer-organization.jpg
+photo: 121219-fontexplorer-organization.jpg
 intro: I recently took to time to obessively organize my font collection. If you love great fonts, and you love organizing stuff, this one's for you.
 categories: articles
 tags:
