@@ -5,7 +5,7 @@
 # <h1>Articles written in {{ year.first.date | date: "%Y" }}</h1>
 #   {% for post in year %}
 #     <article>
-#       <h1><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h1>
+#       <h1><a href="{{ post.id }}" title="{{ post.title }}">{{ post.title }}</a></h1>
 #     </article>
 #   {% endfor %}
 # {% endfor %}

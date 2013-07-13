@@ -217,7 +217,7 @@ AddDefaultCharset utf-8
 </IfModule>
 
 # ------------------------------------------------------------------------------
-# | Suppressing ".html" at the end of URLs                                     |
+# | Suppressing ".html" at the end of URLs (Pretty URLs)                       |
 # ------------------------------------------------------------------------------
 
 RewriteEngine On

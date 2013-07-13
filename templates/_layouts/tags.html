@@ -10,9 +10,9 @@ root: "../"
   <section class="past-articles">
     {% for post in site.tags.[page.title] %}
     <article>
-      <h1><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h1>
+      <h1><a href="{{ post.id }}" title="{{ post.title }}">{{ post.title }}</a></h1>
       <p>{{ post.intro }}</p>
-      <a href="{{ post.url }}" title="{{ post.title }}">Keep reading →</a>
+      <a href="{{ post.id }}" title="{{ post.title }}">Keep reading →</a>
     </article>
     {% endfor %}
   </section>

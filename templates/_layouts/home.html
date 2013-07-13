@@ -16,9 +16,9 @@ layout: global
   </div>
   <article>
     {% assign latest_post = site.posts.first %}
-    <h1><a href="{{ latest_post.url }}" title="Read {{ latest_post.title }}">{{ latest_post.title }}</a></h1>
+    <h1><a href="{{ latest_post.id }}" title="Read {{ latest_post.title }}">{{ latest_post.title }}</a></h1>
     <p>{{ latest_post.intro }}</p>
-    <a class="link-internal" href="{{ latest_post.url }}" title="Read {{ latest_post.title }}">Keep reading →</a>
+    <a class="link-internal" href="{{ latest_post.id }}" title="Read {{ latest_post.title }}">Keep reading →</a>
   </article>
 </section>
 
@@ -35,7 +35,7 @@ layout: global
     {% for post in site.posts limit:4 %}
     <article>
       <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b" }}<br /><b>{{ post.date | date: "%d" }}</b></time>
-      <h1><a href="{{ post.url }}" title="Read {{ post.title }}">{{ post.title }}</a></h1>
+      <h1><a href="{{ post.id }}" title="Read {{ post.title }}">{{ post.title }}</a></h1>
     </article>
     {% endfor %}
     <a href="/articles" title="Articles archive">Browse older articles →</a>
