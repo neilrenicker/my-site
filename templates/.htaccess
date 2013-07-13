@@ -224,6 +224,16 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html
 
+
+# ------------------------------------------------------------------------------
+# | Rewrites to make my old site links work (redirect /journal to /articles)   |
+# ------------------------------------------------------------------------------
+
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^journal/(.*)$ http://neilrenicker.com/articles/$1 [R=301,L]
+
+
 # ------------------------------------------------------------------------------
 # | Suppressing / Forcing the "www." at the beginning of URLs                  |
 # ------------------------------------------------------------------------------
