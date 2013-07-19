@@ -25,7 +25,7 @@ module.exports = function(grunt) {
       },
 
       jekyll: {
-        files: ['templates/*', 'templates/**/*', '!templates/_scss/*'],
+        files: ['!_scss/*', '!_scss/**/*', 'templates/*', 'templates/**/*', 'templates/**/**/*'],
         tasks: ['jekyll:dev']
       }
     }
@@ -35,5 +35,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-compass');
 
-  grunt.registerTask('default', 'jekyll:dev');
+  grunt.registerTask('dev', ['compass:dev', 'jekyll:dev']);
+  grunt.registerTask('default', 'dev');
 };

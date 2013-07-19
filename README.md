@@ -39,7 +39,8 @@ Here are all of the front matter parameters each post needs:
     published: true
     ---
 
-## Art Direction
+## Art Direction - CSS
 
 * If a post is to have custom art direction, the markup should live in front matter called `art:`. Indent markup 2 spaces. It will be included in an otherwise empty, unstyled `<div>` with a class of `art-top`.
 * Custom styles for that post should be placed in a `.scss` file within `templates/_scss/posts/post-date-and-name.scss`. Sass file should be named the exact name of the post. Update the `CSS:` front-matter to match the file name (no extension) of the Sass file.
+* CSS classes and IDs should begin with `art-` as a module name. Since art directed CSS files are page-specific, there's no need to worry about overlapping styles in the future!
