@@ -2,16 +2,27 @@
 
 $color-primary: #1D2122;
 $color-typography: #777777;
+$color-highlight: #2c5e6e;
 
 // override site colors
 
 body {
-  background: $color-primary;
+  background: $color-primary url(../../img/posts/2013-07-19-bg.jpg) repeat;
   color: $color-typography;
 }
 
 h1, h2, h3, h4, h5 {
   color: lighten($color-typography, 15%);
+}
+
+::-moz-selection {
+  background: $color-highlight;
+  text-shadow: none;
+}
+
+::selection {
+  background: $color-highlight;
+  text-shadow: none;
 }
 
 .header-primary {
@@ -46,18 +57,17 @@ a.btn-standard {
 }
 
 blockquote {
-  background: darken($color-typography, 15%);
+  background: darken($color-typography, 24%);
   color: darken($color-primary, 3%);
 }
 
 // styles for new markup
 
 .art-top {
-  height: 346px;
-  width: 900px;
-  margin: 0 auto;
+  
 }
 
-.art-sbNeon-on, .art-sbNeon-off {
-  position: absolute;
+.art-sbNeon {
+  margin: 1.5em auto 0;
+  display: block; 
 }
