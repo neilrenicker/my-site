@@ -13,4 +13,4 @@ The community on the web gives me so much – helping me grow in my craft and in
 
 Since winter is just around the corner, I whipped up some icons in Illustrator for you to download and use as you please. They might work well for a Christmas card or email, or printed out on wrapping paper.
 
-Grab them here: <a href="/work/winter-icons/">neilrenicker.com/work/winter-icons/</a>.
+Grab them here: <a href="/work/winter-icons">neilrenicker.com/work/winter-icons/</a>.
