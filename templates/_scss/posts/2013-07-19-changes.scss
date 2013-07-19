@@ -1,3 +1,57 @@
+@import 'compass';
+
+$color-primary: #1D2122;
+$color-typography: #777777;
+
+// override site colors
+
+body {
+  background: $color-primary;
+  color: $color-typography;
+}
+
+h1, h2, h3, h4, h5 {
+  color: lighten($color-typography, 15%);
+}
+
+.header-primary {
+  @include box-shadow(darken($color-primary, 7%) 1px 1px 5px 1px);
+  background: darken($color-primary, 3%);
+}
+
+.header-primary h1 {
+  color: $color-typography;
+}
+
+.header-primary-icon {
+  color: $color-typography;
+}
+
+.post-intro {
+  border-top-color: $color-typography;
+  border-bottom-color: $color-typography;
+}
+
+a, a:visited, .post a, .post a:hover {
+  border-bottom-color: lighten($color-typography, 20%);
+  color: lighten($color-typography, 20%);
+}
+
+a.btn-standard {
+  background: darken($color-typography, 20%);
+  color: darken($color-primary, 3%);
+  &:hover {
+    background: darken($color-typography, 8%);
+  }
+}
+
+blockquote {
+  background: darken($color-typography, 15%);
+  color: darken($color-primary, 3%);
+}
+
+// styles for new markup
+
 .art-top {
   height: 346px;
   width: 900px;
