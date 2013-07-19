@@ -11,6 +11,9 @@
     <meta name="description" content="I'm a quiet midwest designer and developer focused on interfaces and illustration. Based in rusty Dayton, OH.">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="{{ root }}css/base.css">
+    {% if page.css %}
+    <link rel="stylesheet" href="{{ root }}css/posts/{{ page.css }}.css">
+    {% endif %}
     <script type="text/javascript" src="//use.typekit.net/qxo7zfd.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <script src="{{ root }}js/vendor/modernizr-2.6.2.min.js"></script>

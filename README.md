@@ -31,6 +31,15 @@ Here are all of the front matter parameters each post needs:
     - programming
     - learning
     dsq_thread_id: '1169640142'
+    css: 2013-07-19-changes
+    art:
+      <img class="2013-07-19-sb-neon-on" src="../img/articles/2013-07-19-sb-neon-on.png" alt="Sparkbox Neon Glow">
+      <img class="2013-07-19-sb-neon-off" src="../img/articles/2013-07-19-sb-neon-off.png" alt="Sparkbox Neon in the Dark">
 
     published: true
     ---
+
+## Art Direction
+
+* If a post is to have custom art direction, the markup should live in front matter called `art:`. Indent markup 2 spaces. It will be included in an otherwise empty, unstyled `<div>` with a class of `art-top`.
+* Custom styles for that post should be placed in a `.scss` file within `templates/_scss/posts/post-date-and-name.scss`. Sass file should be named the exact name of the post. Update the `CSS:` front-matter to match the file name (no extension) of the Sass file.

@@ -5,7 +5,10 @@ root: "../"
 
 <div class="art-top">
   {% if page.photo %}
-  <img class="post-photo-featured" src="../img/articles/{{ page.photo }}" alt="Small strokes" />
+  <img class="post-photo-featured" src="../img/posts/{{ page.photo }}" alt="Small strokes" />
+  {% endif %}
+  {% if page.art %}
+  {{ page.art }}
   {% endif %}
 </div>
 <div class="container">
