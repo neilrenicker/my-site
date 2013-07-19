@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5 {
   border-bottom-color: $color-typography;
 }
 
-a, a:visited, .post a, .post a:hover {
+a, a:hover, a:visited, .post a, .post a:hover, .post a:visited{
   border-bottom-color: lighten($color-typography, 20%);
   color: lighten($color-typography, 20%);
 }
