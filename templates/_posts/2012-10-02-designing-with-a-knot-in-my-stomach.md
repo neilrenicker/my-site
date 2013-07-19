@@ -16,6 +16,6 @@ There's a cloud of doubt, self-pity, and mild despair that hangs over me until I
 
 It's that first 75% that is the risky part. The knot in my stomach is powerful - if I let it, it will kill the whole idea. If I leave it alone and press through with the job, it eventually dies and the project turns out OK or even excellent.
 
-<blockquote class="quote-right">"And just as Steve loved ideas, and loved making stuff, he treated the process of creativity with a rare and a wonderful reverence. You see, I think he better than anyone understood that while ideas ultimately can be so powerful, they begin as fragile, barely formed thoughts, so easily missed, so easily compromised, so easily just squished."
+<blockquote>"And just as Steve loved ideas, and loved making stuff, he treated the process of creativity with a rare and a wonderful reverence. You see, I think he better than anyone understood that while ideas ultimately can be so powerful, they begin as fragile, barely formed thoughts, so easily missed, so easily compromised, so easily just squished."
   <span class="quote-source">–Jonathan Ive, on Steve Jobs</span>
 </blockquote>
