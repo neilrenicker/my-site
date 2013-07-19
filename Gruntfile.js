@@ -20,12 +20,12 @@ module.exports = function(grunt) {
 
     watch: {
       stylesheets: {
-        files: ['templates/_scss/*'],
+        files: ['templates/_scss/**/*'],
         tasks: ['compass:dev']
       },
 
       jekyll: {
-        files: ['!_scss/*', '!_scss/**/*', 'templates/*', 'templates/**/*', 'templates/**/**/*'],
+        files: ['templates/**/*', '!templates/_scss/**/*'],
         tasks: ['jekyll:dev']
       }
     }
