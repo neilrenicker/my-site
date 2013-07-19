@@ -14,7 +14,7 @@ Here are the size templates for common image areas:
 1. Home page (`img/home`)
   * small: 640px w (+ @2x)
   * medium: 275px w/h (+ @2x)
-2. Post pages (`img/articles`)
+2. Post pages (`img/posts`)
   * large: 900px w
 
 ## Jekyll Front Matter

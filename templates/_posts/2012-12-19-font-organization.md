@@ -21,7 +21,7 @@ I decided to use Linotype's <a href="http://www.fontexplorerx.com/">FontExplorer
 
 ## Smart Sets For The Win
 
-![FontExplorer Smart Sets](../img/articles/121219-fontexplorer-smartsets.jpg)
+![FontExplorer Smart Sets](../img/posts/121219-fontexplorer-smartsets.jpg)
 
 The beauty of FontExplorer is that it allows you to create "Smart Sets" of fonts based on parameters that you set up, and group those Smart Sets into folders. I like to think of it like Twitter hashtags - in effect, you can add multiple hashtags to each font, and then create "Smart Sets" that automagically grab fonts and font families containing those tags. These "hashtags" are actually little check boxes, and you access them by selecting a font and using the shortcut ⌘+I, or selecting "Font > Information" from the menu bar.
 
