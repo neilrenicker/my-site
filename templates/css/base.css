@@ -1498,10 +1498,11 @@ img.post-photo-featured {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_footer-article\.scss}line{font-family:\000039}}
 .footer-article-endMark:before {
+  background: #e4dbd1;
   margin-top: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_footer-article\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_footer-article\.scss}line{font-family:\0000315}}
 a.footer-article-endMark-icon {
   font-size: 3em;
   border: none;
