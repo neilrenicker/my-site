@@ -1058,29 +1058,29 @@ blockquote {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_layout\.scss}line{font-family:\00003117}}
 .tags ul li {
-  background: #e8e0d7;
   -webkit-border-radius: 0.3em;
   -moz-border-radius: 0.3em;
   -ms-border-radius: 0.3em;
   -o-border-radius: 0.3em;
   border-radius: 0.3em;
-  display: inline-block;
-  margin: 0 .6em .6em 0;
-  padding: 0.3em 1.1em;
   -webkit-transition: background 0.2s ease;
   -moz-transition: background 0.2s ease;
   -o-transition: background 0.2s ease;
   transition: background 0.2s ease;
+  background: #e8e0d7;
+  display: inline-block;
+  margin: 0 .6em .6em 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_layout\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_layout\.scss}line{font-family:\00003123}}
 .tags ul li:hover {
   background: #dfd3c7;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_layout\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_layout\.scss}line{font-family:\00003126}}
 .tags ul li a {
   color: #6a553d;
   text-decoration: none;
   border-bottom: 0;
+  padding: 0.3em 1.1em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_forms\.scss}line{font-family:\000036}}
