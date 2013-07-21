@@ -14,7 +14,7 @@
   }
 }
 .content-featured-avatar {
-  border: .2em solid $color-secondary;
+  @include box-shadow(0 0 6px darken($color-primary, 20%));
   border-radius: 10em;
   float: left;
   margin-right: 1.4em;

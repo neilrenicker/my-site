@@ -1337,7 +1337,9 @@ input[type="search"]:focus {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_about\.scss}line{font-family:\0000316}}
 .content-featured-avatar {
-  border: 0.2em solid #ba4a41;
+  -webkit-box-shadow: 0 0 6px #c3ae96;
+  -moz-box-shadow: 0 0 6px #c3ae96;
+  box-shadow: 0 0 6px #c3ae96;
   border-radius: 10em;
   float: left;
   margin-right: 1.4em;
