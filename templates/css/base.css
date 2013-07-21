@@ -643,29 +643,31 @@ a:hover, .post a:visited {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_typography\.scss}line{font-family:\0000335}}
-.content-callout h1 {
+.content-callout h1, .footer-article-endMark {
   font-style: italic;
   margin-bottom: .25em;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_typography\.scss}line{font-family:\0000339}}
-.content-callout h1:before {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_typography\.scss}line{font-family:\0000341}}
+.content-callout h1:before, .footer-article-endMark:before {
   background: #d5c7b7;
   content: "\00a0";
   left: 0;
   width: 100%;
-  height: .02em;
+  height: 1px;
   margin-top: 0.8em;
   position: absolute;
   z-index: -1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_typography\.scss}line{font-family:\0000349}}
-.content-callout h1 b {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_typography\.scss}line{font-family:\0000351}}
+.content-callout h1 b, .footer-article-endMark b {
+  display: inline-block;
   background: white;
+  line-height: 1;
   padding: 0 .3em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_typography\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_typography\.scss}line{font-family:\0000359}}
 .content-callout p {
   color: #b09576;
   font-style: italic;
@@ -675,20 +677,20 @@ a:hover, .post a:visited {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_typography\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_typography\.scss}line{font-family:\0000368}}
 .main-content aside h1, .past-articles .subheader {
   font-family: "skolar", serif;
   font-style: italic;
   font-size: 1.3em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_typography\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_typography\.scss}line{font-family:\0000376}}
 .past-articles article h1 {
   font-size: 1.4em;
   font-style: italic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_typography\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_typography\.scss}line{font-family:\0000381}}
 .highlight_text {
   background: #f8eec7;
   font-style: italic;
@@ -893,29 +895,21 @@ blockquote {
   padding: 0.2em 0;
 }
 
-/* Image Replacement */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_document\.scss}line{font-family:\00003121}}
-.screen-reader-text {
-  position: absolute;
-  top: -9999px;
-  left: -9999px;
-}
-
 /* Clearfix for floats */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_document\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_document\.scss}line{font-family:\00003122}}
 .clearfix:before,
 .clearfix:after {
   content: " ";
   display: table;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_document\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_document\.scss}line{font-family:\00003127}}
 .clearfix:after {
   clear: both;
 }
 
 /* Clearfix helpers for IE 6/7 only */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_document\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_document\.scss}line{font-family:\00003133}}
 .clearfix {
   *zoom: 1;
 }
@@ -1467,27 +1461,50 @@ img.post-photo-featured {
   margin: 1.3em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_footer\.scss}line{font-family:\000031}}
-footer {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_footer-primary\.scss}line{font-family:\000031}}
+.footer-primary {
   clear: both;
   margin-top: 3em;
   padding: 1em .5em 6em;
   text-align: center;
 }
 @media (min-width: 35em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_footer\.scss}line{font-family:\000036}}
-  footer br {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_footer-primary\.scss}line{font-family:\000036}}
+  .footer-primary br {
     display: none;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_footer\.scss}line{font-family:\0000313}}
-.footer-separator {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_footer-primary\.scss}line{font-family:\0000313}}
+.footer-primary-separator {
   display: none;
 }
 @media (min-width: 35em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_footer\.scss}line{font-family:\0000313}}
-  .footer-separator {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_footer-primary\.scss}line{font-family:\0000313}}
+  .footer-primary-separator {
     display: inline;
   }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_footer-article\.scss}line{font-family:\000031}}
+.footer-article {
+  margin-top: 4em;
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_footer-article\.scss}line{font-family:\000036}}
+.footer-article-endMark {
+  font-style: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_footer-article\.scss}line{font-family:\000039}}
+.footer-article-endMark:before {
+  margin-top: 1.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_footer-article\.scss}line{font-family:\0000314}}
+a.footer-article-endMark-icon {
+  font-size: 3em;
+  border: none;
+  color: #e1d6ca;
+  line-height: 1;
 }

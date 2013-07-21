@@ -57,15 +57,25 @@ a.btn-standard {
 }
 
 blockquote {
-  background: darken($color-typography, 24%);
-  color: darken($color-primary, 3%);
+  @include box-shadow(inset darken($color-primary, 3%) 1px 1px 5px 1px);
+  background: darken($color-primary, 2%);
+  color: $color-typography;
+}
+
+.footer-article-endMark {
+  &:before {
+    background: darken($color-primary, 4%);
+  }
+  b {
+    background: $color-primary url(../../img/posts/2013-07-19-bg.jpg) repeat;
+  }
+}
+
+a.footer-article-endMark-icon {
+  color: darken($color-primary, 4%);
 }
 
 // styles for new markup
-
-.art-top {
-  
-}
 
 .art-sbNeon {
   margin: 1.5em auto 0;

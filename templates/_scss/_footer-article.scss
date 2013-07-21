@@ -1,0 +1,19 @@
+.footer-article {
+  margin-top: 4em;
+  position: relative;
+}
+
+.footer-article-endMark {
+  @extend %title-centered;
+  font-style: normal; // overrides default title-centered behavior
+  &:before {
+    margin-top: 1.5em; // overrides default title-centered behavior
+  }
+}
+
+a.footer-article-endMark-icon {
+  font-size: 3em;
+  border: none;
+  color: darken($color-primary, 4%);
+  line-height: 1;
+}
