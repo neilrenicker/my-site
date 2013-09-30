@@ -4,7 +4,7 @@ root: "../"
 ---
 
 <section class="headline headline-with_underline clearfix">
-  <h1>I write about design, web development, and&nbsp;workflow. <span class="responsive-line_break">This is an archive of my articles, grouped by&nbsp;year.</span></h1>
+  <h1>I write about design, web development, and&nbsp;workflow. <span class="responsive-line_break">This is an archive of my articles.</span></h1>
 </section>
 
 <section class="main-content">
@@ -19,12 +19,12 @@ root: "../"
         {% endfor %}
       </ul>
     </section>
-   <!--  <section class="module-aside">
+    <!--  <section class="module-aside">
       <form class="search">
         <input type="search" class="search-query" placeholder="Search">
       </form>
     </section> -->
-    <section class="module-aside related-info">
+    <section class="related-info">
       <h1>New? Start here:</h1>
       <p>If you’re new to my site, you can get a good feeling for the things I care about by starting with these articles:</p>
       <ul>
@@ -34,15 +34,12 @@ root: "../"
       </ul>
     </section>
   </aside>
-  {% for year in site.years %}
   <section class="past-articles past-articles-right_col">
-    <h1 class="subheader-yearly_archive">{{ year.first.date | date: "%Y" }}</h1>
-      {% for post in year %}
-      <article>
-        <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b" }}<br /><b>{{ post.date | date: "%d" }}</b></time>
-        <h1><a href="{{ post.id }}" title="Read {{ post.title }}">{{ post.title }}</a></h1>
-      </article>
-      {% endfor %}
+    {% for article in site.categories.articles %}
+    <article>
+      <time datetime="{{ article.date | date: "%Y-%m-%d" }}">{{ article.date | date: "%b" }}<br /><b>{{ article.date | date: "%d" }}</b></time>
+      <h1><a href="{{ article.id }}" title="Read {{ article.title }}">{{ article.title }}</a></h1>
+    </article>
+    {% endfor %}
   </section>
-  {% endfor %}
 </section>

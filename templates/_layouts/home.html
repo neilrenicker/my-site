@@ -15,10 +15,10 @@ layout: global
     </span>
   </div>
   <article>
-    {% assign latest_post = site.posts.first %}
-    <h1><a href="{{ latest_post.id }}" title="Read {{ latest_post.title }}">{{ latest_post.title }}</a></h1>
-    <p>{{ latest_post.intro }}</p>
-    <a class="link-internal" href="{{ latest_post.id }}" title="Read {{ latest_post.title }}">Keep reading →</a>
+    {% assign latest_article = site.categories.articles.first %}
+    <h1><a href="{{ latest_article.id }}" title="Read {{ latest_article.title }}">{{ latest_article.title }}</a></h1>
+    <p>{{ latest_article.intro }}</p>
+    <a class="link-internal" href="{{ latest_article.id }}" title="Read {{ latest_article.title }}">Keep reading →</a>
   </article>
 </section>
 
@@ -32,10 +32,10 @@ layout: global
   </aside>
   <section class="past-articles past-articles-right_col">
     <h1 class="subheader">Previous Articles</h1>
-    {% for post in site.posts limit:4 %}
+    {% for article in site.categories.articles limit:4 %}
     <article>
-      <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b" }}<br /><b>{{ post.date | date: "%d" }}</b></time>
-      <h1><a href="{{ post.id }}" title="Read {{ post.title }}">{{ post.title }}</a></h1>
+      <time datetime="{{ article.date | date: "%Y-%m-%d" }}">{{ article.date | date: "%b" }}<br /><b>{{ article.date | date: "%d" }}</b></time>
+      <h1><a href="{{ article.id }}" title="Read {{ article.title }}">{{ article.title }}</a></h1>
     </article>
     {% endfor %}
     <a href="/articles" title="Articles archive">Browse older articles →</a>

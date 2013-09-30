@@ -1,0 +1,24 @@
+---
+layout: global
+root: "../"
+---
+
+<section class="headline headline-with_underline clearfix">
+  <h1>Notes: My hasty entries from the trenches.</h1>
+</section>
+<section class="main-content">
+  <aside>
+    <section class="related-info">
+      <h1>What is this?</h1>
+      <p>You can't become good at something until you've been bad at it first. I learn best by writing and teaching, so this is just me writing bad, incomplete, and hacky stuff so I can get better.</p>
+    </section>
+  </aside>
+  <section class="past-articles past-articles-right_col">
+    {% for note in site.categories.notes %}
+    <article>
+      <time datetime="{{ note.date | date: "%Y-%m-%d" }}">{{ note.date | date: "%b" }}<br /><b>{{ note.date | date: "%d" }}</b></time>
+      <h1><a href="{{ note.id }}" title="Read {{ note.title }}">{{ note.title }}</a></h1>
+    </article>
+    {% endfor %}
+  </section>
+</section>
