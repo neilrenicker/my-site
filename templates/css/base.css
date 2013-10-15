@@ -1408,13 +1408,18 @@ a.link-social:hover {
   font-style: italic;
   margin-bottom: 0em;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000316}}
+.post img {
+  margin: 0 auto;
+  display: block;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000322}}
 img.post-photo-featured {
   margin-top: 0.2em;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000322}}
   img.post-photo-featured {
     display: block;
     width: 90%;
@@ -1423,20 +1428,20 @@ img.post-photo-featured {
   }
 }
 @media (min-width: 65em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000322}}
   img.post-photo-featured {
     margin-top: 3.75em;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000335}}
 .post-meta {
   font-style: italic;
   letter-spacing: 0.2em;
   margin-top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000341}}
 .post-intro {
   font-family: "omnes-pro", sans-serif;
   font-size: 1.4em;
