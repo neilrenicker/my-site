@@ -12,6 +12,11 @@
   a:visited {
     @extend %link-standard-hover;
   }
+
+  img {
+    margin: 0 auto;
+    display: block;
+  }
 }
 
 img.post-photo-featured {
