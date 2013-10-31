@@ -1,6 +1,6 @@
 .sass-cache/
 *.scssc
 templates/css/**/*
-site/
+dist/
 node_modules/
 .DS_STORE

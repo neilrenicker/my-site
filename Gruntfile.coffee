@@ -26,16 +26,16 @@ module.exports = (grunt) ->
 
     clean:
       all:
-        src: "site/*"
+        src: "dist/*"
         dot: true # clean hidden files
 
     jekyll:
       dev:
         src: "templates"
-        dest: "site"
+        dest: "dist"
       dist:
         src: "templates"
-        dest: "site"
+        dest: "dist"
 
   grunt.loadNpmTasks "grunt-contrib-clean"
   grunt.loadNpmTasks "grunt-jekyll"
