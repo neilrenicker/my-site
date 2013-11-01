@@ -10,7 +10,7 @@ set :ssh_options, { :forward_agent => true }
 set :deploy_via, :remote_cache
 
 set :branch, "master"
-set :deploy_to, "/home/174321/domains/neilrenicker.com/html"
+set :deploy_to, "/var/www/neilrenicker.com/html"
 
 role :web, "162.243.69.214"
 role :app, "162.243.69.214"
