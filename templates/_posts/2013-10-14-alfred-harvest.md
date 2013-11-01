@@ -2,7 +2,7 @@
 layout: article
 title: Alfred + Harvest
 photo: 2013-10-14-alfred-harvest.jpg
-intro: Your time is precious. Don't waste it starting and stopping your Harvest timer. My Harvest workflow for Alfred will make tracking time fun again.
+intro: Your time is precious! Don't waste it starting and stopping your Harvest timer. My Harvest workflow for Alfred will make tracking time fun again.
 categories: articles
 
 published: true
