@@ -10,13 +10,14 @@ set :ssh_options, { :forward_agent => true }
 set :deploy_via, :remote_cache
 
 set :branch, "master"
-set :deploy_to, "/var/www/html/lifestyle.sparkboxqa.com"
+set :deploy_to, "/domains/neilrenicker.com/html"
 
-role :web, "173.203.111.48"
-role :app, "173.203.111.48"
-role :db,  "173.203.111.48", :primary => true
+role :web, "205.186.187.212"
+role :web, "205.186.187.212"
+role :db,  "205.186.187.212"
 
-set :user, "root"
+
+set :user, "neilrenicker.com"
 
 set :use_sudo, false
 

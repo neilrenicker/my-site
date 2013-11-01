@@ -5,7 +5,7 @@ url: http://neilrenicker.com
 
 # build:
 source: templates
-destination: site
+destination: dist
 
 permalink: /:categories/:title.html
 
