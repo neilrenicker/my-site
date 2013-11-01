@@ -234,16 +234,6 @@ RewriteEngine On
 RewriteRule ^journal/(.*)$ http://neilrenicker.com/articles/$1 [R=301,L]
 
 # ------------------------------------------------------------------------------
-# | Rewrite to set 'dist' as the root directory                                |
-# ------------------------------------------------------------------------------
-
-RewriteEngine on
-RewriteCond %{THE_REQUEST} dist/
-RewriteRule ^dist/(.*) http://neilrenicker.com/$1 [R=301,L]
-RewriteCond %{REQUEST_URI} !dist/
-RewriteRule ^(.*)$ /dist/$1 [L]
-
-# ------------------------------------------------------------------------------
 # | Suppressing / Forcing the "www." at the beginning of URLs                  |
 # ------------------------------------------------------------------------------
 
