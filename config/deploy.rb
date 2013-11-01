@@ -12,11 +12,11 @@ set :deploy_via, :remote_cache
 set :branch, "master"
 set :deploy_to, "/home/174321/domains/neilrenicker.com/html"
 
-role :web, "205.186.187.212"
-role :app, "205.186.187.212"
-role :db,  "205.186.187.212", :primary => true
+role :web, "162.243.69.214"
+role :app, "162.243.69.214"
+role :db,  "162.243.69.214", :primary => true
 
-set :user, "neilrenicker.com"
+set :user, "root"
 
 set :use_sudo, false
 
