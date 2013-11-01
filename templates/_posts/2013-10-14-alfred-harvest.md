@@ -2,7 +2,7 @@
 layout: article
 title: Alfred + Harvest
 photo: 2013-10-14-alfred-harvest.jpg
-intro: Your time is precious! Don't waste it starting and stopping your Harvest timer. My Harvest workflow for Alfred will make tracking time fun again.
+intro: Your time is precious. Don't waste it starting and stopping your Harvest timer. My Harvest workflow for Alfred will make tracking time fun again.
 categories: articles
 
 published: true
@@ -38,7 +38,7 @@ For the impatient, [view releases and download from Github](https://github.com/n
 
 ![alfred-harvest add note](http://f.cl.ly/items/0P3B0b03102X2M2t153f/harvest-note.gif)
 
-That's the way you do it! I hope you enjoy the workflow as much as I do. [Check out the project on Github](https://github.com/neilrenicker/alfred-harvest/), or [head directly to the downloads page](https://github.com/neilrenicker/alfred-harvest/releases).
+That's the way you do it. I hope you enjoy the workflow as much as I do! [Check out the project on Github](https://github.com/neilrenicker/alfred-harvest/), or [head directly to the downloads page](https://github.com/neilrenicker/alfred-harvest/releases).
 
 [0]: http://www.getharvest.com/
 [1]: http://www.getharvest.com/mac
