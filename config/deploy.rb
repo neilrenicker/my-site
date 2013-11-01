@@ -24,7 +24,7 @@ after "deploy:update", "deploy:cleanup"
 after "deploy", "deploy:grunt"
 
 set :default_environment, {
-  'PATH' => "/usr/local/rvm/rubies/ruby-2.0.0-p247/bin/"
+  'PATH' => "/usr/local/rvm/rubies/ruby-2.0.0-p247/bin/:$PATH"
 }
 
 namespace :deploy do
