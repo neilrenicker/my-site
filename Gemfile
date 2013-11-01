@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
 gem 'compass'
-gem 'capistrano', '~> 3.0.0'
+gem 'capistrano', '~> 2.15.5'
