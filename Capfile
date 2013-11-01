@@ -1,5 +1,3 @@
-# Load DSL and Setup Up Stages
-require 'capistrano/setup'
-
-# Includes default deployment tasks
-require 'capistrano/deploy'
+require 'rubygems'
+require 'railsless-deploy'
+load 'config/deploy.rb' if respond_to?(:namespace)

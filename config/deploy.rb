@@ -1,24 +1,24 @@
+set :domain, "neilrenicker.com"
+set :user, "neilrenicker.com"
+
 set :application, "NeilRenicker.com"
+
+# use your local repository as the source
 set :repository, "https://github.com/neilrenicker/neilrenicker.com.git"
+
+server "#{domain}", :app, :web, :db, :primary => true
+
+set :deploy_via, :copy
+set :copy_exclude, [".git", ".DS_Store"]
 set :scm, :git
-
-set :copy_strategy, :checkout
-set :keep_releases, 3
-
-ssh_options[:forward_agent] = true
-set :ssh_options, { :forward_agent => true }
-set :deploy_via, :remote_cache
-
 set :branch, "master"
-set :deploy_to, "/var/www/html/lifestyle.sparkboxqa.com"
-
-role :web, "173.203.111.48"
-role :app, "173.203.111.48"
-role :db,  "173.203.111.48", :primary => true
-
-set :user, "root"
-
+# set this path to be correct on yoru server
+set :deploy_to, "/domains/neilrenicker.com/html"
 set :use_sudo, false
+set :keep_releases, 3
+set :git_shallow_clone, 1
+
+ssh_options[:paranoid] = false
 
 after "deploy:update", "deploy:cleanup"
 after "deploy", "deploy:grunt"
