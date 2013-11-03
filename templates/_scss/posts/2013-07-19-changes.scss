@@ -75,6 +75,21 @@ a.footer-article-endMark-icon {
   color: darken($color-primary, 4%);
 }
 
+.post-tags-title {
+  color: $color-typography;
+}
+
+.post-tags-tag {
+  background: darken($color-typography, 20%);
+  &:hover {
+    background: darken($color-typography, 8%);
+  }
+
+  a {
+    color: darken($color-primary, 3%);
+  }
+}
+
 // styles for new markup
 
 .art-sbNeon {

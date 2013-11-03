@@ -84,7 +84,25 @@ a.footer-article-endMark-icon {
   color: #141617;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/posts\/2013-07-19-changes\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/posts\/2013-07-19-changes\.scss}line{font-family:\0000378}}
+.post-tags-title {
+  color: #777777;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/posts\/2013-07-19-changes\.scss}line{font-family:\0000382}}
+.post-tags-tag {
+  background: #444444;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/posts\/2013-07-19-changes\.scss}line{font-family:\0000384}}
+.post-tags-tag:hover {
+  background: #636363;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/posts\/2013-07-19-changes\.scss}line{font-family:\0000388}}
+.post-tags-tag a {
+  color: #16191a;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/posts\/2013-07-19-changes\.scss}line{font-family:\0000395}}
 .art-sbNeon {
   margin: 1.5em auto 0;
   display: block;
