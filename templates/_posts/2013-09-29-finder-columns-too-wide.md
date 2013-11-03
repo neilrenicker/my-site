@@ -2,6 +2,8 @@
 layout: article
 title: "Fix: Finder Columns Too Wide"
 categories: notes
+tags:
+- osx
 
 published: true
 

@@ -29,4 +29,14 @@ root: "../"
       <b><a class="footer-article-endMark-icon" href="/" title="NeilRenicker.com" aria-hidden="true" data-icon="&#xe005;"></a></b>
     </div>
   </footer>
+  {% unless page.tags == empty %}
+  <section class="post-tags-wrapper">
+    <h1 class="post-tags-title">Filed under:</h1>
+    <ul class="post-tags">
+      {% for tag in page.tags %}
+        <li class="post-tags-tag"><a href="/tag/{{ tag }}" title="See all posts tagged {{ tag }}">{{ tag }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endunless %}
 </div>

@@ -2,6 +2,9 @@
 layout: article
 title: "Describe Design with GIFs and Annotations"
 categories: notes
+tags:
+- design
+- workflow
 
 published: true
 

@@ -14,7 +14,7 @@ root: "../"
       <ul>
         {% for tag in site.tags %}
         <li>
-          <a href="/tag/{{ tag | first }}" title="{{ tag | first }}">{{ tag | first }}</a>
+          <a href="/tag/{{ tag | first }}" title="See all posts tagged {{ tag | first }}">{{ tag | first }}</a>
         </li>
         {% endfor %}
       </ul>

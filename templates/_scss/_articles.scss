@@ -98,3 +98,40 @@ img.post-photo-featured {
   padding: 1.2em 0;
   margin: 1.3em 0;
 }
+
+.post-tags-wrapper {
+  margin-top: 3em;
+}
+
+.post-tags {
+  @extend %list-reset;
+  display: inline-block;
+}
+
+.post-tags-title {
+  color: darken($color-primary, 55%);
+  margin-right: 1em;
+  font-weight: 400;
+  display: inline-block;
+  font-size: 1.3em;
+  font-style: italic;
+}
+
+.post-tags-tag {
+  @include border-radius(0.3em);
+  @include transition(background 0.2s ease);
+  background: #E8E0D7;
+  display: inline-block;
+  margin: 0 .6em .6em 0;
+
+  &:hover {
+    background: darken($color-primary, 5%);
+  }
+  
+  a {
+    color: #6A553D;
+    text-decoration: none;
+    border-bottom: 0;
+    padding: 0.3em 1.1em;
+  }
+}
