@@ -4,5 +4,5 @@ $.get('http://neilrenicker.tumblr.com/rss', function(data) {
   postContent = randPost.find("description").text();
   postPermalink = randPost.find("link").text();
 
-  $(".js-addQuote").text(postContent);
+  $(".js-addQuote").html(postContent);
 });
