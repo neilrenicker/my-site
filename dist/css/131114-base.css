@@ -1225,11 +1225,11 @@ input[type="search"]:focus {
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_home\.scss}line{font-family:\0000312}}
   .js .home-art_top-photo img {
-    -webkit-border-radius: 9em;
-    -moz-border-radius: 9em;
-    -ms-border-radius: 9em;
-    -o-border-radius: 9em;
-    border-radius: 9em;
+    -webkit-border-radius: 99em;
+    -moz-border-radius: 99em;
+    -ms-border-radius: 99em;
+    -o-border-radius: 99em;
+    border-radius: 99em;
   }
 }
 @media (min-width: 60em) {

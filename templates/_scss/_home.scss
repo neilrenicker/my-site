@@ -10,7 +10,7 @@
     border: solid .3em $color-primary;
     margin-top: 4em;
     .js & {
-      @include border-radius(9em);
+      @include border-radius(99em);
     }
   }
   @include respond-to(60em) {

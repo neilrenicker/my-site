@@ -1,0 +1,105 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/posts\/2013-11-13-feedback-loop\.scss}line{font-family:\0000311}}
+body {
+  background: #d9ecea;
+  color: #444b50;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/posts\/2013-11-13-feedback-loop\.scss}line{font-family:\0000316}}
+h1, h2, h3, h4, h5 {
+  color: #444b50;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/posts\/2013-11-13-feedback-loop\.scss}line{font-family:\0000320}}
+::-moz-selection {
+  background: #b7dbd7;
+  text-shadow: none;
+  color: #444b50;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/posts\/2013-11-13-feedback-loop\.scss}line{font-family:\0000326}}
+::selection {
+  background: #b7dbd7;
+  text-shadow: none;
+  color: #444b50;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/posts\/2013-11-13-feedback-loop\.scss}line{font-family:\0000332}}
+.header-primary {
+  -webkit-box-shadow: #898963 1px 1px 5px 1px;
+  -moz-box-shadow: #898963 1px 1px 5px 1px;
+  box-shadow: #898963 1px 1px 5px 1px;
+  background: #ccccb9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/posts\/2013-11-13-feedback-loop\.scss}line{font-family:\0000337}}
+.header-primary h1 {
+  color: #444b50;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/posts\/2013-11-13-feedback-loop\.scss}line{font-family:\0000341}}
+.header-primary-icon {
+  color: #7a7a59;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/posts\/2013-11-13-feedback-loop\.scss}line{font-family:\0000345}}
+.post-intro {
+  border-top-color: #444b50;
+  border-bottom-color: #444b50;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/posts\/2013-11-13-feedback-loop\.scss}line{font-family:\0000350}}
+a, a:hover, a:visited, .post a, .post a:hover, .post a:visited {
+  border-bottom-color: #737f87;
+  color: #737f87;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/posts\/2013-11-13-feedback-loop\.scss}line{font-family:\0000355}}
+a.btn-standard {
+  background: #42847d;
+  color: #cfe7e4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/posts\/2013-11-13-feedback-loop\.scss}line{font-family:\0000358}}
+a.btn-standard:hover {
+  background: #31625d;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/posts\/2013-11-13-feedback-loop\.scss}line{font-family:\0000363}}
+blockquote {
+  -webkit-box-shadow: inset #cfe7e4 1px 1px 5px 1px;
+  -moz-box-shadow: inset #cfe7e4 1px 1px 5px 1px;
+  box-shadow: inset #cfe7e4 1px 1px 5px 1px;
+  background: #d2e9e6;
+  color: #444b50;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/posts\/2013-11-13-feedback-loop\.scss}line{font-family:\0000370}}
+.footer-article-endMark:before {
+  background: #84c2bb;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/posts\/2013-11-13-feedback-loop\.scss}line{font-family:\0000373}}
+.footer-article-endMark b {
+  background: #d9ecea;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/posts\/2013-11-13-feedback-loop\.scss}line{font-family:\0000378}}
+a.footer-article-endMark-icon {
+  color: #84c2bb;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/posts\/2013-11-13-feedback-loop\.scss}line{font-family:\0000382}}
+.post-tags-title {
+  color: #444b50;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/posts\/2013-11-13-feedback-loop\.scss}line{font-family:\0000386}}
+.post-tags-tag {
+  background: #84c2bb;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/posts\/2013-11-13-feedback-loop\.scss}line{font-family:\0000388}}
+.post-tags-tag:hover {
+  background: #62b1a8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/posts\/2013-11-13-feedback-loop\.scss}line{font-family:\0000392}}
+.post-tags-tag a {
+  color: #cfe7e4;
+}
