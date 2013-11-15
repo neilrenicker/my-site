@@ -15,7 +15,7 @@ published: true
 
 ---
 
-I recently took two days last week to stay at home, be with my family, and work on side projects. I was prepared to be inspired and diligent. I had a simple, yet ambitious plan for creating things.
+I recently took two vacation days to stay at home, be with my family, and work on side projects. I was prepared to be inspired and diligent. I had a simple, yet ambitious plan for creating things.
 
 In short, it didn’t work. I did very little writing (ironically, I started writing this article before work on the Monday *after* my mini vacation). I got a little done, but for the most part, I was sidetracked and a bit bored. 
 
