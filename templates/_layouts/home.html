@@ -3,19 +3,21 @@ layout: global
 ---
 
 <section class="feature-article clearfix">
-  <div class="home-art_top">
-    <span class="home-art_top-photo" data-picture data-alt="Alfred / Harvest Workflow by Neil Renicker">
-        <span data-src="../img/home/2013-10-14-alfredharvest-small.jpg"></span>
-        <span data-src="../img/home/2013-10-14-alfredharvest-small@2x.jpg" data-media="(min-device-pixel-ratio: 2.0)"></span>
-        <span data-src="../img/home/2013-10-14-alfredharvest-medium.jpg" data-media="(min-width: 40em)"></span>
-        <span data-src="../img/home/2013-10-14-alfredharvest-medium@2x.jpg" data-media="(min-width: 40em) and (min-device-pixel-ratio: 2.0)"></span>
-        <noscript>
-          <img src="../img/home/2013-10-14-alfredharvest-small.jpg" alt="Alfred / Harvest Workflow by Neil Renicker">
-        </noscript>
-    </span>
-  </div>
+  {% assign latest_article = site.categories.articles.first %}
+  <a href="{{ latest_article.id }}" title="Read {{ latest_article.title }}">
+    <div class="home-art_top">
+      <span class="home-art_top-photo" data-picture data-alt="Feedback Loop by Neil Renicker">
+          <span data-src="../img/home/feedback-loop-small.jpg"></span>
+          <span data-src="../img/home/feedback-loop-small@2x.jpg" data-media="(min-device-pixel-ratio: 2.0)"></span>
+          <span data-src="../img/home/feedback-loop-medium.jpg" data-media="(min-width: 40em)"></span>
+          <span data-src="../img/home/feedback-loop-medium@2x.jpg" data-media="(min-width: 40em) and (min-device-pixel-ratio: 2.0)"></span>
+          <noscript>
+            <img src="../img/home/feedback-loop-small.jpg" alt="Feedback Loop by Neil Renicker">
+          </noscript>
+      </span>
+    </div>
+  </a>
   <article>
-    {% assign latest_article = site.categories.articles.first %}
     <h1><a href="{{ latest_article.id }}" title="Read {{ latest_article.title }}">{{ latest_article.title }}</a></h1>
     <p>{{ latest_article.intro }}</p>
     <a class="link-internal" href="{{ latest_article.id }}" title="Read {{ latest_article.title }}">Keep reading →</a>

@@ -7,6 +7,38 @@
     <atom:link href="http://neilrenicker.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Feedback Loop</title>
+        <description>&lt;p&gt;I recently took two days last week to stay at home, be with my family, and work on side projects. I was prepared to be inspired and diligent. I had a simple, yet ambitious plan for creating things.&lt;/p&gt;
+
+&lt;p&gt;In short, it didn’t work. I did very little writing (ironically, I started writing this article before work on the Monday &lt;em&gt;after&lt;/em&gt; my mini vacation). I got a little done, but for the most part, I was sidetracked and a bit bored.&lt;/p&gt;
+
+&lt;p&gt;Bored! How could I be bored when there are a thousand wonderful things in our industry to be learning and creating? I contrast this with the “filled-to-the-brim”, “always-on” inspiration I feel during the work week when I’m working on other things.&lt;/p&gt;
+
+&lt;p&gt;I’ve said this before, and it’s still as true as ever: &lt;em&gt;We’re most inspired when we should be working on something else.&lt;/em&gt; What’s going on here? What’s the magic that’s present during regular working hours, but vaporizes during vacation or dedicated “side project” time?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Passive thought?&lt;/strong&gt; Do our brains have a &lt;a href=&#39;http://www.arlovance.com/content/articles/activepassive.pdf&#39;&gt;peripheral thought life&lt;/a&gt; that flourishes when not given direct attention?&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Time gluttony?&lt;/strong&gt; Do we thrive under the constraints and pressure of small time slots, but get fat and lazy when we have a large block of time to do whatever we want?&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Bad working habits?&lt;/strong&gt; If you’re like me, you’re constantly optimizing your work habits to get the most out of the time you have. But I wonder if the prospect of 2-3 full days of working only on stuff we love is just too good to be true. Have snappy online social services ruined our ability to focus and &lt;a href=&#39;http://calnewport.com/blog/2012/11/21/knowledge-workers-are-bad-at-working-and-heres-what-to-do-about-it/&#39;&gt;press through difficult work&lt;/a&gt;? Have we succumbed to the tyranny of the push notification, and surrendered up our mental disciplines in return?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#39;your_job_is_not_a_curse&#39;&gt;Your Job is Not a Curse&lt;/h2&gt;
+
+&lt;p&gt;Each of those hypotheses for inspiration slump lead me to conclude that if you’re serious about side projects, your day job isn’t a curse. It might be your biggest blessing! The time that you have to write, work on side projects, and self-teach may be short, but it can have a higher net value than day upon day of free time. You appreciate your free time when you get it, and you’re constrained to work quickly and with focus.&lt;/p&gt;
+
+&lt;p&gt;There’s a remarkable feedback loop present between day work and night work. Even if your day job is completely unrelated to your hobbies, you hear things at work that give you ideas to boost up your side projects. You have the benefit of the energy, camaraderie, and the criticism of your coworkers.&lt;/p&gt;
+
+&lt;p&gt;Then at home, you practice things in your side projects that make your more competent at work. You’re refreshed by working on stuff you really want to, and you develop insight and skills that make you a more valuable employee.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Killing either part of this balanced feedback loop can break the circuit and stop the flow.&lt;/em&gt;&lt;/p&gt;</description>
+        <pubDate>Thu, 14 Nov 2013 00:00:00 -0500</pubDate>
+        <link>http://neilrenicker.com/articles/feedback-loop</link>
+        <guid isPermaLink="true">http://neilrenicker.com/articles/feedback-loop</guid>
+      </item>
+    
+      <item>
         <title>Describe Design with GIFs and Annotations</title>
         <description>&lt;p&gt;In a distributed workplace, and in online communication with clients, talking about design is difficult. Talking about animation and interaction in design is even more difficult.&lt;/p&gt;
 
@@ -316,62 +348,6 @@
         <pubDate>Tue, 05 Mar 2013 00:00:00 -0500</pubDate>
         <link>http://neilrenicker.com/speaking/craftsman</link>
         <guid isPermaLink="true">http://neilrenicker.com/speaking/craftsman</guid>
-      </item>
-    
-      <item>
-        <title>I'm a Designer and I'm Learning Ruby</title>
-        <description>&lt;p&gt;I recently took an apprenticeship position with the venerable &lt;a href=&#39;http://seesparkbox.com&#39;&gt;Sparkbox&lt;/a&gt;. They&amp;#8217;re an incredible group of folks who work hard, love what they do, and give back tirelessly to the web industry. The second item of business for my apprenticeship (after spending a few days learning version control with &lt;a href=&#39;http://git-scm.com/&#39; title=&#39;Git source control&#39;&gt;Git&lt;/a&gt; and &lt;a href=&#39;https://github.com/&#39; title=&#39;Github&#39;&gt;Github&lt;/a&gt;) was to learn the &lt;a href=&#39;http://www.ruby-lang.org/&#39; title=&#39;Ruby&#39;&gt;Ruby programming language&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#39;a_dash_of_helpful_history&#39;&gt;A Dash of Helpful History&lt;/h2&gt;
-
-&lt;p&gt;Now, lest you glaze over that last sentence and remain entirely unimpressed, here&amp;#8217;s a bit of history on the subject of me:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Drew drawings and painted paintings as a little kid&lt;/li&gt;
-
-&lt;li&gt;First did graphic design using a crappy Microsoft publisher tool I can&amp;#8217;t remember the name of (made an ad to sell puppies)&lt;/li&gt;
-
-&lt;li&gt;Studied &amp;#8220;Graphic Commercial Art&amp;#8221; at a career high school&lt;/li&gt;
-
-&lt;li&gt;Studied &lt;em&gt;Fine Art&lt;/em&gt; in college – yes, painting and drawing&lt;/li&gt;
-
-&lt;li&gt;Started a &lt;a href=&#39;http://sturdy.co&#39;&gt;graphic design company&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;Realized that the web existed and was amazing, so I stumbled through learning HTML and CSS&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I digress. The brief history was given to show you that I&amp;#8217;m just your average dude – more specifically, I&amp;#8217;m just your average designer dude. I love designing stuff - arranging, organizing, communicating, beautifying. I&amp;#8217;m right at home in Illustrator, Photoshop, or InDesign. I consume fonts like candy. I really enjoy &lt;a href=&#39;http://dribbble.com/neilrenicker&#39;&gt;Dribbble&lt;/a&gt; - sharing my illustration and branding work there is a real thrill. I&amp;#8217;m a designer through and through.&lt;/p&gt;
-
-&lt;h2 id=&#39;now_that_youre_thoroughly_disgusted_with_my_forthright_attitude&#39;&gt;Now That You&amp;#8217;re Thoroughly Disgusted With My Forthright Attitude&lt;/h2&gt;
-
-&lt;p&gt;For some time after I &amp;#8220;discovered&amp;#8221; the web, I was incredibly intimidated by it. I realized that I could be a part of designing websites, but the thought of making them &amp;#8220;clicky&amp;#8221; was off limits for me. I had a friend who had the magical powers, so I designed something in Illustrator and had him code me up a portfolio site for my graphic design business.&lt;/p&gt;
-
-&lt;p&gt;As time passed, I realized that maintaining my hands-off relationship with the web was really holding me back. I began selling websites to my clients - I would design a complete system in Photoshop, then pass the designs off to a contractor to code them up for me. I didn&amp;#8217;t understand the development process – I concerned myself with the user experience and graphical elements of my sites.&lt;/p&gt;
-
-&lt;p&gt;I grew increasingly fascinated with the way web technology worked, however. I thought &amp;#8220;wow, if so-and-so can build that stuff, I&amp;#8217;m sure I can learn how to do it too!&amp;#8221; So by golly, I did. I bought some HTML books, and studied up on the rhetoric. I browsed &lt;a href=&#39;http://www.smashingmagazine.com/&#39;&gt;Smashing Magazine&lt;/a&gt;, &lt;a href=&#39;http://37Signals.com&#39;&gt;37Signals&lt;/a&gt;, and other sites at the recommendation of a friend, and slowly brought myself up to speed with the Who&amp;#8217;s Whos and the What&amp;#8217;s Whats of the industry from my quiet and lonely little home office of one.&lt;/p&gt;
-
-&lt;h2 id=&#39;back_to_the_actual_reason_youre_reading_this_article&#39;&gt;Back to the Actual Reason You&amp;#8217;re Reading This Article&lt;/h2&gt;
-
-&lt;p&gt;Before too long, I was coding up decent looking sites all by myself - from content strategy to design to development and Content Management System integration. That brings us right up to the present, wherein I jumped at the opportunity to work with the amazing Sparkbox guys for six months to learn their approach to responsive web design and development.&lt;/p&gt;
-
-&lt;h2 id=&#39;so_whats_ruby_and_why_am_i_excited_to_be_learning_it&#39;&gt;So What&amp;#8217;s Ruby and Why Am I Excited To Be Learning It?&lt;/h2&gt;
-
-&lt;p&gt;Ruby is a programming language that lets you write code to tell your computer what to do. It was written by &lt;a href=&#39;http://en.wikipedia.org/wiki/Yukihiro_Matsumoto&#39;&gt;a really smart dude from Japan&lt;/a&gt;. It&amp;#8217;s a lot different than a markup language like HTML or a styling language like CSS - it&amp;#8217;s built to provide logic and flow instead of to primarily create visual experiences. It&amp;#8217;s really popular for creating web applications, especially since it&amp;#8217;s the foundation for a programming framework called Ruby on Rails.&lt;/p&gt;
-
-&lt;p&gt;I&amp;#8217;m amazed and extremely excited to be learning it. Here&amp;#8217;s why:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I&amp;#8217;m a visually oriented person. I always thought I was too &amp;#8220;right brain&amp;#8221; to learn a complex programming language. That might be true, but I&amp;#8217;m learning it anyway.&lt;/li&gt;
-
-&lt;li&gt;It&amp;#8217;s not as hard to learn as I thought it would be. Don&amp;#8217;t get me wrong, there are days that I want to go home and weep in my bed because I feel so frustrated and confused about what I&amp;#8217;m trying to learn. There are days I feel so discouraged about my (lack of) progress that I want to give up and go design puppy ads. But by and large, I&amp;#8217;m not completely stumped. I&amp;#8217;m picking things up. I&amp;#8217;m getting a feel for the language. I&amp;#8217;m starting to grasp the basic constructs of programming in general. I&amp;#8217;m learning Ruby. This isn&amp;#8217;t because I&amp;#8217;m unusually brilliant - I&amp;#8217;m just determined! You could do the same.&lt;/li&gt;
-
-&lt;li&gt;I love building things. Becoming comfortable with programming languages like Ruby and Javascript will remove more barriers standing in the way of my desire to build. I&amp;#8217;ll feel more in control of my projects, have a clearer sense of the work required to make them run, and know what to do when things break.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I wrote this post mainly to encourage you (if you&amp;#8217;re a designer) to try to learn a programming language. It will &lt;a href=&#39;http://37signals.com/svn/posts/3451-learning-rails-made-me-a-better-designer&#39; title=&#39;Learning Rails Made Me a Better Designer&#39;&gt;make you a better designer&lt;/a&gt; in the long run. You don&amp;#8217;t have to worry about being the best programmer in the world - you just have to get started. You&amp;#8217;ll develop a deeper respect for programmers who are really good at their craft, you&amp;#8217;ll find that learning new technologies in the future becomes easier, and best of all, &lt;em&gt;you&amp;#8217;ll be able to build stuff&lt;/em&gt;.&lt;/p&gt;</description>
-        <pubDate>Sat, 23 Feb 2013 00:00:00 -0500</pubDate>
-        <link>http://neilrenicker.com/articles/designer-learning-ruby</link>
-        <guid isPermaLink="true">http://neilrenicker.com/articles/designer-learning-ruby</guid>
       </item>
     
   </channel>
