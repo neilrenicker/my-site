@@ -7,6 +7,36 @@
     <atom:link href="http://neilrenicker.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Terminal Shortcuts</title>
+        <description>&lt;p&gt;I&amp;#8217;m trying to get faster at using my terminal. I plan for this to become a growing list of shortcuts I want to commonly use for speedier terminal navigation.&lt;/p&gt;
+
+&lt;p&gt;I realize there are &lt;a href=&#39;http://www.gnu.org/software/bash/manual/bashref.html&#39;&gt;references&lt;/a&gt; for this sort of thing already—but this isn&amp;#8217;t meant to be comprehensive. It&amp;#8217;s meant to be a simplified and helpful layman&amp;#8217;s guide. This is mainly for my own benefit, but as always, you&amp;#8217;re welcome to follow along.&lt;/p&gt;
+
+&lt;h3 id=&#39;clearing_and_navigation&#39;&gt;Clearing and navigation:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Delete line up to beginning: &lt;code&gt;Ctrl + U&lt;/code&gt;&lt;/li&gt;
+
+&lt;li&gt;Delete complete line: &lt;code&gt;Ctrl + A, Ctrl + K&lt;/code&gt;&lt;/li&gt;
+
+&lt;li&gt;Cancel current command: &lt;code&gt;Ctrl + C&lt;/code&gt;.&lt;/li&gt;
+
+&lt;li&gt;Recall last deleted command: &lt;code&gt;Ctrl + Y&lt;/code&gt;&lt;/li&gt;
+
+&lt;li&gt;Go to beginning of line: &lt;code&gt;Ctrl + A&lt;/code&gt;&lt;/li&gt;
+
+&lt;li&gt;Go to end of line: &lt;code&gt;Ctrl + E&lt;/code&gt;&lt;/li&gt;
+
+&lt;li&gt;Remove words ahead: &lt;code&gt;Ctrl + K&lt;/code&gt;&lt;/li&gt;
+
+&lt;li&gt;Remove characters to left, until beginning of word: &lt;code&gt;Ctrl + W&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        <pubDate>Thu, 12 Dec 2013 00:00:00 -0500</pubDate>
+        <link>http://neilrenicker.com/notes/terminal-shortcuts</link>
+        <guid isPermaLink="true">http://neilrenicker.com/notes/terminal-shortcuts</guid>
+      </item>
+    
+      <item>
         <title>Feedback Loop</title>
         <description>&lt;p&gt;I recently took two vacation days to stay at home, be with my family, and work on side projects. I was prepared to be inspired and diligent. I had a simple, yet ambitious plan for creating things.&lt;/p&gt;
 
@@ -298,56 +328,6 @@
         <pubDate>Sat, 16 Mar 2013 00:00:00 -0400</pubDate>
         <link>http://neilrenicker.com/articles/on-the-go</link>
         <guid isPermaLink="true">http://neilrenicker.com/articles/on-the-go</guid>
-      </item>
-    
-      <item>
-        <title>The Making of a Web Craftsman</title>
-        <description>&lt;p&gt;Here are the links to resources I mentioned during my talk:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#39;http://neil.re/peoples&#39;&gt;neil.re/peoples&lt;/a&gt; &lt;em&gt;A list of must-follow thought leaders, resources, and blogs focused on front-end web development&lt;/em&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#39;http://neil.re/side-projects&#39;&gt;neil.re/side-projects&lt;/a&gt; &lt;em&gt;Resources for thinking of web side projects&lt;/em&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#39;http://neil.re/meetups&#39;&gt;neil.re/meetups&lt;/a&gt; &lt;em&gt;Great Dayton web meetups&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Here are the quotes I mentioned during the talk, with links to each of the articles / books referenced:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“If there’s one thing designers are good at — it’s following the Internet, and there’s already plenty of information about the latest tools and software there. Tools are merely instruments that help us accomplish a task, but tools can’t think, so expand on your approaches and point of view.” &lt;br /&gt;-Aura Seltzer, &lt;a href=&#39;http://cognition.happycog.com/article/elevating-the-podium&#39;&gt;“Elevating the Podium”&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“If your life is primarily consumed by your work, then loving your work is one of the most important keys to loving your life.” &lt;br /&gt;-Chad Fowler, &lt;a href=&#39;http://www.amazon.com/Passionate-Programmer-Remarkable-Development-Pragmatic/dp/1934356344&#39;&gt;The Passionate Programmer&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“That’s the tough thing about the web. In an instant, you can see somebody’s work that took them not just months to create, but years to come into their own style. When I understood that there will always be people ahead of me, I realized I didn’t have to be jealous, but that I could be happy about the work I’m making right now. If you keep creating, you’re just going to get better.” &lt;br /&gt;-Kyle Steed, &lt;a href=&#39;http://thegreatdiscontent.com/kyle-steed&#39;&gt;The Great Discontent&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“Challenge yourself. Humble yourself. Get over yourself. Whatever you do, make sure it’s well outside your comfort zone. You’ll learn and grow and become better, stronger, and a lot more self-assured. &amp;gt; &amp;gt; Learning to not care what others think about you – in a healthy way – is incredibly empowering.” &lt;br /&gt;-Jeff Haden, &lt;a href=&#39;http://www.inc.com/jeff-haden/your-most-important-business-investment.html&#39;&gt;Your Most Important Business Invesment&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“In the traditional professional world (and specifically the IT trade), we’re less likely to ask each other for help. Depending on others is often seen as a sign of weakness. We’re afraid to admit that we’re not perfect. Everything is competition. Only the strong survive, and all that. Unfortunately, this leads to an extremely underdeveloped system of mentoring.”&lt;br /&gt;-Chad Fowler, &lt;a href=&#39;http://www.amazon.com/Passionate-Programmer-Remarkable-Development-Pragmatic/dp/1934356344&#39;&gt;The Passionate Programmer&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“The horizontal stroke of the ‘T’ is the disposition for collaboration across disciplines. The vertical stroke of the ‘T’ is a depth of skill that allows them to contribute to the creative process.” &lt;br /&gt;-Tim Brown, &lt;a href=&#39;http://chiefexecutive.net/ideo-ceo-tim-brown-t-shaped-stars-the-backbone-of-ideoae%E2%84%A2s-collaborative-culture&#39;&gt;T-Shaped Stars: The Backbone of IDEO’s Collaborative Culture&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“If programmers got paid to remove code from sofware instead of writing new code, software would be a whole lot better.” &lt;br /&gt;-Nicholas Negroponte, “And, the rest of the (AIGA Conference) story”, as quoted in &lt;a href=&#39;http://gettingreal.37signals.com/&#39;&gt;Getting Real&lt;/a&gt; by 37Signals&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“…if you could give one piece of advice to another designer starting out, what would you say?”&lt;br /&gt; “…my answer is always, find something you’re passionate about and write about that passion.”&lt;br /&gt;-Cameron Moll on &lt;a href=&#39;http://thegreatdiscontent.com/cameron-moll&#39;&gt;The Great Discontent&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-        <pubDate>Tue, 05 Mar 2013 00:00:00 -0500</pubDate>
-        <link>http://neilrenicker.com/speaking/craftsman</link>
-        <guid isPermaLink="true">http://neilrenicker.com/speaking/craftsman</guid>
       </item>
     
   </channel>
