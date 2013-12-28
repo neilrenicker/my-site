@@ -9,7 +9,7 @@
   font-family: $subfont;
   font-size: 1.4em;
   margin: 1.6em 0;
-  @include respond-to(30em) {
+  @include sb-media(30em) {
     font-size: 1.4em;
   }
 }
@@ -27,7 +27,7 @@
   [data-icon]:before {
     margin-right: .6em;
   }
-  @include respond-to(40em) {
+  @include sb-media(40em) {
     text-align: justify;
   }
   &:after {
@@ -49,14 +49,14 @@ a.link-social {
   &:hover {
     color: darken($color-typography, 8%);
   }
-  @include respond-to(40em) {
+  @include sb-media(40em) {
     display: inline-block;  
     width: auto;
   }
 }
 
 a.link-social-attention {
-  @include respond-to(40em) {
+  @include sb-media(40em) {
     display: inline-block;
   }
 }

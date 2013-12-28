@@ -19,7 +19,7 @@ a.btn {
   border-bottom: none;
   text-decoration: none;
   font-family: sans-serif;
-  @include respond-to(40em) {
+  @include sb-media(40em) {
     padding: 0.7em 1.4em;
   }
 }
@@ -30,7 +30,7 @@ a.btn-standard {
   font-size: .7em;
   font-weight: 700;
   text-transform: uppercase;
-  @include respond-to(40em) {
+  @include sb-media(40em) {
     font-size: .8em;
   }
   &:hover {

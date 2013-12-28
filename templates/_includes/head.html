@@ -10,11 +10,16 @@
     <title>{% if page.title %} {{ page.title }} | {% endif %}NeilRenicker.com</title>
     <meta name="description" content="I'm a designer, developer, and writer living and working in the Midwest. I write about design, web development, and workflow; I hope you'll follow along.">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="{{ root }}css/131114-base.css">
+    <!--[if (lt IE 9) & (!IEMobile)]>
+      <link href="{{ root }}css/no-mq-base.css" rel="stylesheet">
+      <![endif]-->
+      <!--[if (gte IE 9) | (IEMobile)]><!-->
+      <link rel="stylesheet" href="{{ root }}css/mq-base.css">
+    <!--<![endif]-->
     {% if page.css %}
     <link rel="stylesheet" href="{{ root }}css/posts/{{ page.css }}.css">
     {% endif %}
-    <script type="text/javascript" src="//use.typekit.net/qvv0wbm.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/mak6cok.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <script src="{{ root }}js/vendor/modernizr-2.6.2.min.js"></script>
   </head>

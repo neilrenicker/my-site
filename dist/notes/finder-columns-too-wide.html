@@ -11,9 +11,14 @@
     <title> Fix: Finder Columns Too Wide | NeilRenicker.com</title>
     <meta name="description" content="I'm a designer, developer, and writer living and working in the Midwest. I write about design, web development, and workflow; I hope you'll follow along.">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="../css/131114-base.css">
+    <!--[if (lt IE 9) & (!IEMobile)]>
+      <link href="../css/no-mq-base.css" rel="stylesheet">
+      <![endif]-->
+      <!--[if (gte IE 9) | (IEMobile)]><!-->
+      <link rel="stylesheet" href="../css/mq-base.css">
+    <!--<![endif]-->
     
-    <script type="text/javascript" src="//use.typekit.net/qvv0wbm.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/mak6cok.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
   </head>
@@ -22,14 +27,14 @@
     <!--[if lt IE 7]>
     <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 <![endif]-->
-<header class="header-primary clearfix">
-  <section class="header-primary-container">
-    <hgroup class="header-primary-logo">
+<header class="site-header">
+  <div class="site-header--container">
+    <div class="site-header--logo">
       <a href="/" title="NeilRenicker.com">
-        <span class="header-primary-icon" aria-hidden="true" data-icon="&#xe005;"></span>
+        <span class="site-header--icon" aria-hidden="true" data-icon="&#xe005;"></span>
         <h1>Neil Renicker</h1>
       </a>
-    </hgroup>
+    </div>
     <nav>
       <ul>
         <li><a class="btn btn-standard" href="/articles" title="Articles I've Written">Articles</a></li>
@@ -37,7 +42,7 @@
         <li><a class="btn btn-standard" href="/about" title="About Me">About</a></li>
       </ul>
     </nav>
-  </section>
+  </div>
 </header>
     
     <div class="art-top">

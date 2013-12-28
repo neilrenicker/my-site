@@ -72,13 +72,13 @@
 
 img.post-photo-featured {
   margin-top: 0.2em;
-  @include respond-to(40em) {
+  @include sb-media(40em) {
     display: block;
     width: 90%;
     max-width: 53.8em;
     margin: 2.75em auto 0;
   }
-  @include respond-to(65em) {
+  @include sb-media(65em) {
     margin-top: 3.75em;
   }
 }
