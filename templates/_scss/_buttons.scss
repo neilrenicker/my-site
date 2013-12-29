@@ -1,50 +1,33 @@
 /* Links and buttons */
 
-a, a:visited {
-  @extend %link-standard;
-}
-
-a:hover {
-  @extend %link-standard-hover;
-}
-
 .link-internal {
   font-style: italic;
 }
 
-a.btn {
-  @include border-radius(.4em);
-  @include transition(background 0.3s ease);
-  padding: 0.3em 0.6em;
-  border-bottom: none;
-  text-decoration: none;
+.btn {
+  // remove default button styles
+  border: none;
+  margin: 0;
+
+  @include border-radius(.2em);
+  @extend %quick-transition;
   font-family: sans-serif;
+  cursor: pointer;
+  padding: 0.3em 0.6em;
+  text-decoration: none;
+
   @include sb-media(40em) {
     padding: 0.7em 1.4em;
   }
 }
 
-a.btn-standard {
+.btn_standard {
   background: $color-primary;
   color: $color-typography;
-  font-size: .7em;
   font-weight: 700;
   text-transform: uppercase;
-  @include sb-media(40em) {
-    font-size: .8em;
-  }
+
   &:hover {
     background: darken($color-primary, 5%);
-  }
-}
-
-a.btn-attention {
-  background: $color-secondary;
-  color: lighten($color-primary, 10%);
-  font-size: .9em;
-  font-weight: 400;
-  letter-spacing: .1em;
-  &:hover {
-    background: darken($color-secondary, 5%);
   }
 }
