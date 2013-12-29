@@ -8,18 +8,8 @@ textarea {
   color: $color-typography;
 }
 
-h1, h2, h3, h4, h5 {
-  color: darken($color-typography, 10%);
-  font-weight: 700;
-  a, a:visited {
-    text-decoration: none;
-    color: darken($color-typography, 10%);
-    border-bottom: 0;
-  }
-  a:hover {
-    color: darken($color-typography, 13%);
-    border-bottom: 0;
-  }
+a, a:visited {
+  text-decoration: none;
 }
 
 p, pre {
@@ -38,7 +28,7 @@ ol li {
 
 body {
   background: white;
-  font-family: $font;
+  font-family: $font-serif;
   font-size: 1em;
   text-align: left;
 }
@@ -83,7 +73,7 @@ blockquote {
   font: {
     size: .6em;
     style: normal;
-    family: $subfont;
+    family: $font-sans;
     weight: 400;
   }
   display: block;

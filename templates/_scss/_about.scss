@@ -6,7 +6,7 @@
 }
 
 .content-featured-intro {
-  font-family: $subfont;
+  font-family: $font-sans;
   font-size: 1.4em;
   margin: 1.6em 0;
   @include sb-media(30em) {
@@ -42,7 +42,7 @@ a.link-social {
   border-bottom: none;
   color: $color-typography;
   display: inline-block;
-  font-family: $subfont;
+  font-family: $font-sans;
   font-size: 1em;
   padding: .5em 0;
   width: 49.3%;
