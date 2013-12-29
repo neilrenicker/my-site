@@ -21,13 +21,27 @@
   }
 }
 
-.btn_standard {
-  background: $color-primary;
-  color: $color-typography;
+%btn-base {
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.btn_standard {
+  @extend %btn-base;
+  background-color: $color-primary;
+  color: $color-typography;
 
   &:hover {
     background: darken($color-primary, 5%);
+  }
+}
+
+.btn_translucent {
+  @extend %btn-base;
+  background-color: rgba(255, 255, 255, .6);
+  color: $c--gray-dark;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, .95);
   }
 }
