@@ -5,22 +5,22 @@ site-header-modifier: site-header_with-hero-article
 
 {% include hero-article.html %}
 
-<section class="main-content">
-  <aside>
-    <h1>Of Note</h1>
-    <section>
-      <p>I had the pleasure of answering a few questions over on the Code School blog about my recent Sparkbox apprenticeship.</p>
-      <a href="http://blog.codeschool.com/post/57697625689/learn-by-apprenticing" title="Learn by Apprenticing" class="link-internal">Check out the post →</a>
-    </section>
-  </aside>
-  <section class="past-articles past-articles-right_col">
-    <h1 class="subheader">Previous Articles</h1>
-    {% for article in site.categories.articles limit:4 %}
-    <article>
-      <time datetime="{{ article.date | date: "%Y-%m-%d" }}">{{ article.date | date: "%b" }}<br /><b>{{ article.date | date: "%d" }}</b></time>
-      <h1><a href="{{ article.id }}" title="Read {{ article.title }}">{{ article.title }}</a></h1>
+<section class="post-listing vertical-space">
+{% for article in site.posts limit:10 %}
+  {% if article.categories contains 'articles' %}
+    <article class="post-listing--article">
+      <h1 class="post-listing--article-title"><a href="{{ article.id }}" title="Read {{ article.title }}">{{ article.title }}</a></h1>
+      <time class="post-listing--article-date" datetime="{{ latest_article.date | date: "%Y-%m-%d" }}">{{ latest_article.date | date: "%B %d, %Y" }}</time>
+      {% if article.intro %}
+      <p class="post-listing--article-intro">{{ article.intro }}</p>
+      {% endif %}
     </article>
-    {% endfor %}
-    <a href="/articles" title="Articles archive">Browse older articles →</a>
-  </section>
+  {% else %}
+    <article class="post-listing--note">
+      <time class="post-listing--note-date" datetime="{{ article.date | date: "%Y-%m-%d" }}">{{ article.date | date: "%b" }}<br /><b>{{ article.date | date: "%d" }}</b></time>
+      <h1 class="post-listing--note-title"><a href="{{ article.id }}" title="Read {{ article.title }}">{{ article.title }}</a></h1>
+    </article>
+  {% endif %}
+{% endfor %}
+  <a href="/articles" title="Articles archive">Browse older posts →</a>
 </section>
