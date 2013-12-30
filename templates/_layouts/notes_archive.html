@@ -7,19 +7,21 @@ root: "../"
   <h1 class="page-intro--headline">Notes: My hasty entries from the trenches.</h1>
 </section>
 
-<section class="main-content">
-  <aside>
-    <section class="related-info">
-      <h1>What is this?</h1>
-      <p>You can't become good at something until you've been bad at it first. I learn best by writing and teaching, so this is just me writing bad, incomplete, and hacky stuff so I can get better.</p>
-    </section>
+<main class="layout--main">
+  <aside class="sidebar layout--left-third">
+    <h3 class="sidebar--title">What is this?</h3>
+    <div class="sidebar--text-block">
+      <p class="sidebar--content_with-underline">You can't become good at something until you've been bad at it first. I learn best by writing and teaching, so this is just me writing bad, incomplete, and hacky stuff so I can get better.</p>
+    </div>
   </aside>
-  <section class="past-articles past-articles-right_col">
+  <section class="post-listing layout--right-twothirds">
     {% for note in site.categories.notes %}
-    <article>
-      <time datetime="{{ note.date | date: "%Y-%m-%d" }}">{{ note.date | date: "%b" }}<br /><b>{{ note.date | date: "%d" }}</b></time>
-      <h1><a href="{{ note.id }}" title="Read {{ note.title }}">{{ note.title }}</a></h1>
-    </article>
+      <article class="post-listing--condensed">
+        <a class="post-listing--post-link" href="{{ note.id }}" title="Read {{ note.title }}">
+          <time class="post-listing--condensed-date" datetime="{{ note.date | date: "%Y-%m-%d" }}">{{ note.date | date: "%b" }}<br /><b>{{ note.date | date: "%d" }}</b></time>
+          <h1 class="post-listing--condensed-title">{{ note.title }}</h1>
+        </a>
+      </article>
     {% endfor %}
   </section>
-</section>
+</main>

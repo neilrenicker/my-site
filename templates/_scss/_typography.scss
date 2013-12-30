@@ -15,7 +15,7 @@
   margin-bottom: .25em;
   text-align: center;
   &:before {
-    background: $color-lines;
+    background: $c--gray-light-3x;
     content: "\00a0";
     left: 0;
     width: 100%;
@@ -39,14 +39,6 @@
   font-weight: 400;
   margin: 0;
   text-align: center;
-}
-
-%title-aside {
-  font: {
-    family: $font-serif;
-    style: italic;
-    size: 1.3em;
-  }
 }
 
 %title-article_list {

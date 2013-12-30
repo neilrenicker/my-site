@@ -22,7 +22,7 @@
 }
 
 .nav-social {
-  border-top: solid .1em $color-lines;
+  border-top: $light-line;
   padding-top: 2.2em;
   [data-icon]:before {
     margin-right: .6em;

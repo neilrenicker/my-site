@@ -7,39 +7,36 @@ root: "../"
   <h1 class="page-intro--headline">I write about design, web development, and workflow. This is an archive of my articles.</h1>
 </section>
 
-<section class="main-content">
-  <aside>
-    <section class="tags">
-      <h1>Browse by category</h1>
+<main class="layout--main">
+  <aside class="sidebar layout--left-third">
+    <h3 class="sidebar--title">Browse by category</h3>
+    <div class="post-tags">
       <ul>
         {% for tag in site.tags %}
         <li>
-          <a href="/tag/{{ tag | first }}" title="See all posts tagged {{ tag | first }}">{{ tag | first }}</a>
+          <a class="post-tags--btn btn btn_standard" href="/tag/{{ tag | first }}" title="See all posts tagged {{ tag | first }}">{{ tag | first }}</a>
         </li>
         {% endfor %}
       </ul>
-    </section>
-    <!--  <section class="module-aside">
-      <form class="search">
-        <input type="search" class="search-query" placeholder="Search">
-      </form>
-    </section> -->
-    <section class="related-info">
-      <h1>New? Start here:</h1>
-      <p>If you’re new to my site, you can get a good feeling for the things I care about by starting with these articles:</p>
+    </div>
+    <h3 class="sidebar--title">New? Start here:</h3>
+    <div class="sidebar--text-block">
+      <p class="sidebar--content_with-underline">If you’re new to my site, you can get a good feeling for the things I care about by starting with these articles:</p>
       <ul>
         <li><a href="/articles/designer-learning-ruby" title="">I'm a Designer and I'm Learning Ruby</a></li>
         <li><a href="/articles/little-web-worker" title="">The Little Web Worker</a></li>
         <li><a href="/articles/design-that-isnt-problem-solving-is-decoration" title="">Design That Isn't Problem-solving Is Decoration</a></li>
       </ul>
-    </section>
+    </div>
   </aside>
-  <section class="past-articles past-articles-right_col">
+  <section class="post-listing layout--right-twothirds">
     {% for article in site.categories.articles %}
-    <article>
-      <time datetime="{{ article.date | date: "%Y-%m-%d" }}">{{ article.date | date: "%b" }}<br /><b>{{ article.date | date: "%d" }}</b></time>
-      <h1><a href="{{ article.id }}" title="Read {{ article.title }}">{{ article.title }}</a></h1>
-    </article>
+      <article class="post-listing--condensed">
+        <a class="post-listing--post-link" href="{{ article.id }}" title="Read {{ article.title }}">
+          <time class="post-listing--condensed-date" datetime="{{ article.date | date: "%Y-%m-%d" }}">{{ article.date | date: "%b" }}<br /><b>{{ article.date | date: "%d" }}</b></time>
+          <h1 class="post-listing--condensed-title">{{ article.title }}</h1>
+        </a>
+      </article>
     {% endfor %}
   </section>
-</section>
+</main>

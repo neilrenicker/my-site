@@ -33,7 +33,3 @@ input[type="search"] {
 :-ms-input-placeholder {  
    color: $color-primary;  
 }
-
-.search-query {
-  @include border-radius(.5em);
-}

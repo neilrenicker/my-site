@@ -5,27 +5,27 @@ site-header-modifier: site-header_with-hero-article
 
 {% include hero-article.html %}
 
-<section class="post-listing vertical-space">
+<section class="post-listing layout--container layout--vertical-space">
   {% for article in site.posts limit:10 %}
 
     {% if article.categories contains 'articles' %}
 
-      <article class="post-listing--article">
+      <article class="post-listing--expanded">
         <a class="post-listing--post-link" href="{{ article.id }}" title="Read {{ article.title }}">
-          <h1 class="post-listing--article-title">{{ article.title }}</h1>
-          <time class="post-listing--article-date" datetime="{{ latest_article.date | date: "%Y-%m-%d" }}">{{ latest_article.date | date: "%B %d, %Y" }}</time>
+          <h1 class="post-listing--expanded-title">{{ article.title }}</h1>
+          <time class="post-listing--expanded-date" datetime="{{ latest_article.date | date: "%Y-%m-%d" }}">{{ latest_article.date | date: "%B %d, %Y" }}</time>
         </a>
         {% if article.intro %}
-        <p class="post-listing--article-intro">{{ article.intro }}</p>
+        <p class="post-listing--expanded-intro">{{ article.intro }}</p>
         {% endif %}
       </article>
 
     {% else %}
 
-      <article class="post-listing--note">
+      <article class="post-listing--condensed">
         <a class="post-listing--post-link" href="{{ article.id }}" title="Read {{ article.title }}">
-          <time class="post-listing--note-date" datetime="{{ article.date | date: "%Y-%m-%d" }}">{{ article.date | date: "%b" }}<br /><b>{{ article.date | date: "%d" }}</b></time>
-          <h1 class="post-listing--note-title">{{ article.title }}</h1>
+          <time class="post-listing--condensed-date" datetime="{{ article.date | date: "%Y-%m-%d" }}">{{ article.date | date: "%b" }}<br /><b>{{ article.date | date: "%d" }}</b></time>
+          <h1 class="post-listing--condensed-title">{{ article.title }}</h1>
         </a>
       </article>
 
