@@ -5,11 +5,12 @@ button,
 input,
 select,
 textarea {
-  color: $color-typography;
+  color: $c--gray;
 }
 
 a, a:visited {
-  text-decoration: none;
+  color: $c--link-blue;
+  // text-decoration: none;
 }
 
 p, pre {

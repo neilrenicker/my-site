@@ -6,21 +6,27 @@ site-header-modifier: site-header_with-hero-article
 {% include hero-article.html %}
 
 <section class="post-listing vertical-space">
-{% for article in site.posts limit:10 %}
-  {% if article.categories contains 'articles' %}
-    <article class="post-listing--article">
-      <h1 class="post-listing--article-title"><a href="{{ article.id }}" title="Read {{ article.title }}">{{ article.title }}</a></h1>
-      <time class="post-listing--article-date" datetime="{{ latest_article.date | date: "%Y-%m-%d" }}">{{ latest_article.date | date: "%B %d, %Y" }}</time>
-      {% if article.intro %}
-      <p class="post-listing--article-intro">{{ article.intro }}</p>
-      {% endif %}
-    </article>
-  {% else %}
-    <article class="post-listing--note">
-      <time class="post-listing--note-date" datetime="{{ article.date | date: "%Y-%m-%d" }}">{{ article.date | date: "%b" }}<br /><b>{{ article.date | date: "%d" }}</b></time>
-      <h1 class="post-listing--note-title"><a href="{{ article.id }}" title="Read {{ article.title }}">{{ article.title }}</a></h1>
-    </article>
-  {% endif %}
-{% endfor %}
-  <a href="/articles" title="Articles archive">Browse older posts →</a>
+  {% for article in site.posts limit:10 %}
+
+    {% if article.categories contains 'articles' %}
+
+      <article class="post-listing--article">
+        <h1 class="post-listing--article-title"><a href="{{ article.id }}" title="Read {{ article.title }}">{{ article.title }}</a></h1>
+        <time class="post-listing--article-date" datetime="{{ latest_article.date | date: "%Y-%m-%d" }}">{{ latest_article.date | date: "%B %d, %Y" }}</time>
+        {% if article.intro %}
+        <p class="post-listing--article-intro">{{ article.intro }}</p>
+        {% endif %}
+      </article>
+
+    {% else %}
+
+      <article class="post-listing--note">
+        <time class="post-listing--note-date" datetime="{{ article.date | date: "%Y-%m-%d" }}">{{ article.date | date: "%b" }}<br /><b>{{ article.date | date: "%d" }}</b></time>
+        <h1 class="post-listing--note-title"><a href="{{ article.id }}" title="Read {{ article.title }}">{{ article.title }}</a></h1>
+      </article>
+
+    {% endif %}
+  {% endfor %}
+
+  <a class="post-listing--archive-link" href="/articles" title="Articles archive">Browse older posts →</a>
 </section>
