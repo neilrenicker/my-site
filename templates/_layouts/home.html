@@ -11,8 +11,10 @@ site-header-modifier: site-header_with-hero-article
     {% if article.categories contains 'articles' %}
 
       <article class="post-listing--article">
-        <h1 class="post-listing--article-title"><a href="{{ article.id }}" title="Read {{ article.title }}">{{ article.title }}</a></h1>
-        <time class="post-listing--article-date" datetime="{{ latest_article.date | date: "%Y-%m-%d" }}">{{ latest_article.date | date: "%B %d, %Y" }}</time>
+        <a class="post-listing--post-link" href="{{ article.id }}" title="Read {{ article.title }}">
+          <h1 class="post-listing--article-title">{{ article.title }}</h1>
+          <time class="post-listing--article-date" datetime="{{ latest_article.date | date: "%Y-%m-%d" }}">{{ latest_article.date | date: "%B %d, %Y" }}</time>
+        </a>
         {% if article.intro %}
         <p class="post-listing--article-intro">{{ article.intro }}</p>
         {% endif %}
@@ -21,8 +23,10 @@ site-header-modifier: site-header_with-hero-article
     {% else %}
 
       <article class="post-listing--note">
-        <time class="post-listing--note-date" datetime="{{ article.date | date: "%Y-%m-%d" }}">{{ article.date | date: "%b" }}<br /><b>{{ article.date | date: "%d" }}</b></time>
-        <h1 class="post-listing--note-title"><a href="{{ article.id }}" title="Read {{ article.title }}">{{ article.title }}</a></h1>
+        <a class="post-listing--post-link" href="{{ article.id }}" title="Read {{ article.title }}">
+          <time class="post-listing--note-date" datetime="{{ article.date | date: "%Y-%m-%d" }}">{{ article.date | date: "%b" }}<br /><b>{{ article.date | date: "%d" }}</b></time>
+          <h1 class="post-listing--note-title">{{ article.title }}</h1>
+        </a>
       </article>
 
     {% endif %}
