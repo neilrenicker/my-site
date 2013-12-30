@@ -1,30 +1,3 @@
-.headline { // spacious padding and a large regular text
-  @extend %container;
-
-  h1 {
-    font-size: 1.3em;
-    font-weight: 400;
-    margin-top: 1.8em;
-    margin-bottom: 0;
-    line-height: 1.7em;
-    @include sb-media(40em) {
-      font-size: 1.7em;
-    }
-    @include sb-media(60em) {
-      font-size: 2em;
-    }
-  }
-}
-
-.headline-with_underline {
-  @extend %clearfix;
-
-  h1 {
-    border-bottom: 1px solid $color-lines;
-    padding-bottom: 1.8em;
-  }
-}
-
 %title-featured { // italics and a thick underline
   border-bottom: solid .12em $color-secondary;
   font-size: 2.8em;

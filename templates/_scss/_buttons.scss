@@ -28,14 +28,15 @@
 
 .btn_standard {
   @extend %btn-base;
-  background-color: $color-primary;
+  background-color: $c--brown-light;
 
   &, &:visited {
-    color: $color-typography;
+    color: $c--brown-dark;
   }
 
   &:hover {
-    background: darken($color-primary, 5%);
+    background: darken($c--brown-light, 8%);
+    color: darken($c--brown-dark, 10%);
   }
 }
 
