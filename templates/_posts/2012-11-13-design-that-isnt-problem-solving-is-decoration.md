@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Design That Isn't Problem-solving Is Decoration
 intro: If I'm not solving a problem, my work is meaningless. Doing art just for fun might be nice, but I'm realizing that it's not nearly as fulfilling as the art of tackling a problem in real life.
 categories: articles

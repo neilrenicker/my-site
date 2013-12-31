@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Green Lights
 photo: 2013-08-20-control.jpg
 intro: Your peers only have power over you if you give it to them.  If you’re letting others rule your career, that’s your problem - not theirs.

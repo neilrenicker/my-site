@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: My First Real Design Conference
 intro: I'm headed to the illustrious An Event Apart design conference this weekend in Chicago.
 categories: articles

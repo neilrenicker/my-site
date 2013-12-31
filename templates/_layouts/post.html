@@ -1,0 +1,52 @@
+---
+layout: global
+root: "../"
+---
+
+<div class="art-top">
+  {% if page.photo %}
+    <img class="post-photo-featured" src="../img/posts/{{ page.photo }}" alt="Small strokes" />
+  {% endif %}
+
+  {% if page.art %}
+
+    {{ page.art }}
+
+  {% endif %}
+</div>
+
+<div class="layout--container">
+  <article class="wysiwyg">
+    <header>
+      <h2>{{ page.title }}</h2>
+      <p class="post-meta"><time>{{ page.date | date: "%B %d, %Y" }}</time></p>
+      {% if page.intro %}
+        <p class="post-intro">{{ page.intro }}</p>
+      {% endif %}
+    </header>
+    
+    {{ content }}
+
+  </article>
+
+  <footer class="article-footer">
+    <div class="article-footer--endmark">
+      <b><a class="article-footer--endmark-icon" href="/" title="NeilRenicker.com" aria-hidden="true" data-icon="&#xe005;"></a></b>
+    </div>
+
+    {% unless page.tags == empty %}
+    <div class="layout--vertical-space">
+      <span class="post-tags--title">Filed under:</span>
+      <div class="post-tags">
+        <ul>
+          {% for tag in page.tags %}
+          <li>
+            <a class="post-tags--btn btn btn_standard" href="/tag/{{ tag }}" title="See all posts tagged {{ tag }}">{{ tag }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  {% endunless %}
+  </footer>
+</div>

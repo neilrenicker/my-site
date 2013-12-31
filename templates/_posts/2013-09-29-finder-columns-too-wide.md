@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "Fix: Finder Columns Too Wide"
 categories: notes
 tags:

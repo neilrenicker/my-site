@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "Terminal Shortcuts"
 categories: notes
 tags:

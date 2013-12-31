@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: I'm a Designer and I'm Learning Ruby
 photo:
 intro: As a designer, I always used to feel like programming languages were off-limits to me. Recently though, I've been studying Ruby - and acquiring a particular fondness for programming.

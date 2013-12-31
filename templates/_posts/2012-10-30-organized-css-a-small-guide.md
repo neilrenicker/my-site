@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Organized CSS – A Small Guide
 intro: Clean code makes happy, efficient developers. I keep a short list of best practices for writing code that will last.
 categories: articles

@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Font Organization
 photo: 121219-fontexplorer-organization.jpg
 intro: I recently took to time to obessively organize my font collection. If you love great fonts, and you love organizing stuff, this one's for you.

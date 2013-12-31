@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Designing with a knot in my stomach
 intro: Despite the glamorous outcome of a project, a majority of the time spent creating it is spent in fear that the project will never succeed.
 categories: articles

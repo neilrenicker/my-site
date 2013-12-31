@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Blogging From The Heart
 intro: Here’s my stab at blogging from the heart. I’m excited – if you like what I write, great. If you don’t, that’s fine too.
 categories: articles

@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: External Excellence #1
 intro: I've been reading a lot of excellent articles online recently - stuff that's too good not to share. Here are a few of the best that have made a big impact on me.
 categories: articles

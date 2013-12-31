@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Feedback Loop
 intro: Excelling at your day job is the best way to stay inspired about working on side projects, and working on side projects helps you stay sharp and competent at your nine-to-five.
 categories: articles
