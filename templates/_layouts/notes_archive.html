@@ -17,10 +17,10 @@ root: "../"
 
   <section class="post-listing layout--right-twothirds">
     {% for note in site.categories.notes %}
-      <article class="post-listing--condensed">
+      <article class="post-listing--item_condensed">
         <a class="post-listing--post-link" href="{{ note.id }}" title="Read {{ note.title }}">
-          <time class="post-listing--condensed-date" datetime="{{ note.date | date: "%Y-%m-%d" }}">{{ note.date | date: "%b" }}<br /><b>{{ note.date | date: "%d" }}</b></time>
-          <h1 class="post-listing--condensed-title">{{ note.title }}</h1>
+          <time class="post-listing--item_condensed--date" datetime="{{ note.date | date: "%Y-%m-%d" }}">{{ note.date | date: "%b" }}<br /><b>{{ note.date | date: "%d" }}</b></time>
+          <h1 class="post-listing--item_condensed--title">{{ note.title }}</h1>
         </a>
       </article>
     {% endfor %}

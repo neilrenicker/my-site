@@ -1,0 +1,23 @@
+<footer class="article-footer">
+  <div class="article-footer--endmark">
+    <b><a class="article-footer--endmark-icon" href="/" title="NeilRenicker.com" aria-hidden="true" data-icon="&#xe005;"></a></b>
+  </div>
+
+  {% unless page.tags == empty %}
+
+  <div class="layout--vertical-space">
+    <span class="post-tags--title">Filed under:</span>
+    <div class="post-tags">
+      <ul>
+        {% for tag in page.tags %}
+        <li>
+          <a class="post-tags--btn btn btn_standard" href="/tag/{{ tag }}" title="See all posts tagged {{ tag }}">{{ tag }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  {% endunless %}
+
+</footer>

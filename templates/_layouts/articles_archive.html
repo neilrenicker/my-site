@@ -32,10 +32,10 @@ root: "../"
 
   <section class="post-listing layout--right-twothirds">
     {% for article in site.categories.articles %}
-      <article class="post-listing--condensed">
+      <article class="post-listing--item_condensed">
         <a class="post-listing--post-link" href="{{ article.id }}" title="Read {{ article.title }}">
-          <time class="post-listing--condensed-date" datetime="{{ article.date | date: "%Y-%m-%d" }}">{{ article.date | date: "%b" }}<br /><b>{{ article.date | date: "%d" }}</b></time>
-          <h1 class="post-listing--condensed-title">{{ article.title }}</h1>
+          <time class="post-listing--item_condensed--date" datetime="{{ article.date | date: "%Y-%m-%d" }}">{{ article.date | date: "%b" }}<br /><b>{{ article.date | date: "%d" }}</b></time>
+          <h1 class="post-listing--item_condensed--title">{{ article.title }}</h1>
         </a>
       </article>
     {% endfor %}
