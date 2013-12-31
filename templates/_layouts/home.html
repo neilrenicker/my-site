@@ -21,7 +21,7 @@ site-header-modifier: site-header_with-hero-article
         <article class="post-listing--item_expanded">
           <a class="post-listing--post-link" href="{{ post.id }}" title="Read {{ post.title }}">
             <h1 class="post-listing--item_expanded--title">{{ post.title }}</h1>
-            <time class="post-listing--item_expanded--date" datetime="{{ latest_post.date | date: "%Y-%m-%d" }}">{{ latest_post.date | date: "%B %d, %Y" }}</time>
+            <time class="post-listing--item_expanded--date" datetime="{{ latest_post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time>
           </a>
           {% if post.intro %}
           <p class="post-listing--item_expanded--intro">{{ post.intro }}</p>
