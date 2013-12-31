@@ -1,5 +1,14 @@
 $bp-layout-medium: 40em;
 
+.layout--container {
+  @extend %container;
+}
+
+.layout--main {
+  @extend %container;
+  clear: both;
+}
+
 .layout--left-third {
   @include sb-media( $bp-layout-medium ) {
     float: left;
@@ -12,25 +21,18 @@ $bp-layout-medium: 40em;
     margin-top: 0;
     margin-left: 38%;
   }
-  @include sb-media(60em) {
-    margin-left: 21.5em;
-  }
 }
 
 .layout--vertical-space {
-  margin-top: 4em;
-}
-
-.layout--container {
-  @extend %container;
-}
-
-.layout--main {
-  @extend %container;
   margin-top: 2em;
-  clear: both;
+  @include sb-media( $bp-layout-medium ) {
+    margin-top: 4em;
+  }
+}
 
-  @include sb-media(40em) {
+.layout--vertical-space-2x {
+  margin-top: 3em;
+  @include sb-media( $bp-layout-medium ) {
     margin-top: 6em;
   }
 }

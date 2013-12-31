@@ -7,7 +7,7 @@ root: "../"
   <h1 class="page-intro--headline">I write about design, web development, and workflow. This is an archive of my articles.</h1>
 </section>
 
-<main class="layout--main">
+<main class="layout--main layout--vertical-space-2x">
   <aside class="sidebar layout--left-third">
     <h3 class="sidebar--title">Browse by category</h3>
     <div class="post-tags">
@@ -29,6 +29,7 @@ root: "../"
       </ul>
     </div>
   </aside>
+
   <section class="post-listing layout--right-twothirds">
     {% for article in site.categories.articles %}
       <article class="post-listing--condensed">
