@@ -6,26 +6,26 @@ site-header-modifier: site-header_with-hero-article
 {% include hero-article.html %}
 
 <section class="post-listing layout--container layout--vertical-space">
-  {% for article in site.posts limit:10 %}
+  {% for post in site.posts limit:10 %}
 
-    {% if article.categories contains 'articles' %}
+    {% if post.categories contains 'articles' %}
 
       <article class="post-listing--item_expanded">
-        <a class="post-listing--post-link" href="{{ article.id }}" title="Read {{ article.title }}">
-          <h1 class="post-listing--item_expanded--title">{{ article.title }}</h1>
-          <time class="post-listing--item_expanded--date" datetime="{{ latest_article.date | date: "%Y-%m-%d" }}">{{ latest_article.date | date: "%B %d, %Y" }}</time>
+        <a class="post-listing--post-link" href="{{ post.id }}" title="Read {{ post.title }}">
+          <h1 class="post-listing--item_expanded--title">{{ post.title }}</h1>
+          <time class="post-listing--item_expanded--date" datetime="{{ latest_post.date | date: "%Y-%m-%d" }}">{{ latest_post.date | date: "%B %d, %Y" }}</time>
         </a>
-        {% if article.intro %}
-        <p class="post-listing--item_expanded--intro">{{ article.intro }}</p>
+        {% if post.intro %}
+        <p class="post-listing--item_expanded--intro">{{ post.intro }}</p>
         {% endif %}
       </article>
 
-    {% else %}
+    {% elsif post.categories contains 'notes' %}
 
       <article class="post-listing--item_condensed">
-        <a class="post-listing--post-link" href="{{ article.id }}" title="Read {{ article.title }}">
-          <time class="post-listing--item_condensed--date" datetime="{{ article.date | date: "%Y-%m-%d" }}">{{ article.date | date: "%b" }}<br /><b>{{ article.date | date: "%d" }}</b></time>
-          <h1 class="post-listing--item_condensed--title">{{ article.title }}</h1>
+        <a class="post-listing--post-link" href="{{ post.id }}" title="Read {{ post.title }}">
+          <time class="post-listing--item_condensed--date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b" }}<br /><b>{{ post.date | date: "%d" }}</b></time>
+          <h1 class="post-listing--item_condensed--title">{{ post.title }}</h1>
         </a>
       </article>
 

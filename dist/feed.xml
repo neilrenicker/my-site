@@ -202,33 +202,20 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Here are the quotes I mentioned during the talk, with links to each of the articles / books referenced:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;#8220;A designer who does not write markup and css is not designing for the web, but drawing pictures.&amp;#8221; &lt;br /&gt;-Andy Rutledge, &lt;a href=&#39;http://andyrutledge.com/web-design-is-product-design.php&#39;&gt;Web Design is Product Design&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;#8220;Happiest when exploring the intersection between design and development, I can now take a website from visual concept right through to production-ready code. I can move between graphics application and browser at will, making changes late into production. The whole process feels like a two-way conversation between designer and developer, fluid and fleeting, yet set entirely within my own mind.&amp;#8221; &lt;br /&gt;-Paul Robert Lloyd, &lt;a href=&#39;http://the-pastry-box-project.net/clearleft/2013-june-6/&#39;&gt;Works Well With Others&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“Challenge yourself. Humble yourself. Get over yourself. Whatever you do, make sure it’s well outside your comfort zone. You’ll learn and grow and become better, stronger, and a lot more self-assured. Learning to not care what others think about you – in a healthy way – is incredibly empowering.” &lt;br /&gt;-Jeff Haden, &lt;a href=&#39;http://www.inc.com/jeff-haden/your-most-important-business-investment.html&#39;&gt;Your Most Important Business Invesment&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“Being a great designer and a great developer is not an impossibility. With enough time and effort, you can become a designer or developer or both, no forehead horn required.” &lt;br /&gt;-Diogenes Brito, &lt;a href=&#39;https://diogenes.squarespace.com/blog/on-being-a-designer-and-a-developer-not-quite-unicorn-rare&#39;&gt;On Being A Designer And A Developer: Not Quite Unicorn Rare&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“The horizontal stroke of the ‘T’ is the disposition for collaboration across disciplines. The vertical stroke of the ‘T’ is a depth of skill that allows them to contribute to the creative process.” &lt;br /&gt;-Tim Brown, &lt;a href=&#39;http://chiefexecutive.net/ideo-ceo-tim-brown-t-shaped-stars-the-backbone-of-ideoae%E2%84%A2s-collaborative-culture&#39;&gt;T-Shaped Stars: The Backbone of IDEO’s Collaborative Culture&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“Dude, suckin&amp;#8217; at something is the first step to being sorta good at something” &lt;br /&gt;-&lt;a href=&#39;http://konigi.com/notebook/wisdom-dog&#39;&gt;Jake the Dog&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;#8220;Pretending you know what you&amp;#8217;re doing is almost the same as knowing what you are doing, so just accept that you know what you&amp;#8217;re doing even if you don&amp;#8217;t and do it.&amp;#8221; &lt;br /&gt;-Bre Pettis and Kio Stark, &lt;a href=&#39;http://www.brepettis.com/blog/2009/3/3/the-cult-of-done-manifesto.html&#39;&gt;The Cult of Done Manifesto&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;&quot;A designer who does not write markup and css is not designing for the web, but drawing pictures.&quot;
+  &lt;span class=&#39;quote-source&#39;&gt;-Andy Rutledge, &lt;a href=&#39;http://andyrutledge.com/web-design-is-product-design.php&#39;&gt;Web Design is Product Design&lt;/a&gt;&lt;/span&gt;
+&lt;/blockquote&gt;&lt;blockquote&gt;&quot;Happiest when exploring the intersection between design and development, I can now take a website from visual concept right through to production-ready code. I can move between graphics application and browser at will, making changes late into production. The whole process feels like a two-way conversation between designer and developer, fluid and fleeting, yet set entirely within my own mind.&quot;
+  &lt;span class=&#39;quote-source&#39;&gt;-Paul Robert Lloyd, &lt;a href=&#39;http://the-pastry-box-project.net/clearleft/2013-june-6/&#39;&gt;Works Well With Others&lt;/a&gt;&lt;/span&gt;
+&lt;/blockquote&gt;&lt;blockquote&gt;“Challenge yourself. Humble yourself. Get over yourself. Whatever you do, make sure it’s well outside your comfort zone. You’ll learn and grow and become better, stronger, and a lot more self-assured. Learning to not care what others think about you – in a healthy way – is incredibly empowering.”
+  &lt;span class=&#39;quote-source&#39;&gt;-Jeff Haden, &lt;a href=&#39;http://www.inc.com/jeff-haden/your-most-important-business-investment.html&#39;&gt;Your Most Important Business Invesment&lt;/a&gt;&lt;/span&gt;
+&lt;/blockquote&gt;&lt;blockquote&gt;“Being a great designer and a great developer is not an impossibility. With enough time and effort, you can become a designer or developer or both, no forehead horn required.”
+  &lt;span class=&#39;quote-source&#39;&gt;-Diogenes Brito, &lt;a href=&#39;https://diogenes.squarespace.com/blog/on-being-a-designer-and-a-developer-not-quite-unicorn-rare&#39;&gt;On Being A Designer And A Developer: Not Quite Unicorn Rare&lt;/a&gt;&lt;/span&gt;
+&lt;/blockquote&gt;&lt;blockquote&gt;“The horizontal stroke of the ‘T’ is the disposition for collaboration across disciplines. The vertical stroke of the ‘T’ is a depth of skill that allows them to contribute to the creative process.”
+  &lt;span class=&#39;quote-source&#39;&gt;-Tim Brown, &lt;a href=&#39;http://chiefexecutive.net/ideo-ceo-tim-brown-t-shaped-stars-the-backbone-of-ideoae%E2%84%A2s-collaborative-culture&#39;&gt;T-Shaped Stars: The Backbone of IDEO’s Collaborative Culture&lt;/a&gt;&lt;/span&gt;
+&lt;/blockquote&gt;&lt;blockquote&gt;“Dude, suckin&#39; at something is the first step to being sorta good at something”
+  &lt;span class=&#39;quote-source&#39;&gt;-&lt;a href=&#39;http://konigi.com/notebook/wisdom-dog&#39;&gt;Jake the Dog&lt;/a&gt;&lt;/span&gt;
+&lt;/blockquote&gt;&lt;blockquote&gt;&quot;Pretending you know what you&#39;re doing is almost the same as knowing what you are doing, so just accept that you know what you&#39;re doing even if you don&#39;t and do it.&quot;
+  &lt;span class=&#39;quote-source&#39;&gt;-Bre Pettis and Kio Stark, &lt;a href=&#39;http://www.brepettis.com/blog/2009/3/3/the-cult-of-done-manifesto.html&#39;&gt;The Cult of Done Manifesto&lt;/a&gt;&lt;/span&gt;
 &lt;/blockquote&gt;</description>
         <pubDate>Thu, 18 Jul 2013 00:00:00 -0400</pubDate>
         <link>http://neilrenicker.com/speaking/designers-with-biceps</link>
@@ -311,37 +298,25 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Here are the quotes I mentioned during the talk, with links to each of the articles / books referenced:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“If there’s one thing designers are good at — it’s following the Internet, and there’s already plenty of information about the latest tools and software there. Tools are merely instruments that help us accomplish a task, but tools can’t think, so expand on your approaches and point of view.” &lt;br /&gt;-Aura Seltzer, &lt;a href=&#39;http://cognition.happycog.com/article/elevating-the-podium&#39;&gt;“Elevating the Podium”&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“If your life is primarily consumed by your work, then loving your work is one of the most important keys to loving your life.” &lt;br /&gt;-Chad Fowler, &lt;a href=&#39;http://www.amazon.com/Passionate-Programmer-Remarkable-Development-Pragmatic/dp/1934356344&#39;&gt;The Passionate Programmer&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“That’s the tough thing about the web. In an instant, you can see somebody’s work that took them not just months to create, but years to come into their own style. When I understood that there will always be people ahead of me, I realized I didn’t have to be jealous, but that I could be happy about the work I’m making right now. If you keep creating, you’re just going to get better.” &lt;br /&gt;-Kyle Steed, &lt;a href=&#39;http://thegreatdiscontent.com/kyle-steed&#39;&gt;The Great Discontent&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“Challenge yourself. Humble yourself. Get over yourself. Whatever you do, make sure it’s well outside your comfort zone. You’ll learn and grow and become better, stronger, and a lot more self-assured. &amp;gt; &amp;gt; Learning to not care what others think about you – in a healthy way – is incredibly empowering.” &lt;br /&gt;-Jeff Haden, &lt;a href=&#39;http://www.inc.com/jeff-haden/your-most-important-business-investment.html&#39;&gt;Your Most Important Business Invesment&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“In the traditional professional world (and specifically the IT trade), we’re less likely to ask each other for help. Depending on others is often seen as a sign of weakness. We’re afraid to admit that we’re not perfect. Everything is competition. Only the strong survive, and all that. Unfortunately, this leads to an extremely underdeveloped system of mentoring.”&lt;br /&gt;-Chad Fowler, &lt;a href=&#39;http://www.amazon.com/Passionate-Programmer-Remarkable-Development-Pragmatic/dp/1934356344&#39;&gt;The Passionate Programmer&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“The horizontal stroke of the ‘T’ is the disposition for collaboration across disciplines. The vertical stroke of the ‘T’ is a depth of skill that allows them to contribute to the creative process.” &lt;br /&gt;-Tim Brown, &lt;a href=&#39;http://chiefexecutive.net/ideo-ceo-tim-brown-t-shaped-stars-the-backbone-of-ideoae%E2%84%A2s-collaborative-culture&#39;&gt;T-Shaped Stars: The Backbone of IDEO’s Collaborative Culture&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“If programmers got paid to remove code from sofware instead of writing new code, software would be a whole lot better.” &lt;br /&gt;-Nicholas Negroponte, “And, the rest of the (AIGA Conference) story”, as quoted in &lt;a href=&#39;http://gettingreal.37signals.com/&#39;&gt;Getting Real&lt;/a&gt; by 37Signals&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“…if you could give one piece of advice to another designer starting out, what would you say?”&lt;br /&gt; “…my answer is always, find something you’re passionate about and write about that passion.”&lt;br /&gt;-Cameron Moll on &lt;a href=&#39;http://thegreatdiscontent.com/cameron-moll&#39;&gt;The Great Discontent&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;&quot;A designer who does not write markup and css is not designing for the web, but drawing pictures.&quot;
+  &lt;span class=&#39;quote-source&#39;&gt;-Andy Rutledge, &lt;a href=&#39;http://andyrutledge.com/web-design-is-product-design.php&#39;&gt;Web Design is Product Design&lt;/a&gt;&lt;/span&gt;
+&lt;/blockquote&gt;&lt;blockquote&gt;“If there’s one thing designers are good at — it’s following the Internet, and there’s already plenty of information about the latest tools and software there. Tools are merely instruments that help us accomplish a task, but tools can’t think, so expand on your approaches and point of view.”
+  &lt;span class=&#39;quote-source&#39;&gt;-Aura Seltzer, &lt;a href=&#39;http://cognition.happycog.com/article/elevating-the-podium&#39;&gt;“Elevating the Podium”&lt;/a&gt;&lt;/span&gt;
+&lt;/blockquote&gt;&lt;blockquote&gt;“If your life is primarily consumed by your work, then loving your work is one of the most important keys to loving your life.”
+  &lt;span class=&#39;quote-source&#39;&gt;-Chad Fowler, &lt;a href=&#39;http://www.amazon.com/Passionate-Programmer-Remarkable-Development-Pragmatic/dp/1934356344&#39;&gt;The Passionate Programmer&lt;/a&gt;&lt;/span&gt;
+&lt;/blockquote&gt;&lt;blockquote&gt;“That’s the tough thing about the web. In an instant, you can see somebody’s work that took them not just months to create, but years to come into their own style. When I understood that there will always be people ahead of me, I realized I didn’t have to be jealous, but that I could be happy about the work I’m making right now. If you keep creating, you’re just going to get better.”
+  &lt;span class=&#39;quote-source&#39;&gt;-Kyle Steed, &lt;a href=&#39;http://thegreatdiscontent.com/kyle-steed&#39;&gt;The Great Discontent&lt;/a&gt;&lt;/span&gt;
+&lt;/blockquote&gt;&lt;blockquote&gt;“Challenge yourself. Humble yourself. Get over yourself. Whatever you do, make sure it’s well outside your comfort zone. You’ll learn and grow and become better, stronger, and a lot more self-assured. Learning to not care what others think about you – in a healthy way – is incredibly empowering.”
+  &lt;span class=&#39;quote-source&#39;&gt;-Jeff Haden, &lt;a href=&#39;http://www.inc.com/jeff-haden/your-most-important-business-investment.html&#39;&gt;Your Most Important Business Invesment&lt;/a&gt;&lt;/span&gt;
+&lt;/blockquote&gt;&lt;blockquote&gt;“In the traditional professional world (and specifically the IT trade), we’re less likely to ask each other for help. Depending on others is often seen as a sign of weakness. We’re afraid to admit that we’re not perfect. Everything is competition. Only the strong survive, and all that. Unfortunately, this leads to an extremely underdeveloped system of mentoring.”
+  &lt;span class=&#39;quote-source&#39;&gt;-Chad Fowler, &lt;a href=&#39;http://www.amazon.com/Passionate-Programmer-Remarkable-Development-Pragmatic/dp/1934356344&#39;&gt;The Passionate Programmer&lt;/a&gt;&lt;/span&gt;
+&lt;/blockquote&gt;&lt;blockquote&gt;“The horizontal stroke of the ‘T’ is the disposition for collaboration across disciplines. The vertical stroke of the ‘T’ is a depth of skill that allows them to contribute to the creative process.”
+  &lt;span class=&#39;quote-source&#39;&gt;-Tim Brown, &lt;a href=&#39;http://chiefexecutive.net/ideo-ceo-tim-brown-t-shaped-stars-the-backbone-of-ideoae%E2%84%A2s-collaborative-culture&#39;&gt;T-Shaped Stars: The Backbone of IDEO’s Collaborative Culture&lt;/a&gt;&lt;/span&gt;
+&lt;/blockquote&gt;&lt;blockquote&gt;“If programmers got paid to remove code from sofware instead of writing new code, software would be a whole lot better.”
+  &lt;span class=&#39;quote-source&#39;&gt;-Nicholas Negroponte, “And, the rest of the (AIGA Conference) story”, as quoted in &lt;a href=&#39;http://gettingreal.37signals.com/&#39;&gt;Getting Real&lt;/a&gt; by 37Signals&lt;/span&gt;
+&lt;/blockquote&gt;&lt;blockquote&gt;“…if you could give one piece of advice to another designer starting out, what would you say?”&lt;br /&gt;&lt;br /&gt;
+  “…my answer is always, find something you’re passionate about and write about that passion.”
+    &lt;span class=&#39;quote-source&#39;&gt;-Cameron Moll on &lt;a href=&#39;http://thegreatdiscontent.com/cameron-moll&#39;&gt;The Great Discontent&lt;/a&gt;&lt;/span&gt;
 &lt;/blockquote&gt;</description>
         <pubDate>Tue, 05 Mar 2013 00:00:00 -0500</pubDate>
         <link>http://neilrenicker.com/speaking/craftsman</link>

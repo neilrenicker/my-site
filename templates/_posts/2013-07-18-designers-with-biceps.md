@@ -1,5 +1,5 @@
 ---
-layout: page_standard
+layout: post
 title: Designers with Biceps
 intro: I recently spoke at the <a href="http://mixwest.com/">Mixwest conference</a> in Indianapolis. To those of you who attended, thanks for coming out to hear my talk! I love sharing what I’ve learned on my journey. I’d be happy to <a href="/about">hear from you</a> if the talk helped you in any way. Be sure to hit me up <a href="http://https://twitter.com/neilrenicker">on Twitter</a> if you have any questions or thoughts.
 categories: speaking
@@ -16,19 +16,33 @@ Here are the links to resources I mentioned during my talk:
 
 Here are the quotes I mentioned during the talk, with links to each of the articles / books referenced:
 
-> "A designer who does not write markup and css is not designing for the web, but drawing pictures." <br />-Andy Rutledge, <a href="http://andyrutledge.com/web-design-is-product-design.php">Web Design is Product Design</a>
+<blockquote>"A designer who does not write markup and css is not designing for the web, but drawing pictures."
+  <span class="quote-source">-Andy Rutledge, <a href="http://andyrutledge.com/web-design-is-product-design.php">Web Design is Product Design</a></span>
+</blockquote>
 
-> "Happiest when exploring the intersection between design and development, I can now take a website from visual concept right through to production-ready code. I can move between graphics application and browser at will, making changes late into production. The whole process feels like a two-way conversation between designer and developer, fluid and fleeting, yet set entirely within my own mind." <br />-Paul Robert Lloyd, <a href="http://the-pastry-box-project.net/clearleft/2013-june-6/">Works Well With Others</a>
+<blockquote>"Happiest when exploring the intersection between design and development, I can now take a website from visual concept right through to production-ready code. I can move between graphics application and browser at will, making changes late into production. The whole process feels like a two-way conversation between designer and developer, fluid and fleeting, yet set entirely within my own mind."
+  <span class="quote-source">-Paul Robert Lloyd, <a href="http://the-pastry-box-project.net/clearleft/2013-june-6/">Works Well With Others</a></span>
+</blockquote>
 
-> “Challenge yourself. Humble yourself. Get over yourself. Whatever you do, make sure it’s well outside your comfort zone. You’ll learn and grow and become better, stronger, and a lot more self-assured. Learning to not care what others think about you – in a healthy way – is incredibly empowering.” <br />-Jeff Haden, <a href="http://www.inc.com/jeff-haden/your-most-important-business-investment.html">Your Most Important Business Invesment</a>
+<blockquote>“Challenge yourself. Humble yourself. Get over yourself. Whatever you do, make sure it’s well outside your comfort zone. You’ll learn and grow and become better, stronger, and a lot more self-assured. Learning to not care what others think about you – in a healthy way – is incredibly empowering.”
+  <span class="quote-source">-Jeff Haden, <a href="http://www.inc.com/jeff-haden/your-most-important-business-investment.html">Your Most Important Business Invesment</a></span>
+</blockquote>
 
-> “Being a great designer and a great developer is not an impossibility. With enough time and effort, you can become a designer or developer or both, no forehead horn required.” <br />-Diogenes Brito, <a href="https://diogenes.squarespace.com/blog/on-being-a-designer-and-a-developer-not-quite-unicorn-rare">On Being A Designer And A Developer: Not Quite Unicorn Rare</a>
+<blockquote>“Being a great designer and a great developer is not an impossibility. With enough time and effort, you can become a designer or developer or both, no forehead horn required.”
+  <span class="quote-source">-Diogenes Brito, <a href="https://diogenes.squarespace.com/blog/on-being-a-designer-and-a-developer-not-quite-unicorn-rare">On Being A Designer And A Developer: Not Quite Unicorn Rare</a></span>
+</blockquote>
 
-> “The horizontal stroke of the ‘T’ is the disposition for collaboration across disciplines. The vertical stroke of the ‘T’ is a depth of skill that allows them to contribute to the creative process.” <br />-Tim Brown, <a href="http://chiefexecutive.net/ideo-ceo-tim-brown-t-shaped-stars-the-backbone-of-ideoae%E2%84%A2s-collaborative-culture">T-Shaped Stars: The Backbone of IDEO’s Collaborative Culture</a>
+<blockquote>“The horizontal stroke of the ‘T’ is the disposition for collaboration across disciplines. The vertical stroke of the ‘T’ is a depth of skill that allows them to contribute to the creative process.”
+  <span class="quote-source">-Tim Brown, <a href="http://chiefexecutive.net/ideo-ceo-tim-brown-t-shaped-stars-the-backbone-of-ideoae%E2%84%A2s-collaborative-culture">T-Shaped Stars: The Backbone of IDEO’s Collaborative Culture</a></span>
+</blockquote>
 
-> “Dude, suckin' at something is the first step to being sorta good at something” <br />-<a href="http://konigi.com/notebook/wisdom-dog">Jake the Dog</a>
+<blockquote>“Dude, suckin' at something is the first step to being sorta good at something”
+  <span class="quote-source">-<a href="http://konigi.com/notebook/wisdom-dog">Jake the Dog</a></span>
+</blockquote>
 
-> "Pretending you know what you're doing is almost the same as knowing what you are doing, so just accept that you know what you're doing even if you don't and do it." <br />-Bre Pettis and Kio Stark, <a href="http://www.brepettis.com/blog/2009/3/3/the-cult-of-done-manifesto.html">The Cult of Done Manifesto</a>
+<blockquote>"Pretending you know what you're doing is almost the same as knowing what you are doing, so just accept that you know what you're doing even if you don't and do it."
+  <span class="quote-source">-Bre Pettis and Kio Stark, <a href="http://www.brepettis.com/blog/2009/3/3/the-cult-of-done-manifesto.html">The Cult of Done Manifesto</a></span>
+</blockquote>
 
 [https://speakerdeck.com/neilrenicker/designers-with-biceps]: https://speakerdeck.com/neilrenicker/designers-with-biceps
 [What is Internet]: http://www.youtube.com/watch?v=JUs7iG1mNjI

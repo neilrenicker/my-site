@@ -482,7 +482,7 @@ table {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_general-extends\.scss}line{font-family:\000034}}
-.hero-title--intro, .post-listing--item_expanded--intro, .post-listing--item_basic--intro {
+.wysiwyg ol li:after, .hero-title--intro, .post-listing--item_expanded--intro, .post-listing--item_basic--intro {
   font-family: "proxima-nova", sans-serif;
 }
 
@@ -837,18 +837,18 @@ input[type="search"]:focus {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000331}}
 .wysiwyg ol li:after {
-  font-family: arial, sans-serif;
+  font-size: 17.6px;
+  font-size: 1.1rem;
+  background-color: #e5e5e5;
+  border-radius: 1em;
   content: counter(standard-counter);
   counter-increment: standard-counter;
-  font-size: 1em;
-  color: #BA4A41;
+  color: #c34b3a;
   line-height: .6;
   left: 0;
   position: absolute;
   margin-right: 1em;
   top: 0.2em;
-  background-color: #e8e0d7;
-  border-radius: 1em;
   padding: 0.6em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000349}}
@@ -1293,7 +1293,7 @@ a.profile--social-link:hover {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_post\.scss}line{font-family:\000033}}
 .post--content {
   margin-top: 3em;
-  margin-top: 5em;
+  margin-top: 4em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_post\.scss}line{font-family:\0000311}}
@@ -1316,9 +1316,10 @@ img.post-photo-featured {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_post\.scss}line{font-family:\0000334}}
 .post--intro {
+  font-size: 27.2px;
+  font-size: 1.7rem;
   color: #3b413f;
   font-family: "proxima-nova", sans-serif;
-  font-size: 1.5em;
   line-height: 1.6em;
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
