@@ -849,45 +849,43 @@ input[type="search"]:focus {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000317}}
 .wysiwyg ol li, .wysiwyg ul li {
-  margin: 0 0 1em -0.3em;
   line-height: 1.8em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000322}}
 .wysiwyg ol {
   counter-reset: standard-counter;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000326}}
 .wysiwyg ol li {
   position: relative;
-  padding-left: 2.7em;
+  padding-left: 2em;
+  margin: 0 0 1em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000331}}
 .wysiwyg ol li:after {
-  font-size: 17.6px;
-  font-size: 1.1rem;
-  background-color: #e5e5e5;
-  border-radius: 1em;
+  font-size: 22.4px;
+  font-size: 1.4rem;
+  font-weight: bold;
   content: counter(standard-counter);
   counter-increment: standard-counter;
   color: #c34b3a;
   line-height: .6;
   left: 0;
   position: absolute;
-  margin-right: 1em;
-  top: 0.2em;
-  padding: 0.6em;
+  top: 0.7em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000346}}
 .wysiwyg ul {
   padding-left: 0.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000349}}
 .wysiwyg ul li {
   position: relative;
   padding-left: 1.4em;
+  margin: 0 0 1em -0.3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000354}}
 .wysiwyg ul li:after {
   font-size: 25.6px;
   font-size: 1.6rem;
@@ -898,7 +896,7 @@ input[type="search"]:focus {
   left: 0;
   position: absolute;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000366}}
 .wysiwyg blockquote {
   -webkit-border-radius: 0.2em;
   -moz-border-radius: 0.2em;
@@ -914,14 +912,14 @@ input[type="search"]:focus {
   padding: 1.2em 1.5em;
 }
 @media (min-width: 45em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000366}}
   .wysiwyg blockquote {
     margin-top: 2.5em;
     margin-bottom: 2.5em;
   }
 }
 @media (min-width: 60em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000382}}
   .wysiwyg .quote-left {
     float: left;
     margin: 0 3.2em 1em 0;
@@ -929,14 +927,14 @@ input[type="search"]:focus {
   }
 }
 @media (min-width: 60em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000390}}
   .wysiwyg .quote-right {
     float: right;
     margin: 0 0 1em 3.2em;
     max-width: 37%;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000398}}
 .wysiwyg .quote-source {
   font-size: .6em;
   font-style: normal;
@@ -947,7 +945,7 @@ input[type="search"]:focus {
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\00003110}}
 .wysiwyg .quote-source a {
   font-style: italic;
 }
