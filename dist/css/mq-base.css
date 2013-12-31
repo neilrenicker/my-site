@@ -1063,34 +1063,39 @@ input[type="search"]:focus {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_hero-article\.scss}line{font-family:\0000320}}
+.hero-article--wrapper_has-no-image {
+  background-color: #53bb85;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_hero-article\.scss}line{font-family:\0000324}}
 .hero-article--overlay {
   display: inline-block;
   width: 100%;
   margin-top: 0.35em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_hero-article\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_hero-article\.scss}line{font-family:\0000331}}
 .hero-article--overlay:hover {
   background-color: rgba(255, 255, 255, 0.85);
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_hero-article\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_hero-article\.scss}line{font-family:\0000324}}
   .hero-article--overlay {
     margin-top: -3.6em;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_hero-article\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_hero-article\.scss}line{font-family:\0000340}}
 .hero-article {
   padding: 6em 2em 2em;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_hero-article\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_hero-article\.scss}line{font-family:\0000340}}
   .hero-article {
     padding: 8em 2em 4em;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_hero-article\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_hero-article\.scss}line{font-family:\0000349}}
 .hero-article--title {
   font-size: 40px;
   font-size: 2.5rem;
@@ -1098,20 +1103,20 @@ input[type="search"]:focus {
   font-style: italic;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_hero-article\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_hero-article\.scss}line{font-family:\0000349}}
   .hero-article--title {
     font-size: 48px;
     font-size: 3rem;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_hero-article\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_hero-article\.scss}line{font-family:\0000359}}
 .hero-article--date {
   font-size: 19.2px;
   font-size: 1.2rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_hero-article\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_hero-article\.scss}line{font-family:\0000363}}
 .hero-title--intro {
   font-size: 20.8px;
   font-size: 1.3rem;
@@ -1119,7 +1124,7 @@ input[type="search"]:focus {
   margin: .9em 0 0;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_hero-article\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_hero-article\.scss}line{font-family:\0000363}}
   .hero-title--intro {
     font-size: 25.6px;
     font-size: 1.6rem;

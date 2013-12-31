@@ -6,19 +6,28 @@ site-header-modifier: site-header_with-hero-article
 {% include hero-article.html %}
 
 <section class="post-listing layout--container layout--vertical-space">
+
+  <!-- get the title of the first post in the "articles" category -->
+  {% capture first_article_title %} {{site.categories.articles.first.title}} {% endcapture %}
+
   {% for post in site.posts limit:10 %}
 
     {% if post.categories contains 'articles' %}
-
-      <article class="post-listing--item_expanded">
-        <a class="post-listing--post-link" href="{{ post.id }}" title="Read {{ post.title }}">
-          <h1 class="post-listing--item_expanded--title">{{ post.title }}</h1>
-          <time class="post-listing--item_expanded--date" datetime="{{ latest_post.date | date: "%Y-%m-%d" }}">{{ latest_post.date | date: "%B %d, %Y" }}</time>
-        </a>
-        {% if post.intro %}
-        <p class="post-listing--item_expanded--intro">{{ post.intro }}</p>
-        {% endif %}
-      </article>
+      
+      <!-- get the title of the current post, and compare it with "first_article_title"
+      to prevent duplicating the featured post in this listing: -->
+      {% capture current_article_title %} {{post.title}} {% endcapture %}
+      {% unless first_article_title == current_article_title %}
+        <article class="post-listing--item_expanded">
+          <a class="post-listing--post-link" href="{{ post.id }}" title="Read {{ post.title }}">
+            <h1 class="post-listing--item_expanded--title">{{ post.title }}</h1>
+            <time class="post-listing--item_expanded--date" datetime="{{ latest_post.date | date: "%Y-%m-%d" }}">{{ latest_post.date | date: "%B %d, %Y" }}</time>
+          </a>
+          {% if post.intro %}
+          <p class="post-listing--item_expanded--intro">{{ post.intro }}</p>
+          {% endif %}
+        </article>
+      {% endunless %}
 
     {% elsif post.categories contains 'notes' %}
 

@@ -1,5 +1,5 @@
 {% assign latest_article = site.categories.articles.first %}
-<section class="hero-article--wrapper" {% if latest_article.photo %}style="background-image: url('img/posts/{{latest_article.photo}}');"{% endif %}>
+<section class="hero-article--wrapper {% unless latest_article.photo %}hero-article--wrapper_has-no-image{% endunless %}" {% if latest_article.photo %}style="background-image: url('img/posts/{{latest_article.photo}}');"{% endif %}>
   <a class="hero-article--overlay" href="{{ latest_article.id }}" title="Read {{ latest_article.title }}">
     <article class="hero-article">
       <h1 class="hero-article--title">{{ latest_article.title }}</h1>
