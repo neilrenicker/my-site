@@ -37,6 +37,38 @@
       </item>
     
       <item>
+        <title>Feedback Loop</title>
+        <description>&lt;p&gt;I recently took two vacation days to stay at home, be with my family, and work on side projects. I was prepared to be inspired and diligent. I had a simple, yet ambitious plan for creating things.&lt;/p&gt;
+
+&lt;p&gt;In short, it didn’t work. I did very little writing (ironically, I started writing this article before work on the Monday &lt;em&gt;after&lt;/em&gt; my mini vacation). I got a little done, but for the most part, I was sidetracked and a bit bored.&lt;/p&gt;
+
+&lt;p&gt;Bored! How could I be bored when there are a thousand wonderful things in our industry to be learning and creating? I contrast this with the “filled-to-the-brim”, “always-on” inspiration I feel during the work week when I’m working on other things.&lt;/p&gt;
+
+&lt;p&gt;I’ve said this before, and it’s still as true as ever: &lt;em&gt;We’re most inspired when we should be working on something else.&lt;/em&gt; What’s going on here? What’s the magic that’s present during regular working hours, but vaporizes during vacation or dedicated “side project” time?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Passive thought?&lt;/strong&gt; Do our brains have a &lt;a href=&#39;http://www.arlovance.com/content/articles/activepassive.pdf&#39;&gt;peripheral thought life&lt;/a&gt; that flourishes when not given direct attention?&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Time gluttony?&lt;/strong&gt; Do we thrive under the constraints and pressure of small time slots, but get fat and lazy when we have a large block of time to do whatever we want?&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Bad working habits?&lt;/strong&gt; If you’re like me, you’re constantly optimizing your work habits to get the most out of the time you have. But I wonder if the prospect of 2-3 full days of working only on stuff we love is just too good to be true. Have snappy online social services ruined our ability to focus and &lt;a href=&#39;http://calnewport.com/blog/2012/11/21/knowledge-workers-are-bad-at-working-and-heres-what-to-do-about-it/&#39;&gt;press through difficult work&lt;/a&gt;? Have we succumbed to the tyranny of the push notification, and surrendered up our mental disciplines in return?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#39;your_job_is_not_a_curse&#39;&gt;Your Job is Not a Curse&lt;/h2&gt;
+
+&lt;p&gt;Each of those hypotheses for inspiration slump lead me to conclude that if you’re serious about side projects, your day job isn’t a curse. It might be your biggest blessing! The time that you have to write, work on side projects, and self-teach may be short, but it can have a higher net value than day upon day of free time. You appreciate your free time when you get it, and you’re constrained to work quickly and with focus.&lt;/p&gt;
+
+&lt;p&gt;There’s a remarkable feedback loop present between day work and night work. Even if your day job is completely unrelated to your hobbies, you hear things at work that give you ideas to boost up your side projects. You have the benefit of the energy, camaraderie, and the criticism of your coworkers.&lt;/p&gt;
+
+&lt;p&gt;Then at home, you practice things in your side projects that make your more competent at work. You’re refreshed by working on stuff you really want to, and you develop insight and skills that make you a more valuable employee.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Killing either part of this balanced feedback loop can break the circuit and stop the flow.&lt;/em&gt;&lt;/p&gt;</description>
+        <pubDate>Thu, 14 Nov 2013 00:00:00 -0500</pubDate>
+        <link>http://neilrenicker.com/articles/feedback-loop</link>
+        <guid isPermaLink="true">http://neilrenicker.com/articles/feedback-loop</guid>
+      </item>
+    
+      <item>
         <title>Describe Design with GIFs and Annotations</title>
         <description>&lt;p&gt;In a distributed workplace, and in online communication with clients, talking about design is difficult. Talking about animation and interaction in design is even more difficult.&lt;/p&gt;
 
@@ -283,44 +315,6 @@
         <pubDate>Sat, 16 Mar 2013 00:00:00 -0400</pubDate>
         <link>http://neilrenicker.com/articles/on-the-go</link>
         <guid isPermaLink="true">http://neilrenicker.com/articles/on-the-go</guid>
-      </item>
-    
-      <item>
-        <title>The Making of a Web Craftsman</title>
-        <description>&lt;p&gt;Here are the links to resources I mentioned during my talk:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#39;http://neil.re/peoples&#39;&gt;neil.re/peoples&lt;/a&gt; &lt;em&gt;A list of must-follow thought leaders, resources, and blogs focused on front-end web development&lt;/em&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#39;http://neil.re/side-projects&#39;&gt;neil.re/side-projects&lt;/a&gt; &lt;em&gt;Resources for thinking of web side projects&lt;/em&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#39;http://neil.re/meetups&#39;&gt;neil.re/meetups&lt;/a&gt; &lt;em&gt;Great Dayton web meetups&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Here are the quotes I mentioned during the talk, with links to each of the articles / books referenced:&lt;/p&gt;
-&lt;blockquote&gt;&quot;A designer who does not write markup and css is not designing for the web, but drawing pictures.&quot;
-  &lt;span class=&#39;quote-source&#39;&gt;-Andy Rutledge, &lt;a href=&#39;http://andyrutledge.com/web-design-is-product-design.php&#39;&gt;Web Design is Product Design&lt;/a&gt;&lt;/span&gt;
-&lt;/blockquote&gt;&lt;blockquote&gt;“If there’s one thing designers are good at — it’s following the Internet, and there’s already plenty of information about the latest tools and software there. Tools are merely instruments that help us accomplish a task, but tools can’t think, so expand on your approaches and point of view.”
-  &lt;span class=&#39;quote-source&#39;&gt;-Aura Seltzer, &lt;a href=&#39;http://cognition.happycog.com/article/elevating-the-podium&#39;&gt;“Elevating the Podium”&lt;/a&gt;&lt;/span&gt;
-&lt;/blockquote&gt;&lt;blockquote&gt;“If your life is primarily consumed by your work, then loving your work is one of the most important keys to loving your life.”
-  &lt;span class=&#39;quote-source&#39;&gt;-Chad Fowler, &lt;a href=&#39;http://www.amazon.com/Passionate-Programmer-Remarkable-Development-Pragmatic/dp/1934356344&#39;&gt;The Passionate Programmer&lt;/a&gt;&lt;/span&gt;
-&lt;/blockquote&gt;&lt;blockquote&gt;“That’s the tough thing about the web. In an instant, you can see somebody’s work that took them not just months to create, but years to come into their own style. When I understood that there will always be people ahead of me, I realized I didn’t have to be jealous, but that I could be happy about the work I’m making right now. If you keep creating, you’re just going to get better.”
-  &lt;span class=&#39;quote-source&#39;&gt;-Kyle Steed, &lt;a href=&#39;http://thegreatdiscontent.com/kyle-steed&#39;&gt;The Great Discontent&lt;/a&gt;&lt;/span&gt;
-&lt;/blockquote&gt;&lt;blockquote&gt;“Challenge yourself. Humble yourself. Get over yourself. Whatever you do, make sure it’s well outside your comfort zone. You’ll learn and grow and become better, stronger, and a lot more self-assured. Learning to not care what others think about you – in a healthy way – is incredibly empowering.”
-  &lt;span class=&#39;quote-source&#39;&gt;-Jeff Haden, &lt;a href=&#39;http://www.inc.com/jeff-haden/your-most-important-business-investment.html&#39;&gt;Your Most Important Business Invesment&lt;/a&gt;&lt;/span&gt;
-&lt;/blockquote&gt;&lt;blockquote&gt;“In the traditional professional world (and specifically the IT trade), we’re less likely to ask each other for help. Depending on others is often seen as a sign of weakness. We’re afraid to admit that we’re not perfect. Everything is competition. Only the strong survive, and all that. Unfortunately, this leads to an extremely underdeveloped system of mentoring.”
-  &lt;span class=&#39;quote-source&#39;&gt;-Chad Fowler, &lt;a href=&#39;http://www.amazon.com/Passionate-Programmer-Remarkable-Development-Pragmatic/dp/1934356344&#39;&gt;The Passionate Programmer&lt;/a&gt;&lt;/span&gt;
-&lt;/blockquote&gt;&lt;blockquote&gt;“The horizontal stroke of the ‘T’ is the disposition for collaboration across disciplines. The vertical stroke of the ‘T’ is a depth of skill that allows them to contribute to the creative process.”
-  &lt;span class=&#39;quote-source&#39;&gt;-Tim Brown, &lt;a href=&#39;http://chiefexecutive.net/ideo-ceo-tim-brown-t-shaped-stars-the-backbone-of-ideoae%E2%84%A2s-collaborative-culture&#39;&gt;T-Shaped Stars: The Backbone of IDEO’s Collaborative Culture&lt;/a&gt;&lt;/span&gt;
-&lt;/blockquote&gt;&lt;blockquote&gt;“If programmers got paid to remove code from sofware instead of writing new code, software would be a whole lot better.”
-  &lt;span class=&#39;quote-source&#39;&gt;-Nicholas Negroponte, “And, the rest of the (AIGA Conference) story”, as quoted in &lt;a href=&#39;http://gettingreal.37signals.com/&#39;&gt;Getting Real&lt;/a&gt; by 37Signals&lt;/span&gt;
-&lt;/blockquote&gt;&lt;blockquote&gt;“…if you could give one piece of advice to another designer starting out, what would you say?”&lt;br /&gt;&lt;br /&gt;
-  “…my answer is always, find something you’re passionate about and write about that passion.”
-    &lt;span class=&#39;quote-source&#39;&gt;-Cameron Moll on &lt;a href=&#39;http://thegreatdiscontent.com/cameron-moll&#39;&gt;The Great Discontent&lt;/a&gt;&lt;/span&gt;
-&lt;/blockquote&gt;</description>
-        <pubDate>Tue, 05 Mar 2013 00:00:00 -0500</pubDate>
-        <link>http://neilrenicker.com/speaking/craftsman</link>
-        <guid isPermaLink="true">http://neilrenicker.com/speaking/craftsman</guid>
       </item>
     
   </channel>
