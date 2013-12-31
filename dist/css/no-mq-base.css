@@ -481,81 +481,25 @@ table {
   -webkit-font-smoothing: antialiased;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_general-extends\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_general-extends\.scss}line{font-family:\000034}}
 .hero-title--intro, .post-listing--expanded-intro {
   font-family: "proxima-nova", sans-serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_general-extends\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_general-extends\.scss}line{font-family:\000038}}
 .profile--title {
   font-style: italic;
   color: #3b413f;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_general-mixins\.scss}line{font-family:\0000347}}
-.site-header:after, .page-intro_with-underline:after {
-  clear: both;
-  content: '';
-  display: table;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_general-extends\.scss}line{font-family:\0000316}}
-.post a, .post a:hover {
-  -webkit-transition: color 0.3s ease;
-  -moz-transition: color 0.3s ease;
-  -o-transition: color 0.3s ease;
-  transition: color 0.3s ease;
-  color: #ba4a41;
-  text-decoration: none;
-  border-bottom: 1px solid #ba4a41;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_general-extends\.scss}line{font-family:\0000323}}
-.post a:visited {
-  color: #a03f38;
-  border-bottom: 1px solid #a03f38;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_general-extends\.scss}line{font-family:\0000328}}
-.site-header a, .hero-article--wrapper, .hero-article--wrapper a, .post-listing--post-link, .profile--social a {
-  text-decoration: none;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_general-extends\.scss}line{font-family:\0000332}}
-.hero-article--overlay {
-  background-color: rgba(255, 255, 255, 0.7);
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_general-extends\.scss}line{font-family:\0000336}}
-.btn, .hero-article--overlay, .post-listing--condensed-title, .post-listing--expanded-title, .post-listing--condensed-date, .profile--social a {
-  -webkit-transition: background 0.2s ease;
-  -moz-transition: background 0.2s ease;
-  -o-transition: background 0.2s ease;
-  transition: background 0.2s ease;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_general-extends\.scss}line{font-family:\0000340}}
-.site-header--nav ul, .post-tags, .article_list-with_intro {
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-  list-style-type: none;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_general-extends\.scss}line{font-family:\0000346}}
-.layout--container, .layout--main, .site-header--container, .hero-article, .page-intro {
-  max-width: 48em;
-  margin: 0 auto;
-  padding: 0 5%;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_typography\.scss}line{font-family:\000031}}
-.content-callout h1, .footer-article-endMark {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_general-extends\.scss}line{font-family:\0000313}}
+.random-quote--title, .footer-article-endMark {
   font-style: italic;
-  margin-bottom: .25em;
+  margin: 0;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_typography\.scss}line{font-family:\000037}}
-.content-callout h1:before, .footer-article-endMark:before {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_general-extends\.scss}line{font-family:\0000322}}
+.random-quote--title:before, .footer-article-endMark:before {
   background: #e5e5e5;
   content: "\00a0";
   left: 0;
@@ -565,28 +509,57 @@ table {
   position: absolute;
   z-index: -1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_typography\.scss}line{font-family:\0000317}}
-.content-callout h1 b, .footer-article-endMark b {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_general-extends\.scss}line{font-family:\0000333}}
+.random-quote--title b, .footer-article-endMark b {
   display: inline-block;
   background: white;
   line-height: 1;
   padding: 0 .3em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_typography\.scss}line{font-family:\0000325}}
-.content-callout p {
-  color: #b09576;
-  font-style: italic;
-  font-size: .75em;
-  font-weight: 400;
-  margin: 0;
-  text-align: center;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_typography\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_general-extends\.scss}line{font-family:\0000346}}
 .highlight_text {
   background: #f8eec7;
   font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_general-mixins\.scss}line{font-family:\0000347}}
+.site-header:after, .page-intro_with-underline:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_general-extends\.scss}line{font-family:\0000357}}
+.site-header a, .hero-article--wrapper, .hero-article--wrapper a, .post-listing--post-link, a.profile--social-link {
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_general-extends\.scss}line{font-family:\0000361}}
+.hero-article--overlay {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_general-extends\.scss}line{font-family:\0000365}}
+.btn, .hero-article--overlay, .post-listing--condensed-title, .post-listing--expanded-title, .post-listing--condensed-date, a.profile--social-link {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_general-extends\.scss}line{font-family:\0000369}}
+.site-header--nav ul, .post-tags, .article_list-with_intro {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  list-style-type: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_general-extends\.scss}line{font-family:\0000375}}
+.layout--container, .layout--main, .site-header--container, .hero-article, .page-intro {
+  max-width: 48em;
+  margin: 0 auto;
+  padding: 0 5%;
 }
 
 /* Document Styles */
@@ -596,7 +569,7 @@ button,
 input,
 select,
 textarea {
-  color: gray;
+  color: #626262;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_document\.scss}line{font-family:\0000311}}
@@ -668,58 +641,24 @@ img {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_document\.scss}line{font-family:\0000368}}
-blockquote {
-  background: #f1ede7;
-  font-style: italic;
-  font-size: 1.2em;
-  margin: 2em 0;
-  overflow: scroll;
-  line-height: 1.7;
-  padding: 1.2em 1.5em;
-  -webkit-border-radius: 0.2em;
-  -moz-border-radius: 0.2em;
-  -ms-border-radius: 0.2em;
-  -o-border-radius: 0.2em;
-  border-radius: 0.2em;
-  margin-top: 2.5em;
-  margin-bottom: 2.5em;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_document\.scss}line{font-family:\0000399}}
-.quote-source {
-  font-size: .6em;
-  font-style: normal;
-  font-family: "proxima-nova", sans-serif;
-  font-weight: 400;
-  display: block;
-  margin-top: 1.3em;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_document\.scss}line{font-family:\00003110}}
-.quote-source a {
-  font-style: italic;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_document\.scss}line{font-family:\00003115}}
 ::-moz-selection {
   background: #f8eec7;
   text-shadow: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_document\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_document\.scss}line{font-family:\0000373}}
 ::selection {
   background: #f8eec7;
   text-shadow: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_document\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_document\.scss}line{font-family:\0000378}}
 .responsive-line_break {
   display: block;
 }
 
 /* Chrome Frame Prompt */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_document\.scss}line{font-family:\00003133}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_document\.scss}line{font-family:\0000386}}
 .chromeframe {
   margin: 0.2em 0;
   background: #ccc;
@@ -761,12 +700,12 @@ blockquote {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_buttons\.scss}line{font-family:\0000333}}
 .btn_standard, .btn_standard:visited {
-  color: gray;
+  color: #626262;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_buttons\.scss}line{font-family:\0000337}}
 .btn_standard:hover {
   background: #d1d1d1;
-  color: dimgrey;
+  color: #4b4b4b;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_buttons\.scss}line{font-family:\0000343}}
@@ -866,6 +805,116 @@ input[type="search"]:focus {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_forms\.scss}line{font-family:\0000333}}
 :-ms-input-placeholder {
   color: #e8e0d7;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\000031}}
+.wysiwyg {
+  margin-top: 1.8em;
+  font-size: 1.3em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\000035}}
+.wysiwyg h1, .wysiwyg h2, .wysiwyg h3, .wysiwyg h4, .wysiwyg h5, .wysiwyg h6 {
+  color: #3b413f;
+  font-style: italic;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000310}}
+.wysiwyg header h2 {
+  font-size: 2.2em;
+  font-style: italic;
+  margin-bottom: 0em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000316}}
+.wysiwyg img {
+  margin: 0 auto;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000321}}
+.wysiwyg ol, .wysiwyg ul {
+  list-style: none;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000325}}
+.wysiwyg ol li, .wysiwyg ul li {
+  margin: 0 0 1em;
+  line-height: 1.8em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000331}}
+.wysiwyg ol {
+  counter-reset: standard-counter;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000335}}
+.wysiwyg ol li {
+  position: relative;
+  padding-left: 2.7em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000339}}
+.wysiwyg ol li:after {
+  font-family: arial, sans-serif;
+  content: counter(standard-counter);
+  counter-increment: standard-counter;
+  font-size: 1em;
+  color: #BA4A41;
+  line-height: .6;
+  left: 0;
+  position: absolute;
+  margin-right: 1em;
+  top: 0.2em;
+  background-color: #e8e0d7;
+  border-radius: 1em;
+  padding: 0.6em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000357}}
+.wysiwyg ul {
+  padding-left: 0.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000360}}
+.wysiwyg ul li {
+  position: relative;
+  padding-left: 1.9em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000364}}
+.wysiwyg ul li:after {
+  content: "\2022";
+  margin-right: .5em;
+  font-size: 2em;
+  color: #ba4a41;
+  line-height: .8;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\0000377}}
+.wysiwyg blockquote {
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  -ms-border-radius: 0.2em;
+  -o-border-radius: 0.2em;
+  border-radius: 0.2em;
+  background: #f1f1f1;
+  font-style: italic;
+  font-size: 1.2em;
+  margin: 2em 0;
+  overflow: scroll;
+  line-height: 1.7;
+  padding: 1.2em 1.5em;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\00003109}}
+.wysiwyg .quote-source {
+  font-size: .6em;
+  font-style: normal;
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 400;
+  display: block;
+  margin-top: 1.3em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_wysiwyg\.scss}line{font-family:\00003121}}
+.wysiwyg .quote-source a {
+  font-style: italic;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_site-header\.scss}line{font-family:\000037}}
@@ -1014,7 +1063,7 @@ input[type="search"]:focus {
   -o-border-radius: 0.2em;
   border-radius: 0.2em;
   background: #e5e5e5;
-  color: gray;
+  color: #626262;
   display: inline-block;
   line-height: 1.3em;
   font-family: sans-serif;
@@ -1032,7 +1081,7 @@ input[type="search"]:focus {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_post-listing\.scss}line{font-family:\0000346}}
 .post-listing--post-link:hover .post-listing--condensed-date {
   background: #d8d8d8;
-  color: #737373;
+  color: #555555;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_post-listing\.scss}line{font-family:\0000352}}
@@ -1154,20 +1203,26 @@ input[type="search"]:focus {
   margin: 0 0.6em 0.7em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_about\.scss}line{font-family:\000031}}
-.content-secondary {
-  font-size: 1.2em;
-  margin-top: 3em;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_random-quote\.scss}line{font-family:\000031}}
+.random-quote {
+  text-align: center;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_about\.scss}line{font-family:\000035}}
-.content-secondary h1, .content-secondary h3, .content-secondary h3 {
-  font-style: italic;
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_random-quote\.scss}line{font-family:\000036}}
+.random-quote--title {
+  font-size: 32px;
+  font-size: 2rem;
+  margin-bottom: 1.3em;
+  color: #3b413f;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_about\.scss}line{font-family:\0000310}}
-.content-callout {
-  text-align: center;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_random-quote\.scss}line{font-family:\0000313}}
+.random-quote--description {
+  font-size: 17.6px;
+  font-size: 1.1rem;
+  font-style: italic;
+  margin: 0;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_profile\.scss}line{font-family:\000035}}
@@ -1198,10 +1253,10 @@ input[type="search"]:focus {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_profile\.scss}line{font-family:\0000333}}
 .profile--intro {
   font-family: "proxima-nova", sans-serif;
-  font-size: 1.4em;
+  font-size: 1.3em;
   margin: .75em 0;
-  font-size: 1.4em;
-  margin: 1.5em 0;
+  font-size: 1.5em;
+  margin: 0.8em 0;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_profile\.scss}line{font-family:\0000344}}
@@ -1223,9 +1278,8 @@ input[type="search"]:focus {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_profile\.scss}line{font-family:\0000374}}
-.profile--social a {
-  border-bottom: none;
-  color: #6a553d;
+a.profile--social-link {
+  color: #626262;
   display: inline-block;
   font-family: "proxima-nova", sans-serif;
   font-size: 1em;
@@ -1234,85 +1288,12 @@ input[type="search"]:focus {
   display: inline-block;
   width: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_profile\.scss}line{font-family:\0000385}}
-.profile--social a:hover {
-  color: #50402e;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_profile\.scss}line{font-family:\0000384}}
+a.profile--social-link:hover {
+  color: #3c3c3c;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\000031}}
-.post {
-  margin-top: 1.8em;
-  font-size: 1.3em;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\000035}}
-.post header h2 {
-  font-size: 2.2em;
-  font-style: italic;
-  margin-bottom: 0em;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000319}}
-.post img {
-  margin: 0 auto;
-  display: block;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000324}}
-.post ol, .post ul {
-  list-style: none;
-  padding: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000328}}
-.post ol li, .post ul li {
-  margin: 0 0 1em;
-  line-height: 1.8em;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000334}}
-.post ol {
-  counter-reset: standard-counter;
-  position: relative;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000338}}
-.post ol li {
-  position: relative;
-  padding-left: 2.7em;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000342}}
-.post ol li:after {
-  font-family: arial, sans-serif;
-  content: counter(standard-counter);
-  counter-increment: standard-counter;
-  font-size: 1em;
-  color: #BA4A41;
-  line-height: .6;
-  left: 0;
-  position: absolute;
-  margin-right: 1em;
-  top: 0.2em;
-  background-color: #e8e0d7;
-  border-radius: 1em;
-  padding: 0.6em;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000360}}
-.post ul {
-  padding-left: 0.5em;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000363}}
-.post ul li {
-  position: relative;
-  padding-left: 1.9em;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000367}}
-.post ul li:after {
-  content: "\2022";
-  margin-right: .5em;
-  font-size: 2em;
-  color: #ba4a41;
-  line-height: .8;
-  top: 0;
-  left: 0;
-  position: absolute;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000381}}
 img.post-photo-featured {
   margin-top: 0.2em;
   display: block;
@@ -1321,14 +1302,14 @@ img.post-photo-featured {
   margin: 2.75em auto 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000314}}
 .post-meta {
   font-style: italic;
   letter-spacing: 0.2em;
   margin-top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000320}}
 .post-intro {
   font-family: "proxima-nova", sans-serif;
   font-size: 1.5em;
@@ -1339,17 +1320,17 @@ img.post-photo-featured {
   margin: 1.3em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000330}}
 .post-tags-wrapper {
   margin-top: 3em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000334}}
 .post-tags {
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000339}}
 .post-tags-title {
   color: #6a553d;
   margin-right: 1em;
@@ -1359,7 +1340,7 @@ img.post-photo-featured {
   font-style: italic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000348}}
 .post-tags-tag {
   -webkit-border-radius: 0.3em;
   -moz-border-radius: 0.3em;
@@ -1374,11 +1355,11 @@ img.post-photo-featured {
   display: inline-block;
   margin: 0 .6em .6em 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000355}}
 .post-tags-tag:hover {
   background: #dfd3c7;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_articles\.scss}line{font-family:\0000359}}
 .post-tags-tag a {
   color: #6A553D;
   text-decoration: none;

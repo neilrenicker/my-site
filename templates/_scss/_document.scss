@@ -65,53 +65,6 @@ img {
   height: auto;
 }
 
-blockquote {
-  background: lighten($color-primary, 5%);
-  font-style: italic;
-  font-size: 1.2em;
-  margin: 2em 0;
-  overflow: scroll;
-  line-height: 1.7;
-  padding: 1.2em 1.5em;
-  @include border-radius(.2em);
-  @include sb-media(45em) {
-    margin-top: 2.5em;
-    margin-bottom: 2.5em;
-  }
-}
-
-.quote-left {
-  @include sb-media(60em) {
-    float: left;
-    margin: 0 3.2em 1em 0;
-    max-width: 37%;
-  }
-}
-
-.quote-right {
-  @include sb-media(60em) {
-    float: right;
-    margin: 0 0 1em 3.2em;
-    max-width: 37%;
-  }
-}
-
-.quote-source {
-  font: {
-    size: .6em;
-    style: normal;
-    family: $font-sans;
-    weight: 400;
-  }
-  display: block;
-  margin-top: 1.3em;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  a {
-    font-style: italic;
-  }
-}
-
 ::-moz-selection {
   background: $color-highlight;
   text-shadow: none;

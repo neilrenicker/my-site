@@ -4,7 +4,7 @@
 }
 
 .footer-article-endMark {
-  @extend %title-centered;
+  @extend %heading_centered-lines;
   font-style: normal; // overrides default title-centered behavior
   &:before {
     background: darken($color-primary, 2%); // overrides default title-centered behavior
