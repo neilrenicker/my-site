@@ -10,6 +10,7 @@ tags:
 art:
   <img class="art-feedback-illustration" src="../img/posts/2013-11-12-feedback-loop.png" alt="The Feedback Loop">
   <img class="art-feedback-graph" src="../img/posts/2013-11-12-feedback.svg" alt="The Feedback Loop">
+color_scheme: "#a9429f"
 
 published: true
 

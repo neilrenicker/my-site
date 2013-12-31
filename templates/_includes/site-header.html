@@ -1,4 +1,6 @@
-<header class="site-header {%if page.site-header-modifier%}{{ page.site-header-modifier }}{%endif%}">
+<header class="site-header {%if page.site-header-modifier%}{{ page.site-header-modifier }}{%endif%}" 
+  {% if page.color_scheme %}data-color_scheme="{{ page.color_scheme }}"{% endif %}>
+
   <div class="site-header--container">
     <div class="site-header--logo">
       <a href="/" title="NeilRenicker.com">
