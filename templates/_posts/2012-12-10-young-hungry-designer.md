@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: The Young and Hungry Designer
 photo: 121210-the-lonely-robot.jpg
 intro: There aren't any hacks on moving forward in a design career. You just have to go make stuff. Screw it up. Throw it away. Start over.

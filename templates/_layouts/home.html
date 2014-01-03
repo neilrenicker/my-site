@@ -1,45 +1,45 @@
 ---
 layout: global
+site-header-modifier: site-header_with-hero-article
 ---
 
-<section class="feature-article clearfix">
-  {% assign latest_article = site.categories.articles.first %}
-  <a href="{{ latest_article.id }}" title="Read {{ latest_article.title }}">
-    <div class="home-art_top">
-      <span class="home-art_top-photo" data-picture data-alt="Feedback Loop by Neil Renicker">
-          <span data-src="../img/home/feedback-loop-small.jpg"></span>
-          <span data-src="../img/home/feedback-loop-small@2x.jpg" data-media="(min-device-pixel-ratio: 2.0)"></span>
-          <span data-src="../img/home/feedback-loop-medium.jpg" data-media="(min-width: 40em)"></span>
-          <span data-src="../img/home/feedback-loop-medium@2x.jpg" data-media="(min-width: 40em) and (min-device-pixel-ratio: 2.0)"></span>
-          <noscript>
-            <img src="../img/home/feedback-loop-small.jpg" alt="Feedback Loop by Neil Renicker">
-          </noscript>
-      </span>
-    </div>
-  </a>
-  <article>
-    <h1><a href="{{ latest_article.id }}" title="Read {{ latest_article.title }}">{{ latest_article.title }}</a></h1>
-    <p>{{ latest_article.intro }}</p>
-    <a class="link-internal" href="{{ latest_article.id }}" title="Read {{ latest_article.title }}">Keep reading →</a>
-  </article>
-</section>
+{% include hero-article.html %}
 
-<section class="main-content">
-  <aside>
-    <h1>Of Note</h1>
-    <section>
-      <p>I had the pleasure of answering a few questions over on the Code School blog about my recent Sparkbox apprenticeship.</p>
-      <a href="http://blog.codeschool.com/post/57697625689/learn-by-apprenticing" title="Learn by Apprenticing" class="link-internal">Check out the post →</a>
-    </section>
-  </aside>
-  <section class="past-articles past-articles-right_col">
-    <h1 class="subheader">Previous Articles</h1>
-    {% for article in site.categories.articles limit:4 %}
-    <article>
-      <time datetime="{{ article.date | date: "%Y-%m-%d" }}">{{ article.date | date: "%b" }}<br /><b>{{ article.date | date: "%d" }}</b></time>
-      <h1><a href="{{ article.id }}" title="Read {{ article.title }}">{{ article.title }}</a></h1>
-    </article>
-    {% endfor %}
-    <a href="/articles" title="Articles archive">Browse older articles →</a>
-  </section>
+<section class="post-listing layout--container layout--vertical-space">
+
+  <!-- get the title of the first post in the "articles" category -->
+  {% capture first_article_title %} {{site.categories.articles.first.title}} {% endcapture %}
+
+  {% for post in site.posts limit:10 %}
+
+    {% if post.categories contains 'articles' %}
+      
+      <!-- get the title of the current post, and compare it with "first_article_title"
+      to prevent duplicating the featured post in this listing: -->
+      {% capture current_article_title %} {{post.title}} {% endcapture %}
+      {% unless first_article_title == current_article_title %}
+        <article class="post-listing--item_expanded">
+          <a class="post-listing--post-link" href="{{ post.id }}" title="Read {{ post.title }}">
+            <h1 class="post-listing--item_expanded--title">{{ post.title }}</h1>
+            <time class="post-listing--item_expanded--date" datetime="{{ latest_post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time>
+          </a>
+          {% if post.intro %}
+          <p class="post-listing--item_expanded--intro">{{ post.intro }}</p>
+          {% endif %}
+        </article>
+      {% endunless %}
+
+    {% elsif post.categories contains 'notes' %}
+
+      <article class="post-listing--item_condensed">
+        <a class="post-listing--post-link" href="{{ post.id }}" title="Read {{ post.title }}">
+          <time class="post-listing--item_condensed--date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b" }}<br /><b>{{ post.date | date: "%d" }}</b></time>
+          <h1 class="post-listing--item_condensed--title">{{ post.title }}</h1>
+        </a>
+      </article>
+
+    {% endif %}
+  {% endfor %}
+
+  <a class="post-listing--archive-link" href="/articles" title="Articles archive">Browse older posts →</a>
 </section>

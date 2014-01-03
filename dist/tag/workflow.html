@@ -11,88 +11,131 @@
     <title> workflow | NeilRenicker.com</title>
     <meta name="description" content="I'm a designer, developer, and writer living and working in the Midwest. I write about design, web development, and workflow; I hope you'll follow along.">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="../css/131114-base.css">
+    <!--[if (lt IE 9) & (!IEMobile)]>
+      <link href="../css/no-mq-base.css" rel="stylesheet">
+      <![endif]-->
+      <!--[if (gte IE 9) | (IEMobile)]><!-->
+      <link rel="stylesheet" href="../css/mq-base.css">
+    <!--<![endif]-->
     
-    <script type="text/javascript" src="//use.typekit.net/qvv0wbm.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/mak6cok.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
   </head>
   
   <body>
-    <!--[if lt IE 7]>
-    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-<![endif]-->
-<header class="header-primary clearfix">
-  <section class="header-primary-container">
-    <hgroup class="header-primary-logo">
+    <header class="site-header js--site-header" 
+  >
+
+  <div class="site-header--container">
+    <div class="site-header--logo">
       <a href="/" title="NeilRenicker.com">
-        <span class="header-primary-icon" aria-hidden="true" data-icon="&#xe005;"></span>
-        <h1>Neil Renicker</h1>
+        <span class="site-header--icon js--site-header--icon" aria-hidden="true" data-icon="&#xe005;"></span>
+        <h1 class="site-header--title">Neil Renicker</h1>
       </a>
-    </hgroup>
-    <nav>
+    </div>
+
+    <nav class="site-header--nav">
       <ul>
-        <li><a class="btn btn-standard" href="/articles" title="Articles I've Written">Articles</a></li>
-        <li><a class="btn btn-standard" href="/notes" title="Hasty Design and Development Notes">Notes</a></li>
-        <li><a class="btn btn-standard" href="/about" title="About Me">About</a></li>
+        <li><a class="site-header--button js--site-header--button btn btn_standard" href="/articles" title="Articles I've Written">Articles</a></li>
+        <li><a class="site-header--button js--site-header--button btn btn_standard" href="/notes" title="Hasty Design and Development Notes">Notes</a></li>
+        <li><a class="site-header--button js--site-header--button btn btn_standard" href="/about" title="About Me">About</a></li>
       </ul>
     </nav>
-  </section>
+  </div>
 </header>
     
-    <section class="headline">
-  <h1>Here's the stuff I've written about <span class="highlight_text">workflow</span>:</h1>
+    <section class="page-intro">
+  <h1 class="page-intro--headline">Here's the stuff I've written about <span class="highlighted-text">workflow</span>:</h1>
 </section>
-<section class="main-content">
-  <section class="past-articles">
+
+<main class="layout--main">
+  <section class="post-listing layout--vertical-space">
+
     
-    <article>
-      <h1><a href="/articles/feedback-loop" title="Feedback Loop">Feedback Loop</a></h1>
-      <p>Excelling at your day job is the best way to stay inspired about working on side projects, and working on side projects helps you stay sharp and competent at your nine-to-five.</p>
-      <a href="/articles/feedback-loop" title="Feedback Loop">Keep reading →</a>
+
+    <article class="post-listing--item_basic">
+      <a class="post-listing--post-link" href="/articles/feedback-loop" title="Read Feedback Loop">
+        <h1 class="post-listing--item_basic--title">Feedback Loop</h1>
+      </a>
+      
+        <p class="post-listing--item_basic--intro">Excelling at your day job is the best way to stay inspired about working on side projects, and working on side projects helps you stay sharp and competent at your nine-to-five.</p>
+      
+      <a class="post-listing--item_basic--continue-link" href="/articles/feedback-loop" title="Feedback Loop">Read this →</a>
     </article>
+
     
-    <article>
-      <h1><a href="/notes/describe-design-with-gifs-and-annotations" title="Describe Design with GIFs and Annotations">Describe Design with GIFs and Annotations</a></h1>
-      <p></p>
-      <a href="/notes/describe-design-with-gifs-and-annotations" title="Describe Design with GIFs and Annotations">Keep reading →</a>
+
+    <article class="post-listing--item_basic">
+      <a class="post-listing--post-link" href="/notes/describe-design-with-gifs-and-annotations" title="Read Describe Design with GIFs and Annotations">
+        <h1 class="post-listing--item_basic--title">Describe Design with GIFs and Annotations</h1>
+      </a>
+      
+      <a class="post-listing--item_basic--continue-link" href="/notes/describe-design-with-gifs-and-annotations" title="Describe Design with GIFs and Annotations">Read this →</a>
     </article>
+
     
-    <article>
-      <h1><a href="/articles/on-the-go" title="On the Go">On the Go</a></h1>
-      <p>I recently moved from a big 27" iMac to a tiny 13" Macbook Air for all of my design and development. It's a mobile, speedy, and painless setup.</p>
-      <a href="/articles/on-the-go" title="On the Go">Keep reading →</a>
+
+    <article class="post-listing--item_basic">
+      <a class="post-listing--post-link" href="/articles/on-the-go" title="Read On the Go">
+        <h1 class="post-listing--item_basic--title">On the Go</h1>
+      </a>
+      
+        <p class="post-listing--item_basic--intro">I recently moved from a big 27" iMac to a tiny 13" Macbook Air for all of my design and development. It's a mobile, speedy, and painless setup.</p>
+      
+      <a class="post-listing--item_basic--continue-link" href="/articles/on-the-go" title="On the Go">Read this →</a>
     </article>
+
     
-    <article>
-      <h1><a href="/articles/font-organization" title="Font Organization">Font Organization</a></h1>
-      <p>I recently took to time to obessively organize my font collection. If you love great fonts, and you love organizing stuff, this one's for you.</p>
-      <a href="/articles/font-organization" title="Font Organization">Keep reading →</a>
+
+    <article class="post-listing--item_basic">
+      <a class="post-listing--post-link" href="/articles/font-organization" title="Read Font Organization">
+        <h1 class="post-listing--item_basic--title">Font Organization</h1>
+      </a>
+      
+        <p class="post-listing--item_basic--intro">I recently took to time to obessively organize my font collection. If you love great fonts, and you love organizing stuff, this one's for you.</p>
+      
+      <a class="post-listing--item_basic--continue-link" href="/articles/font-organization" title="Font Organization">Read this →</a>
     </article>
+
     
-    <article>
-      <h1><a href="/articles/pre-new-year-resolutions" title="Pre-new year resolutions">Pre-new year resolutions</a></h1>
-      <p>It's not the new year quite yet. That's OK. I'm going to make some resolutions early.</p>
-      <a href="/articles/pre-new-year-resolutions" title="Pre-new year resolutions">Keep reading →</a>
+
+    <article class="post-listing--item_basic">
+      <a class="post-listing--post-link" href="/articles/pre-new-year-resolutions" title="Read Pre-new year resolutions">
+        <h1 class="post-listing--item_basic--title">Pre-new year resolutions</h1>
+      </a>
+      
+        <p class="post-listing--item_basic--intro">It's not the new year quite yet. That's OK. I'm going to make some resolutions early.</p>
+      
+      <a class="post-listing--item_basic--continue-link" href="/articles/pre-new-year-resolutions" title="Pre-new year resolutions">Read this →</a>
     </article>
+
     
-    <article>
-      <h1><a href="/articles/working-like-a-mule" title="Working Like A Mule">Working Like A Mule</a></h1>
-      <p>There's a time and a place for roaming free, of course, but if I really want to get stuff done, I have to tie myself down and work like the brute mule.</p>
-      <a href="/articles/working-like-a-mule" title="Working Like A Mule">Keep reading →</a>
+
+    <article class="post-listing--item_basic">
+      <a class="post-listing--post-link" href="/articles/working-like-a-mule" title="Read Working Like A Mule">
+        <h1 class="post-listing--item_basic--title">Working Like A Mule</h1>
+      </a>
+      
+        <p class="post-listing--item_basic--intro">There's a time and a place for roaming free, of course, but if I really want to get stuff done, I have to tie myself down and work like the brute mule.</p>
+      
+      <a class="post-listing--item_basic--continue-link" href="/articles/working-like-a-mule" title="Working Like A Mule">Read this →</a>
     </article>
+
     
+
   </section>
-</section>
+</main>
 
     
 <footer class="footer-primary">
   <p>Built by hand in the <a href="http://en.wikipedia.org/wiki/Dayton,_Ohio" title="Dayton, OH - Wikipedia">rusty Midwest</a><br /><span class="footer-primary-separator"> | </span>Proudly hosted on <a href="http://mediatemple.net/" title="Media Temple hosting">(mt) Media Temple</a></p>
-  <small>&copy; 2013 NEIL RENICKER</small>
+  <small>&copy; 2014 NEIL RENICKER</small>
 </footer>
   
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+<script src="../js/main.js"></script>
 <script src="../js/plugins.js"></script>
 <script src="../js/vendor/picturefill.js"></script>
 

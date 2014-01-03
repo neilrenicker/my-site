@@ -1,11 +1,12 @@
 ---
-layout: article
+layout: post
 title: Alfred + Harvest
 photo: 2013-10-14-alfred-harvest.jpg
 intro: Your time is precious. Don't waste it starting and stopping your Harvest timer. My Harvest workflow for Alfred will make tracking time fun again.
 categories: articles
 tags:
 - projects
+color_scheme: "#581e8a"
 
 published: true
 

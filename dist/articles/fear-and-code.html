@@ -11,52 +11,62 @@
     <title> Fear and Code | NeilRenicker.com</title>
     <meta name="description" content="I'm a designer, developer, and writer living and working in the Midwest. I write about design, web development, and workflow; I hope you'll follow along.">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="../css/131114-base.css">
+    <!--[if (lt IE 9) & (!IEMobile)]>
+      <link href="../css/no-mq-base.css" rel="stylesheet">
+      <![endif]-->
+      <!--[if (gte IE 9) | (IEMobile)]><!-->
+      <link rel="stylesheet" href="../css/mq-base.css">
+    <!--<![endif]-->
     
-    <script type="text/javascript" src="//use.typekit.net/qvv0wbm.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/mak6cok.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
   </head>
   
   <body>
-    <!--[if lt IE 7]>
-    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-<![endif]-->
-<header class="header-primary clearfix">
-  <section class="header-primary-container">
-    <hgroup class="header-primary-logo">
+    <header class="site-header js--site-header" 
+  >
+
+  <div class="site-header--container">
+    <div class="site-header--logo">
       <a href="/" title="NeilRenicker.com">
-        <span class="header-primary-icon" aria-hidden="true" data-icon="&#xe005;"></span>
-        <h1>Neil Renicker</h1>
+        <span class="site-header--icon js--site-header--icon" aria-hidden="true" data-icon="&#xe005;"></span>
+        <h1 class="site-header--title">Neil Renicker</h1>
       </a>
-    </hgroup>
-    <nav>
+    </div>
+
+    <nav class="site-header--nav">
       <ul>
-        <li><a class="btn btn-standard" href="/articles" title="Articles I've Written">Articles</a></li>
-        <li><a class="btn btn-standard" href="/notes" title="Hasty Design and Development Notes">Notes</a></li>
-        <li><a class="btn btn-standard" href="/about" title="About Me">About</a></li>
+        <li><a class="site-header--button js--site-header--button btn btn_standard" href="/articles" title="Articles I've Written">Articles</a></li>
+        <li><a class="site-header--button js--site-header--button btn btn_standard" href="/notes" title="Hasty Design and Development Notes">Notes</a></li>
+        <li><a class="site-header--button js--site-header--button btn btn_standard" href="/about" title="About Me">About</a></li>
       </ul>
     </nav>
-  </section>
+  </div>
 </header>
     
-    <div class="art-top">
-  
-  <img class="post-photo-featured" src="../img/posts/130327-geometric-forest-fear-and-code.jpg" alt="Small strokes" />
-  
-  
-</div>
-<div class="container">
-  <article class="post">
-    <header>
-      <h2>Fear and Code</h2>
-      <p class="post-meta"><time>March 27, 2013</time></p>
-      
-      <p class="post-intro">As I’m working through my apprenticeship at Sparkbox, there are a few ideas that have kept me going when I hit the paralyzing fear of a challenging programming problem.</p>
-      
-    </header>
+    <main class="post">
+  <div class="art--top">
     
-    <p>As I’m working through my <a href='http://seesparkbox.com/apprenticeships'>apprenticeship at Sparkbox</a>, there are a few ideas that have kept me going when I hit the paralyzing fear of a challenging programming problem:</p>
+      <img class="post--featured-image" src="../img/posts/130327-geometric-forest-fear-and-code.jpg" alt="Small strokes" />
+    
+
+    
+  </div>
+
+  <div class="layout--container">
+    <article class="post--content">
+      <header>
+        <h1 class="post--title">Fear and Code</h1>
+        <time class="post--date">March 27, 2013</time>
+        
+          <p class="post--intro">As I’m working through my apprenticeship at Sparkbox, there are a few ideas that have kept me going when I hit the paralyzing fear of a challenging programming problem.</p>
+        
+      </header>
+
+      <div class="wysiwyg post--text">
+
+        <p>As I’m working through my <a href='http://seesparkbox.com/apprenticeships'>apprenticeship at Sparkbox</a>, there are a few ideas that have kept me going when I hit the paralyzing fear of a challenging programming problem:</p>
 <blockquote class='quote-right'>“Small strokes fell great oaks.”
   <span class='quote-source'>–Benjamin Franklin</span>
 </blockquote>
@@ -85,34 +95,49 @@
 </blockquote>
 <p>It’s easier for a potter to work with a problem in his clay than it is to work with the problem in his head. If he touches one side of the pot, it responds, and he immediately knows the next thing to do. Even if he made the wrong touch, he knows that it was a bad touch. If all of his molding happens as planning in his head, he’s merely guessing.</p>
 
-  </article>
-  <footer class="footer-article">
-    <div class="footer-article-endMark">
-      <b><a class="footer-article-endMark-icon" href="/" title="NeilRenicker.com" aria-hidden="true" data-icon="&#xe005;"></a></b>
+      </div>
+    </article>
+
+    <footer class="article-footer">
+  <div class="article-footer--endmark">
+    <b><a class="article-footer--endmark-icon" href="/" title="NeilRenicker.com" aria-hidden="true" data-icon="&#xe005;"></a></b>
+  </div>
+
+  
+
+  <div class="layout--vertical-space">
+    <span class="post-tags--title">Filed under:</span>
+    <div class="post-tags">
+      <ul>
+        
+        <li>
+          <a class="post-tags--btn btn btn_standard" href="/tag/programming" title="See all posts tagged programming">programming</a>
+        </li>
+        
+        <li>
+          <a class="post-tags--btn btn btn_standard" href="/tag/learning" title="See all posts tagged learning">learning</a>
+        </li>
+        
+      </ul>
     </div>
-  </footer>
+  </div>
+
   
-  <section class="post-tags-wrapper">
-    <h1 class="post-tags-title">Filed under:</h1>
-    <ul class="post-tags">
-      
-        <li class="post-tags-tag"><a href="/tag/programming" title="See all posts tagged programming">programming</a></li>
-      
-        <li class="post-tags-tag"><a href="/tag/learning" title="See all posts tagged learning">learning</a></li>
-      
-    </ul>
-  </section>
-  
-</div>
+
+</footer>
+
+  </div>
+</main>
 
     
 <footer class="footer-primary">
   <p>Built by hand in the <a href="http://en.wikipedia.org/wiki/Dayton,_Ohio" title="Dayton, OH - Wikipedia">rusty Midwest</a><br /><span class="footer-primary-separator"> | </span>Proudly hosted on <a href="http://mediatemple.net/" title="Media Temple hosting">(mt) Media Temple</a></p>
-  <small>&copy; 2013 NEIL RENICKER</small>
+  <small>&copy; 2014 NEIL RENICKER</small>
 </footer>
   
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+<script src="../js/main.js"></script>
 <script src="../js/plugins.js"></script>
 <script src="../js/vendor/picturefill.js"></script>
 

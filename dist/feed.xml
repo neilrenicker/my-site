@@ -214,7 +214,7 @@
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;I&amp;#8217;ll be able to narrow my focus to doing mainly what I&amp;#8217;m good at.&lt;/em&gt;&lt;/strong&gt; I&amp;#8217;m not a great businessman. I did decently at managing my business because I was the only one to do it. My first love is the work itself, though. Being an employee means I can focus in with precision and passion on what I do best.&lt;/p&gt;
 
-&lt;p&gt;So Sparkbox is the &lt;a href=&#39;http://seesparkbox.com/foundry/meet_neil&#39;&gt;next leg of my journey&lt;/a&gt;. I&amp;#8217;m excited about what I can give, and what I can take. The changes are stark, but the change is worth it.&lt;/p&gt;
+&lt;p&gt;So &lt;a href=&#39;http://seesparkbox&#39; title=&#39;Sparkbox&#39;&gt;Sparkbox&lt;/a&gt; is the &lt;a href=&#39;http://seesparkbox.com/foundry/meet_neil&#39;&gt;next leg of my journey&lt;/a&gt;. I&amp;#8217;m excited about what I can give, and what I can take. The changes are stark, but the change is worth it.&lt;/p&gt;
 &lt;blockquote&gt;&quot;You don&#39;t need more time, you just need to decide&quot;
   &lt;span class=&#39;quote-source&#39;&gt;-Seth Godin&lt;/span&gt;
 &lt;/blockquote&gt;</description>
@@ -234,33 +234,20 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Here are the quotes I mentioned during the talk, with links to each of the articles / books referenced:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;#8220;A designer who does not write markup and css is not designing for the web, but drawing pictures.&amp;#8221; &lt;br /&gt;-Andy Rutledge, &lt;a href=&#39;http://andyrutledge.com/web-design-is-product-design.php&#39;&gt;Web Design is Product Design&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;#8220;Happiest when exploring the intersection between design and development, I can now take a website from visual concept right through to production-ready code. I can move between graphics application and browser at will, making changes late into production. The whole process feels like a two-way conversation between designer and developer, fluid and fleeting, yet set entirely within my own mind.&amp;#8221; &lt;br /&gt;-Paul Robert Lloyd, &lt;a href=&#39;http://the-pastry-box-project.net/clearleft/2013-june-6/&#39;&gt;Works Well With Others&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“Challenge yourself. Humble yourself. Get over yourself. Whatever you do, make sure it’s well outside your comfort zone. You’ll learn and grow and become better, stronger, and a lot more self-assured. Learning to not care what others think about you – in a healthy way – is incredibly empowering.” &lt;br /&gt;-Jeff Haden, &lt;a href=&#39;http://www.inc.com/jeff-haden/your-most-important-business-investment.html&#39;&gt;Your Most Important Business Invesment&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“Being a great designer and a great developer is not an impossibility. With enough time and effort, you can become a designer or developer or both, no forehead horn required.” &lt;br /&gt;-Diogenes Brito, &lt;a href=&#39;https://diogenes.squarespace.com/blog/on-being-a-designer-and-a-developer-not-quite-unicorn-rare&#39;&gt;On Being A Designer And A Developer: Not Quite Unicorn Rare&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“The horizontal stroke of the ‘T’ is the disposition for collaboration across disciplines. The vertical stroke of the ‘T’ is a depth of skill that allows them to contribute to the creative process.” &lt;br /&gt;-Tim Brown, &lt;a href=&#39;http://chiefexecutive.net/ideo-ceo-tim-brown-t-shaped-stars-the-backbone-of-ideoae%E2%84%A2s-collaborative-culture&#39;&gt;T-Shaped Stars: The Backbone of IDEO’s Collaborative Culture&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“Dude, suckin&amp;#8217; at something is the first step to being sorta good at something” &lt;br /&gt;-&lt;a href=&#39;http://konigi.com/notebook/wisdom-dog&#39;&gt;Jake the Dog&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;#8220;Pretending you know what you&amp;#8217;re doing is almost the same as knowing what you are doing, so just accept that you know what you&amp;#8217;re doing even if you don&amp;#8217;t and do it.&amp;#8221; &lt;br /&gt;-Bre Pettis and Kio Stark, &lt;a href=&#39;http://www.brepettis.com/blog/2009/3/3/the-cult-of-done-manifesto.html&#39;&gt;The Cult of Done Manifesto&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;&quot;A designer who does not write markup and css is not designing for the web, but drawing pictures.&quot;
+  &lt;span class=&#39;quote-source&#39;&gt;-Andy Rutledge, &lt;a href=&#39;http://andyrutledge.com/web-design-is-product-design.php&#39;&gt;Web Design is Product Design&lt;/a&gt;&lt;/span&gt;
+&lt;/blockquote&gt;&lt;blockquote&gt;&quot;Happiest when exploring the intersection between design and development, I can now take a website from visual concept right through to production-ready code. I can move between graphics application and browser at will, making changes late into production. The whole process feels like a two-way conversation between designer and developer, fluid and fleeting, yet set entirely within my own mind.&quot;
+  &lt;span class=&#39;quote-source&#39;&gt;-Paul Robert Lloyd, &lt;a href=&#39;http://the-pastry-box-project.net/clearleft/2013-june-6/&#39;&gt;Works Well With Others&lt;/a&gt;&lt;/span&gt;
+&lt;/blockquote&gt;&lt;blockquote&gt;“Challenge yourself. Humble yourself. Get over yourself. Whatever you do, make sure it’s well outside your comfort zone. You’ll learn and grow and become better, stronger, and a lot more self-assured. Learning to not care what others think about you – in a healthy way – is incredibly empowering.”
+  &lt;span class=&#39;quote-source&#39;&gt;-Jeff Haden, &lt;a href=&#39;http://www.inc.com/jeff-haden/your-most-important-business-investment.html&#39;&gt;Your Most Important Business Invesment&lt;/a&gt;&lt;/span&gt;
+&lt;/blockquote&gt;&lt;blockquote&gt;“Being a great designer and a great developer is not an impossibility. With enough time and effort, you can become a designer or developer or both, no forehead horn required.”
+  &lt;span class=&#39;quote-source&#39;&gt;-Diogenes Brito, &lt;a href=&#39;https://diogenes.squarespace.com/blog/on-being-a-designer-and-a-developer-not-quite-unicorn-rare&#39;&gt;On Being A Designer And A Developer: Not Quite Unicorn Rare&lt;/a&gt;&lt;/span&gt;
+&lt;/blockquote&gt;&lt;blockquote&gt;“The horizontal stroke of the ‘T’ is the disposition for collaboration across disciplines. The vertical stroke of the ‘T’ is a depth of skill that allows them to contribute to the creative process.”
+  &lt;span class=&#39;quote-source&#39;&gt;-Tim Brown, &lt;a href=&#39;http://chiefexecutive.net/ideo-ceo-tim-brown-t-shaped-stars-the-backbone-of-ideoae%E2%84%A2s-collaborative-culture&#39;&gt;T-Shaped Stars: The Backbone of IDEO’s Collaborative Culture&lt;/a&gt;&lt;/span&gt;
+&lt;/blockquote&gt;&lt;blockquote&gt;“Dude, suckin&#39; at something is the first step to being sorta good at something”
+  &lt;span class=&#39;quote-source&#39;&gt;-&lt;a href=&#39;http://konigi.com/notebook/wisdom-dog&#39;&gt;Jake the Dog&lt;/a&gt;&lt;/span&gt;
+&lt;/blockquote&gt;&lt;blockquote&gt;&quot;Pretending you know what you&#39;re doing is almost the same as knowing what you are doing, so just accept that you know what you&#39;re doing even if you don&#39;t and do it.&quot;
+  &lt;span class=&#39;quote-source&#39;&gt;-Bre Pettis and Kio Stark, &lt;a href=&#39;http://www.brepettis.com/blog/2009/3/3/the-cult-of-done-manifesto.html&#39;&gt;The Cult of Done Manifesto&lt;/a&gt;&lt;/span&gt;
 &lt;/blockquote&gt;</description>
         <pubDate>Thu, 18 Jul 2013 00:00:00 -0400</pubDate>
         <link>http://neilrenicker.com/speaking/designers-with-biceps</link>

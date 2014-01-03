@@ -1,8 +1,26 @@
+// fallbacks for posts with no images
+
+$c--home-default: #53BB85; // fallback color for home hero background
+
 // base colors
+
 $color-primary: #e8e0d7; // light tan
 $color-secondary: #ba4a41; // bright orange
-$color-highlight: #f8eec7; // muted yellow
+
+$c--highlight: #f8eec7; // muted yellow
+
+$c--gray-light-4x: #f1f1f1;
+$c--gray-light-3x: #e5e5e5;
+$c--gray-light-2x: #c8c8c8;
+$c--gray-light: #b6b6b6;
+$c--gray: #626262;
+$c--gray-dark: #3B413F;
+
+$c--brown-light-3x: #f5f3ef;
+$c--brown-light: #ddd8cd;
+$c--brown-dark: #6A553D;
+
+$c--secondary: #c34b3a; // bright orange
 
 // element colors
 $color-typography: darken($color-primary, 55%);
-$color-lines: darken($color-primary, 10%);

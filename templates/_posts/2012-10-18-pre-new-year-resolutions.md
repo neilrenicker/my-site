@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Pre-new year resolutions
 intro: It's not the new year quite yet. That's OK. I'm going to make some resolutions early.
 categories: articles

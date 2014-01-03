@@ -4,7 +4,7 @@
   padding: 1em .5em 6em;
   text-align: center;
   br {
-    @include respond-to(35em) {
+    @include sb-media(35em) {
       display: none;
     }
   }
@@ -12,7 +12,7 @@
 
 .footer-primary-separator {
   display:none;
-  @include respond-to(35em) {
+  @include sb-media(35em) {
     display: inline;
   }
 }

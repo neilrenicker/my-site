@@ -1,0 +1,20 @@
+<header class="site-header js--site-header{%if page.site-header-modifier%} {{ page.site-header-modifier }}{%endif%}" 
+  {% if page.color_scheme %}data-color-scheme="{{ page.color_scheme }}"{% endif %}>
+
+  <div class="site-header--container">
+    <div class="site-header--logo">
+      <a href="/" title="NeilRenicker.com">
+        <span class="site-header--icon js--site-header--icon" aria-hidden="true" data-icon="&#xe005;"></span>
+        <h1 class="site-header--title">Neil Renicker</h1>
+      </a>
+    </div>
+
+    <nav class="site-header--nav">
+      <ul>
+        <li><a class="site-header--button js--site-header--button btn btn_standard" href="/articles" title="Articles I've Written">Articles</a></li>
+        <li><a class="site-header--button js--site-header--button btn btn_standard" href="/notes" title="Hasty Design and Development Notes">Notes</a></li>
+        <li><a class="site-header--button js--site-header--button btn btn_standard" href="/about" title="About Me">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

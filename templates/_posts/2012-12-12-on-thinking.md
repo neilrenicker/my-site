@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: On Thinking
 intro: Outrun your people and your colleauges in thinking. This is what good leaders do.
 categories: articles

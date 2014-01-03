@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "Describe Design with GIFs and Annotations"
 categories: notes
 tags:

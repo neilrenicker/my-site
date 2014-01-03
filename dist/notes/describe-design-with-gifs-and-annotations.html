@@ -11,48 +11,58 @@
     <title> Describe Design with GIFs and Annotations | NeilRenicker.com</title>
     <meta name="description" content="I'm a designer, developer, and writer living and working in the Midwest. I write about design, web development, and workflow; I hope you'll follow along.">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="../css/131114-base.css">
+    <!--[if (lt IE 9) & (!IEMobile)]>
+      <link href="../css/no-mq-base.css" rel="stylesheet">
+      <![endif]-->
+      <!--[if (gte IE 9) | (IEMobile)]><!-->
+      <link rel="stylesheet" href="../css/mq-base.css">
+    <!--<![endif]-->
     
-    <script type="text/javascript" src="//use.typekit.net/qvv0wbm.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/mak6cok.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
   </head>
   
   <body>
-    <!--[if lt IE 7]>
-    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-<![endif]-->
-<header class="header-primary clearfix">
-  <section class="header-primary-container">
-    <hgroup class="header-primary-logo">
+    <header class="site-header js--site-header" 
+  >
+
+  <div class="site-header--container">
+    <div class="site-header--logo">
       <a href="/" title="NeilRenicker.com">
-        <span class="header-primary-icon" aria-hidden="true" data-icon="&#xe005;"></span>
-        <h1>Neil Renicker</h1>
+        <span class="site-header--icon js--site-header--icon" aria-hidden="true" data-icon="&#xe005;"></span>
+        <h1 class="site-header--title">Neil Renicker</h1>
       </a>
-    </hgroup>
-    <nav>
+    </div>
+
+    <nav class="site-header--nav">
       <ul>
-        <li><a class="btn btn-standard" href="/articles" title="Articles I've Written">Articles</a></li>
-        <li><a class="btn btn-standard" href="/notes" title="Hasty Design and Development Notes">Notes</a></li>
-        <li><a class="btn btn-standard" href="/about" title="About Me">About</a></li>
+        <li><a class="site-header--button js--site-header--button btn btn_standard" href="/articles" title="Articles I've Written">Articles</a></li>
+        <li><a class="site-header--button js--site-header--button btn btn_standard" href="/notes" title="Hasty Design and Development Notes">Notes</a></li>
+        <li><a class="site-header--button js--site-header--button btn btn_standard" href="/about" title="About Me">About</a></li>
       </ul>
     </nav>
-  </section>
+  </div>
 </header>
     
-    <div class="art-top">
-  
-  
-</div>
-<div class="container">
-  <article class="post">
-    <header>
-      <h2>Describe Design with GIFs and Annotations</h2>
-      <p class="post-meta"><time>October 23, 2013</time></p>
-      
-    </header>
+    <main class="post">
+  <div class="art--top">
     
-    <p>In a distributed workplace, and in online communication with clients, talking about design is difficult. Talking about animation and interaction in design is even more difficult.</p>
+
+    
+  </div>
+
+  <div class="layout--container">
+    <article class="post--content">
+      <header>
+        <h1 class="post--title">Describe Design with GIFs and Annotations</h1>
+        <time class="post--date">October 23, 2013</time>
+        
+      </header>
+
+      <div class="wysiwyg post--text">
+
+        <p>In a distributed workplace, and in online communication with clients, talking about design is difficult. Talking about animation and interaction in design is even more difficult.</p>
 
 <p>I&#8217;ve found that the best way to describe movement in interfaces is with <em>animated GIFs</em> and <em>annotated images</em>. I&#8217;ll walk you quickly through how I make it happen.</p>
 
@@ -94,34 +104,49 @@
 
 <p>Using these two simple communication tools will make your Github issues and forum answers like 500% better. Use them for that. The internet will thank you and you&#8217;ll be my hero. Also, there&#8217;s no reason you can&#8217;t communicate this way in email, chat, and blog posts.</p>
 
-  </article>
-  <footer class="footer-article">
-    <div class="footer-article-endMark">
-      <b><a class="footer-article-endMark-icon" href="/" title="NeilRenicker.com" aria-hidden="true" data-icon="&#xe005;"></a></b>
+      </div>
+    </article>
+
+    <footer class="article-footer">
+  <div class="article-footer--endmark">
+    <b><a class="article-footer--endmark-icon" href="/" title="NeilRenicker.com" aria-hidden="true" data-icon="&#xe005;"></a></b>
+  </div>
+
+  
+
+  <div class="layout--vertical-space">
+    <span class="post-tags--title">Filed under:</span>
+    <div class="post-tags">
+      <ul>
+        
+        <li>
+          <a class="post-tags--btn btn btn_standard" href="/tag/design" title="See all posts tagged design">design</a>
+        </li>
+        
+        <li>
+          <a class="post-tags--btn btn btn_standard" href="/tag/workflow" title="See all posts tagged workflow">workflow</a>
+        </li>
+        
+      </ul>
     </div>
-  </footer>
+  </div>
+
   
-  <section class="post-tags-wrapper">
-    <h1 class="post-tags-title">Filed under:</h1>
-    <ul class="post-tags">
-      
-        <li class="post-tags-tag"><a href="/tag/design" title="See all posts tagged design">design</a></li>
-      
-        <li class="post-tags-tag"><a href="/tag/workflow" title="See all posts tagged workflow">workflow</a></li>
-      
-    </ul>
-  </section>
-  
-</div>
+
+</footer>
+
+  </div>
+</main>
 
     
 <footer class="footer-primary">
   <p>Built by hand in the <a href="http://en.wikipedia.org/wiki/Dayton,_Ohio" title="Dayton, OH - Wikipedia">rusty Midwest</a><br /><span class="footer-primary-separator"> | </span>Proudly hosted on <a href="http://mediatemple.net/" title="Media Temple hosting">(mt) Media Temple</a></p>
-  <small>&copy; 2013 NEIL RENICKER</small>
+  <small>&copy; 2014 NEIL RENICKER</small>
 </footer>
   
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+<script src="../js/main.js"></script>
 <script src="../js/plugins.js"></script>
 <script src="../js/vendor/picturefill.js"></script>
 

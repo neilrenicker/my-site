@@ -1,50 +1,54 @@
 /* Links and buttons */
 
-a, a:visited {
-  @extend %link-standard;
-}
-
-a:hover {
-  @extend %link-standard-hover;
-}
-
 .link-internal {
   font-style: italic;
 }
 
-a.btn {
-  @include border-radius(.4em);
-  @include transition(background 0.3s ease);
-  padding: 0.3em 0.6em;
-  border-bottom: none;
-  text-decoration: none;
+.btn {
+  // remove default button styles
+  border: none;
+  margin: 0;
+
+  @include border-radius(.2em);
+  @extend %quick-transition;
   font-family: sans-serif;
-  @include respond-to(40em) {
+  cursor: pointer;
+  padding: 0.3em 0.6em;
+  text-decoration: none;
+
+  @include sb-media(40em) {
     padding: 0.7em 1.4em;
   }
 }
 
-a.btn-standard {
-  background: $color-primary;
-  color: $color-typography;
-  font-size: .7em;
+%btn-base {
   font-weight: 700;
   text-transform: uppercase;
-  @include respond-to(40em) {
-    font-size: .8em;
+}
+
+.btn_standard {
+  @extend %btn-base;
+  background-color: $c--gray-light-3x;
+
+  &, &:visited {
+    color: $c--gray;
   }
+
   &:hover {
-    background: darken($color-primary, 5%);
+    background: darken($c--gray-light-3x, 8%);
+    color: darken($c--gray, 9%);
   }
 }
 
-a.btn-attention {
-  background: $color-secondary;
-  color: lighten($color-primary, 10%);
-  font-size: .9em;
-  font-weight: 400;
-  letter-spacing: .1em;
+.btn_translucent {
+  @extend %btn-base;
+  background-color: rgba(255, 255, 255, .6);
+
+  &, &:visited {
+    color: $c--gray-dark;
+  }
+
   &:hover {
-    background: darken($color-secondary, 5%);
+    background-color: rgba(255, 255, 255, .95);
   }
 }

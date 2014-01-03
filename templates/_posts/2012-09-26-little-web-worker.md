@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: The Little Web Worker
 intro: The web is huge. It's so big that it's easy and natural to feel really small and unimportant. How do we break in and make a difference?
 categories: articles

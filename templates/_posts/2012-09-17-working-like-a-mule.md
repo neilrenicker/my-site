@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Working Like A Mule
 intro: There's a time and a place for roaming free, of course, but if I really want to get stuff done, I have to tie myself down and work like the brute mule.
 categories: articles
