@@ -6,6 +6,7 @@ intro: Your time is precious. Don't waste it starting and stopping your Harvest 
 categories: articles
 tags:
 - projects
+color_scheme: "#581e8a"
 
 published: true
 

@@ -6,6 +6,7 @@ intro: Your peers only have power over you if you give it to them.  If you’re 
 categories: articles
 tags:
 - career
+color_scheme: "#569387"
 
 published: true
 
