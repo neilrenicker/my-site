@@ -1229,7 +1229,7 @@ input[type="search"]:focus {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_post-listing\.scss}line{font-family:\0000384}}
 .post-listing--post-link:hover .post-listing--item_expanded--date {
-  color: #9d9d9d;
+  color: #494949;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/neilrenicker\/Documents\/projects\/nr-site\/templates\/_scss\/_post-listing\.scss}line{font-family:\0000389}}
